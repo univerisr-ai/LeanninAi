@@ -29,7 +29,10 @@ def maybe_generate_weekly_digest(project_root: Path, config_data: Dict, dry_run:
     lookback_days = int(weekly_cfg.get("lookback_days", 7))
     run_day_of_week = int(weekly_cfg.get("run_day_of_week", 6))
 
-    now_local = dt.datetime.now(ZoneInfo(timezone_name))
+    try:
+        now_local = dt.datetime.now(ZoneInfo(timezone_name))
+    except Exception:
+        now_local = dt.datetime.now(dt.timezone.utc)
     if now_local.weekday() != run_day_of_week:
         return {
             "generated": False,

@@ -161,6 +161,12 @@ Normal calisma (OpenRouter key gerekli):
 python scripts/run_pipeline.py --config config/pipeline.json
 ```
 
+Strict calisma (partial durumda da fail etsin):
+
+```
+python scripts/run_pipeline.py --config config/pipeline.json --fail-on-partial
+```
+
 Gerekli ortam degiskeni:
 
 ```
@@ -178,3 +184,4 @@ OPENROUTER_API_KEY=...
 Bu asamada yayin politikasi Draft-Review olarak uygulanir; otomatik dogrudan publish yoktur.
 
 Haftalik derleme mekanizmasi pazar gunu otomatik devreye girer ve son 7 gunun toplu metriklerini tek markdown dosyasina yazar.
+Pipeline raporu icinde `error_samples` alani tutulur; boylece hatali kaynagin URL ve hata nedeni gorulebilir.

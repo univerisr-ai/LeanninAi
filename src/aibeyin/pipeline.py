@@ -34,6 +34,7 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
 
     stats = PipelineStats()
     drafted_items: List[ConceptDraft] = []
+    error_samples: List[Dict[str, str]] = []
     existing_titles = _collect_existing_titles(project_root / "wiki")
 
     existing_concept_slugs = list(inventory.payload.get("concepts", {}).keys())
@@ -90,9 +91,18 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
                 stats.drafted += 1
             drafted_items.append(draft)
             inventory.upsert_source(item.url, item.content_hash, status="processed")
-        except Exception:
+        except Exception as exc:
             stats.errors += 1
             inventory.upsert_source(item.url, item.content_hash, status="error")
+            if len(error_samples) < 10:
+                error_samples.append(
+                    {
+                        "source_name": item.source_name,
+                        "source_url": item.url,
+                        "title": item.title,
+                        "error": f"{type(exc).__name__}: {str(exc)}",
+                    }
+                )
 
     if not dry_run:
         writer.refresh_hot_cache(drafted_items)
@@ -120,6 +130,7 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
         },
         "stats": stats.as_dict(),
         "enhancement": enhancement_result,
+        "error_samples": error_samples,
         "drafts_preview": [
             {
                 "slug": d.slug,
@@ -186,7 +197,3 @@ def _passes_quality(draft: ConceptDraft, config) -> bool:
     if not draft.summary.strip():
         return False
     return True
-
-
-# Inline import to avoid circular dependency at module level
-from .wiki_writer import WikiWriter  # noqa: E402

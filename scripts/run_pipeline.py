@@ -24,6 +24,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Collect and score content but do not write draft files",
     )
+    parser.add_argument(
+        "--fail-on-partial",
+        action="store_true",
+        help="Return non-zero exit code when pipeline status is partial",
+    )
     return parser.parse_args()
 
 
@@ -39,7 +44,12 @@ def main() -> int:
     result = run_pipeline(project_root=project_root, config_path=config_path, dry_run=args.dry_run)
     print(json.dumps(result, ensure_ascii=True, indent=2))
 
-    return 0 if result.get("status") == "ok" else 1
+    status = str(result.get("status", "")).lower()
+    if status == "ok":
+        return 0
+    if status == "partial" and not args.fail_on_partial:
+        return 0
+    return 1
 
 
 if __name__ == "__main__":
