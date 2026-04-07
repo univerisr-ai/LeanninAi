@@ -1,89 +1,18 @@
 {
   "status": "ok",
-  "started_at": "2026-04-07T19:46:20+00:00",
-  "dry_run": true,
+  "started_at": "2026-04-07T19:57:48+00:00",
+  "dry_run": false,
   "snapshot_delta": {
-    "raw_changed": 7,
-    "wiki_changed": 17
+    "raw_changed": 0,
+    "wiki_changed": 0
   },
   "stats": {
     "collected": 75,
-    "skipped_unchanged": 5,
+    "skipped_unchanged": 75,
     "skipped_duplicate": 0,
     "rejected_quality": 0,
     "drafted": 0,
     "errors": 0
   },
-  "drafts_preview": [
-    {
-      "slug": "paoloanzn-free-code",
-      "title": "paoloanzn/free-code",
-      "category": "backend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "leonxlnx-agentic-ai-prompt-research",
-      "title": "Leonxlnx/agentic-ai-prompt-research",
-      "category": "backend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "ahmad-progr-claude-leaked-files",
-      "title": "Ahmad-progr/claude-leaked-files",
-      "category": "backend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "how-to-create-ui-design-with-ai",
-      "title": "How To Create UI Design With AI",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "atomic-design-in-practice-react-and-storybook-from-scratch",
-      "title": "Atomic Design in Practice: React and Storybook from Scratch \ud83e\udde9",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "is-there-a-silent-bug-in-your-useeffect",
-      "title": "Is there a silent bug in your useEffect?",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "does-your-useeffect-have-a-silent-bug",
-      "title": "Does your useEffect have a silent bug?",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "implementando-un-api-client-generator-con-proxies-de-javascript-y-typescript-overloads",
-      "title": "Implementando un API Client Generator con Proxies de JavaScript y TypeScript Overloads",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "tu-useeffect-tiene-un-bug-silencioso",
-      "title": "\u00bfTu useEffect tiene un bug silencioso?",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "spreading-joy-through-code-introducing-the-birthday-celebration-app",
-      "title": "Spreading Joy Through Code: Introducing the Birthday Celebration App\u00a0\ud83c\udf82",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    }
-  ]
+  "drafts_preview": []
 }
