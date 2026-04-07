@@ -22,6 +22,11 @@
       "a11y"
     ]
   },
+  "weekly_digest": {
+    "enabled": true,
+    "lookback_days": 7,
+    "run_day_of_week": 6
+  },
   "sources": {
     "github_repos": {
       "enabled": true,

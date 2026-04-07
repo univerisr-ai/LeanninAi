@@ -172,5 +172,9 @@ OPENROUTER_API_KEY=...
 - Draft ciktilar: `wiki/review/`
 - Son envanter durumu: `storage/inventory.json`
 - Son calisma raporu: `storage/last_run_report.json`
+- Calisma gecmisi: `storage/run_history.jsonl`
+- Haftalik otomatik derleme: `wiki/reports/weekly-YYYY-wWW.md`
 
 Bu asamada yayin politikasi Draft-Review olarak uygulanir; otomatik dogrudan publish yoktur.
+
+Haftalik derleme mekanizmasi pazar gunu otomatik devreye girer ve son 7 gunun toplu metriklerini tek markdown dosyasina yazar.

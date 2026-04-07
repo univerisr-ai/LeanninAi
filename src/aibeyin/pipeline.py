@@ -7,6 +7,7 @@ from .dedup import detect_wiki_duplicate
 from .inventory import InventoryStore
 from .models import ConceptDraft, PipelineStats, SourceItem
 from .openrouter import OpenRouterClient
+from .reporting import append_run_history, maybe_generate_weekly_digest
 from .sources import collect_sources
 from .storage_guard import enforce_disk_quota
 from .utils import now_utc_iso, read_text, safe_slug, sha256_text, write_json
@@ -16,6 +17,7 @@ from .wiki_writer import WikiWriter
 def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -> Dict:
     config = load_pipeline_config(config_path)
     enforce_disk_quota(project_root, config.disk_limit_gb)
+    started_at = now_utc_iso()
 
     storage_root = project_root / "storage"
     inventory_path = storage_root / "inventory.json"
@@ -74,7 +76,7 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
 
     report = {
         "status": "ok" if stats.errors == 0 else "partial",
-        "started_at": now_utc_iso(),
+        "started_at": started_at,
         "dry_run": dry_run,
         "snapshot_delta": {
             "raw_changed": snapshot_delta.raw_changed,
@@ -92,6 +94,16 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
             for d in drafted_items[:10]
         ],
     }
+
+    if not dry_run:
+        append_run_history(storage_root=storage_root, report=report)
+    weekly_digest = maybe_generate_weekly_digest(
+        project_root=project_root,
+        config_data=config.data,
+        dry_run=dry_run,
+    )
+    report["weekly_digest"] = weekly_digest
+
     write_json(run_report_path, report)
     return report
 
