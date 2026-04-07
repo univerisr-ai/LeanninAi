@@ -1,9 +1,12 @@
+import datetime as dt
 import json
 from pathlib import Path
 from typing import Dict, List
+from zoneinfo import ZoneInfo
 
+from .brain_enhancer import BrainEnhancer
 from .config import load_pipeline_config
-from .dedup import detect_wiki_duplicate
+from .dedup import detect_concept_title_duplicate, detect_wiki_duplicate
 from .inventory import InventoryStore
 from .models import ConceptDraft, PipelineStats, SourceItem
 from .openrouter import OpenRouterClient
@@ -33,6 +36,15 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
     drafted_items: List[ConceptDraft] = []
     existing_titles = _collect_existing_titles(project_root / "wiki")
 
+    existing_concept_slugs = list(inventory.payload.get("concepts", {}).keys())
+    existing_concept_titles = [
+        rec.get("title", slug.replace("-", " "))
+        for slug, rec in inventory.payload.get("concepts", {}).items()
+    ]
+
+    title_dedup_threshold = float(config.quality.get("max_title_similarity", 0.75))
+    max_similarity = float(config.quality.get("max_semantic_similarity", 0.86))
+
     collected = collect_sources(config.sources)
     stats.collected = len(collected)
 
@@ -43,10 +55,21 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
                 inventory.upsert_source(item.url, item.content_hash, status="skipped_unchanged")
                 continue
 
+            title_dup, matched_title = detect_concept_title_duplicate(
+                candidate_title=item.title,
+                existing_concept_slugs=existing_concept_slugs,
+                existing_concept_titles=existing_concept_titles,
+                max_title_similarity=title_dedup_threshold,
+            )
+            if title_dup:
+                stats.skipped_duplicate += 1
+                inventory.upsert_source(item.url, item.content_hash, status="skipped_title_duplicate")
+                continue
+
             duplicate, matched_file, similarity = detect_wiki_duplicate(
                 wiki_root=project_root / "wiki",
                 candidate_text=item.content,
-                max_similarity=float(config.quality.get("max_semantic_similarity", 0.86)),
+                max_similarity=max_similarity,
             )
             if duplicate:
                 stats.skipped_duplicate += 1
@@ -61,7 +84,9 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
 
             if not dry_run:
                 writer.write_draft(draft, item)
-                inventory.upsert_concept(draft.slug, sha256_text(draft.summary), item.url)
+                inventory.upsert_concept(draft.slug, sha256_text(draft.summary), item.url, draft.title)
+                existing_concept_slugs.append(draft.slug)
+                existing_concept_titles.append(draft.title)
                 stats.drafted += 1
             drafted_items.append(draft)
             inventory.upsert_source(item.url, item.content_hash, status="processed")
@@ -74,6 +99,17 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
 
     inventory.save()
 
+    enhancement_result: Dict = {}
+    if _is_sunday(config.data.get("timezone", "Europe/Istanbul")):
+        enhancement_cfg = config.data.get("brain_enhancement", {})
+        if enhancement_cfg.get("enabled", True):
+            enhancer = BrainEnhancer(
+                openrouter_config=config.openrouter,
+                enhancement_config=enhancement_cfg,
+            )
+            enh = enhancer.run(wiki_root=project_root / "wiki", dry_run=dry_run)
+            enhancement_result = enh.as_dict()
+
     report = {
         "status": "ok" if stats.errors == 0 else "partial",
         "started_at": started_at,
@@ -83,6 +119,7 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
             "wiki_changed": snapshot_delta.wiki_changed,
         },
         "stats": stats.as_dict(),
+        "enhancement": enhancement_result,
         "drafts_preview": [
             {
                 "slug": d.slug,
@@ -106,6 +143,14 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
 
     write_json(run_report_path, report)
     return report
+
+
+def _is_sunday(timezone_name: str) -> bool:
+    try:
+        now_local = dt.datetime.now(ZoneInfo(timezone_name))
+        return now_local.weekday() == 6
+    except Exception:
+        return dt.datetime.now(dt.timezone.utc).weekday() == 6
 
 
 def _collect_existing_titles(wiki_root: Path) -> List[str]:
@@ -141,3 +186,7 @@ def _passes_quality(draft: ConceptDraft, config) -> bool:
     if not draft.summary.strip():
         return False
     return True
+
+
+# Inline import to avoid circular dependency at module level
+from .wiki_writer import WikiWriter  # noqa: E402
