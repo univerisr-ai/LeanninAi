@@ -1,0 +1,1 @@
+"""AiBeyin daily automation package."""

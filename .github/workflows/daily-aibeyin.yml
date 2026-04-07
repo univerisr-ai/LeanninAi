@@ -1,0 +1,44 @@
+name: Daily AiBeyin Brain Run
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-daily-pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          python scripts/run_pipeline.py --config config/pipeline.json
+
+      - name: Commit generated updates
+        run: |
+          git config user.name "aibeyin-bot"
+          git config user.email "aibeyin-bot@users.noreply.github.com"
+          git add wiki/review wiki/log.md wiki/hot.md storage/inventory.json storage/last_run_report.json
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "chore: daily ai beyin run"
+            git push
+          fi

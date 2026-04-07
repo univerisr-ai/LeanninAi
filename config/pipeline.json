@@ -1,0 +1,55 @@
+{
+  "timezone": "Europe/Istanbul",
+  "project_disk_limit_gb": 10,
+  "dry_run_default": false,
+  "openrouter": {
+    "base_url": "https://openrouter.ai/api/v1/chat/completions",
+    "primary_model": "minimax/minimax-m2.7",
+    "fallback_model": "openai/gpt-4o-mini",
+    "max_tokens": 1200,
+    "temperature": 0.2,
+    "request_timeout_seconds": 45
+  },
+  "quality_gates": {
+    "min_confidence": 70,
+    "min_novelty": 60,
+    "max_semantic_similarity": 0.86,
+    "allowed_categories": [
+      "frontend",
+      "backend",
+      "security",
+      "ui-ux",
+      "a11y"
+    ]
+  },
+  "sources": {
+    "github_repos": {
+      "enabled": true,
+      "lookback_days": 14,
+      "limit": 10,
+      "query": "(frontend OR backend OR security OR accessibility) stars:>200 created:>={date}"
+    },
+    "owasp_cve_rss": {
+      "enabled": true,
+      "limit": 8,
+      "feeds": [
+        "https://www.cisa.gov/news-events/cybersecurity-advisories/all.xml",
+        "https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml"
+      ]
+    },
+    "frontend_feeds": {
+      "enabled": true,
+      "limit": 12,
+      "devto_tags": [
+        "frontend",
+        "react",
+        "webdev",
+        "security"
+      ],
+      "rss": [
+        "https://www.smashingmagazine.com/feed/",
+        "https://css-tricks.com/feed/"
+      ]
+    }
+  }
+}
