@@ -1,69 +1,26 @@
 {
-  "status": "partial",
-  "started_at": "2026-04-08T05:48:00+00:00",
+  "status": "ok",
+  "started_at": "2026-04-07T20:48:18+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 16
+    "wiki_changed": 0
   },
   "stats": {
     "collected": 75,
-    "skipped_unchanged": 68,
+    "skipped_unchanged": 75,
     "skipped_duplicate": 0,
     "rejected_quality": 0,
     "drafted": 0,
-    "errors": 7
+    "errors": 0
   },
   "enhancement": {},
-  "error_samples": [
-    {
-      "source_name": "devto",
-      "source_url": "https://dev.to/dev-in-progress/how-ai-apps-actually-use-llms-introducing-rag-13ob",
-      "title": "How AI Apps Actually Use LLMs: Introducing RAG",
-      "error": "TypeError: InventoryStore.upsert_concept() takes 4 positional arguments but 5 were given"
-    },
-    {
-      "source_name": "devto",
-      "source_url": "https://dev.to/ji_ai/40-identical-typescript-errors-group-them-into-1-5924",
-      "title": "40 Identical TypeScript Errors? Group Them Into 1",
-      "error": "TypeError: InventoryStore.upsert_concept() takes 4 positional arguments but 5 were given"
-    },
-    {
-      "source_name": "devto",
-      "source_url": "https://dev.to/jqueryscript/boneyard-js-cli-driven-skeleton-ui-for-any-framework-ec8",
-      "title": "boneyard-js: CLI-Driven Skeleton UI for Any Framework",
-      "error": "TypeError: InventoryStore.upsert_concept() takes 4 positional arguments but 5 were given"
-    },
-    {
-      "source_name": "devto",
-      "source_url": "https://dev.to/whoffagents/why-i-built-an-ai-saas-starter-kit-and-how-it-saves-40-hours-of-setup-308e",
-      "title": "Why I built an AI SaaS starter kit \u2014 and how it saves 40 hours of setup",
-      "error": "TypeError: InventoryStore.upsert_concept() takes 4 positional arguments but 5 were given"
-    },
-    {
-      "source_name": "devto",
-      "source_url": "https://dev.to/bhavin-allinonetools/users-dont-choose-the-best-tool-they-choose-the-easiest-one-5d2j",
-      "title": "Users Don\u2019t Choose the Best Tool \u2014 They Choose the Easiest One",
-      "error": "TypeError: InventoryStore.upsert_concept() takes 4 positional arguments but 5 were given"
-    },
-    {
-      "source_name": "devto",
-      "source_url": "https://dev.to/lostbeard/i-got-my-data-out-of-google-heres-what-they-did-to-it-on-the-way-out-296i",
-      "title": "I Got My Data Out of Google - Here's What They Did to It on the Way Out",
-      "error": "TypeError: InventoryStore.upsert_concept() takes 4 positional arguments but 5 were given"
-    },
-    {
-      "source_name": "devto",
-      "source_url": "https://dev.to/gursharansingh/mcp-in-practice-part-6-your-mcp-server-worked-locally-what-changes-in-production-4046",
-      "title": "MCP in Practice \u2014 Part 6: Your MCP Server Worked Locally. What Changes in Production?",
-      "error": "TypeError: InventoryStore.upsert_concept() takes 4 positional arguments but 5 were given"
-    }
-  ],
+  "error_samples": [],
   "drafts_preview": [],
   "weekly_digest": {
     "generated": false,
     "reason": "not_scheduled_day",
     "run_day_of_week": 6,
-    "today_weekday": 2
+    "today_weekday": 1
   }
 }

@@ -10,8 +10,8 @@ from .utils import safe_slug
 class OpenRouterClient:
     def __init__(self, config: Dict) -> None:
         self.base_url = config.get("base_url", "https://openrouter.ai/api/v1/chat/completions")
-        self.primary_model = config.get("primary_model", "minimax/minimax-m2.7")
-        self.fallback_model = config.get("fallback_model", "openai/gpt-4o-mini")
+        self.primary_model = config.get("primary_model", "qwen/qwen3-coder-480b-a35b:free")
+        self.fallback_model = config.get("fallback_model", "stepfun/step-3.5-flash:free")
         self.max_tokens = int(config.get("max_tokens", 1200))
         self.temperature = float(config.get("temperature", 0.2))
         self.timeout_seconds = int(config.get("request_timeout_seconds", 45))
