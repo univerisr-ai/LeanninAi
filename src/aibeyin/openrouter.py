@@ -30,12 +30,25 @@ class OpenRouterClient:
 
         prompt = self._build_prompt(source, existing_titles)
 
+        import time
+        last_error = None
+        for attempt in range(3):
+            try:
+                payload = self._request_model(self.primary_model, prompt)
+                return self._parse_payload(payload, source, self.primary_model)
+            except Exception as e:
+                last_error = e
+                if "429" in str(e):
+                    time.sleep(4 * (attempt + 1))
+                else:
+                    time.sleep(2)
+        
+        # Fallback if primary fails 3 times
         try:
-            payload = self._request_model(self.primary_model, prompt)
-            return self._parse_payload(payload, source, self.primary_model)
-        except Exception:
             payload = self._request_model(self.fallback_model, prompt)
             return self._parse_payload(payload, source, self.fallback_model)
+        except Exception:
+            return self._fallback_draft(source, model_name=self.fallback_model)
 
     def _request_model(self, model_name: str, prompt: str, system_prompt: str = None) -> str:
         if not system_prompt:
@@ -91,7 +104,10 @@ class OpenRouterClient:
         )
 
     def _parse_payload(self, content: str, source: SourceItem, model_name: str) -> ConceptDraft:
-        text = content.strip()
+        if content is None:
+            return self._fallback_draft(source, model_name=model_name)
+            
+        text = str(content).strip()
         start = text.find("{")
         end = text.rfind("}")
         if start >= 0 and end >= 0:
