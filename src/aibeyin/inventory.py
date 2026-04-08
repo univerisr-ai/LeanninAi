@@ -46,9 +46,10 @@ class InventoryStore:
             current["last_processed_at"] = now_utc_iso()
         sources[url] = current
 
-    def upsert_concept(self, slug: str, content_hash: str, source_url: str) -> None:
+    def upsert_concept(self, slug: str, content_hash: str, source_url: str, title: str) -> None:
         concepts = self.payload.setdefault("concepts", {})
         concepts[slug] = {
+            "title": title,
             "content_hash": content_hash,
             "source_url": source_url,
             "last_written_at": now_utc_iso(),
