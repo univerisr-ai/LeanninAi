@@ -37,17 +37,19 @@ class OpenRouterClient:
             payload = self._request_model(self.fallback_model, prompt)
             return self._parse_payload(payload, source, self.fallback_model)
 
-    def _request_model(self, model_name: str, prompt: str) -> str:
+    def _request_model(self, model_name: str, prompt: str, system_prompt: str = None) -> str:
+        if not system_prompt:
+            system_prompt = (
+                "You are an expert technical editor for a Turkish wiki. "
+                "Return only valid JSON object with these fields: "
+                "title, category, summary, key_points, links_to_existing, confidence, novelty."
+            )
         request_body = {
             "model": model_name,
             "messages": [
                 {
                     "role": "system",
-                    "content": (
-                        "You are an expert technical editor for a Turkish wiki. "
-                        "Return only valid JSON object with these fields: "
-                        "title, category, summary, key_points, links_to_existing, confidence, novelty."
-                    ),
+                    "content": system_prompt,
                 },
                 {"role": "user", "content": prompt},
             ],

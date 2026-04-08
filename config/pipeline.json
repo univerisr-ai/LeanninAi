@@ -56,5 +56,15 @@
         "https://css-tricks.com/feed/"
       ]
     }
+  },
+  "multi_agent": {
+    "enabled": true,
+    "max_retries": 3,
+    "maker_model": "qwen/qwen3-coder-480b-a35b:free",
+    "reviewer_model": "meta-llama/llama-3.3-70b-instruct:free",
+    "fixer_model": "qwen/qwen3-coder-480b-a35b:free",
+    "auditor_model": "nousresearch/hermes-3-llama-3.1-405b:free",
+    "architect_model": "trinity",
+    "logic_model": "liquid/lfm-40b:free"
   }
 }
