@@ -1,26 +1,87 @@
 {
-  "status": "ok",
-  "started_at": "2026-04-07T20:48:18+00:00",
+  "status": "partial",
+  "started_at": "2026-04-08T06:41:27+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 0
+    "wiki_changed": 23
   },
   "stats": {
     "collected": 75,
-    "skipped_unchanged": 75,
+    "skipped_unchanged": 57,
     "skipped_duplicate": 0,
     "rejected_quality": 0,
     "drafted": 0,
-    "errors": 0
+    "errors": 18
   },
   "enhancement": {},
-  "error_samples": [],
+  "error_samples": [
+    {
+      "source_name": "devto",
+      "source_url": "https://dev.to/harkanday/what-i-stopped-doing-in-react-projects-and-why-my-code-got-better-ifj",
+      "title": "What I Stopped Doing in React Projects (and Why My Code Got Better)",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source_name": "devto",
+      "source_url": "https://dev.to/abdulmalik_muhammad/typescript-tricks-i-actually-use-day-to-day-3a1l",
+      "title": "TypeScript Tricks I Actually Use Day to Day",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source_name": "devto",
+      "source_url": "https://dev.to/vikrant_bagal_afae3e25ca7/webassembly-30-with-net-the-future-of-high-performance-web-apps-in-2026-3mg7",
+      "title": "WebAssembly 3.0 with .NET: The Future of High-Performance Web Apps in 2026",
+      "error": "AttributeError: 'NoneType' object has no attribute 'strip'"
+    },
+    {
+      "source_name": "devto",
+      "source_url": "https://dev.to/pooyagolchian/the-uae-dirham-currency-symbol-u20c3-why-it-took-18-years-and-how-to-use-it-today-2aap",
+      "title": "The UAE Dirham Currency Symbol (U+20C3): Why It Took 18 Years and How to Use It Today",
+      "error": "AttributeError: 'NoneType' object has no attribute 'strip'"
+    },
+    {
+      "source_name": "devto",
+      "source_url": "https://dev.to/pooyagolchian/use-local-llm-react-hooks-for-ai-that-actually-work-locally-28mi",
+      "title": "use-local-llm: React Hooks for AI That Actually Work Locally",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source_name": "devto",
+      "source_url": "https://dev.to/pooyagolchian/dirham-the-uae-dirham-symbol-u20c3-as-web-font-css-utility-react-component-2nda",
+      "title": "dirham: The UAE Dirham Symbol (U+20C3) as Web Font, CSS Utility & React Component",
+      "error": "AttributeError: 'NoneType' object has no attribute 'strip'"
+    },
+    {
+      "source_name": "devto",
+      "source_url": "https://dev.to/cloudinary/ship-your-next-great-web-app-in-record-time-with-create-cloudinary-react-2coa",
+      "title": "Ship Your Next Great Web App in Record Time with create-cloudinary-react",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source_name": "devto",
+      "source_url": "https://dev.to/comlaterra_38/building-a-video-automation-pipeline-with-remotion-and-ai-apis-4i82",
+      "title": "Building a Video Automation Pipeline with Remotion and AI APIs",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source_name": "devto",
+      "source_url": "https://dev.to/irgendwasmitfelix/i-built-a-star-wars-mandalorian-movie-countdown-site-with-react-vite-3f4i",
+      "title": "I Built a Star Wars Mandalorian Movie Countdown Site with React + Vite",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source_name": "devto",
+      "source_url": "https://dev.to/zknd3r/verifying-zcash-proofs-on-ethereum-with-eip-152-4h80",
+      "title": "Verifying Zcash Proofs on Ethereum with EIP-152",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    }
+  ],
   "drafts_preview": [],
   "weekly_digest": {
     "generated": false,
     "reason": "not_scheduled_day",
     "run_day_of_week": 6,
-    "today_weekday": 1
+    "today_weekday": 2
   }
 }
