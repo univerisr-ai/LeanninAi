@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "started_at": "2026-04-08T06:48:59+00:00",
+  "started_at": "2026-04-08T17:56:05+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
@@ -8,15 +8,86 @@
   },
   "stats": {
     "collected": 75,
-    "skipped_unchanged": 75,
+    "skipped_unchanged": 46,
     "skipped_duplicate": 0,
     "rejected_quality": 0,
-    "drafted": 0,
+    "drafted": 29,
     "errors": 0
   },
   "enhancement": {},
   "error_samples": [],
-  "drafts_preview": [],
+  "drafts_preview": [
+    {
+      "slug": "why-css-dvh-ignores-the-mobile-keyboard-and-how-to-fix-it",
+      "title": "Why CSS dvh ignores the mobile keyboard \u2014 and how to fix it",
+      "category": "frontend",
+      "confidence": 75,
+      "novelty": 70
+    },
+    {
+      "slug": "building-a-browser-game-with-react-what-doesn-t-work-well-run-away-from-work",
+      "title": "Building a Browser Game with React: What Doesn\u2019t work well (Run Away From Work)",
+      "category": "frontend",
+      "confidence": 75,
+      "novelty": 70
+    },
+    {
+      "slug": "tu-score-de-accesibilidad-te-est-mintiendo",
+      "title": "Tu score de accesibilidad te est\u00e1 mintiendo",
+      "category": "frontend",
+      "confidence": 75,
+      "novelty": 70
+    },
+    {
+      "slug": "reducing-network-overhead-with-layout-deduplication-in-the-next-js-app-router",
+      "title": "Reducing Network Overhead with Layout Deduplication in the Next.js App Router",
+      "category": "frontend",
+      "confidence": 75,
+      "novelty": 70
+    },
+    {
+      "slug": "react-native-offline-first-sqlite-write-ahead-log",
+      "title": "React Native offline-first: SQLite write-ahead log",
+      "category": "frontend",
+      "confidence": 75,
+      "novelty": 70
+    },
+    {
+      "slug": "redux-complete-guide-from-zero-to-hero",
+      "title": "Redux: Complete Guide from Zero to Hero",
+      "category": "frontend",
+      "confidence": 75,
+      "novelty": 70
+    },
+    {
+      "slug": "is-a-visual-builder-that-exports-clean-code-for-both-full-animated-websites-and-single-components-a-pipe-dream-validating-my-architecture-project",
+      "title": "Is a visual builder that exports clean code for BOTH full animated websites and single components a pipe dream? Validating my architecture project.",
+      "category": "frontend",
+      "confidence": 75,
+      "novelty": 70
+    },
+    {
+      "slug": "react-server-components-explained-the-complete-2026-guide",
+      "title": "React Server Components Explained: The Complete 2026 Guide",
+      "category": "frontend",
+      "confidence": 75,
+      "novelty": 70
+    },
+    {
+      "slug": "tailwind-css-v4-vs-panda-css-2026-best-styling-tool-for-frontend",
+      "title": "Tailwind CSS v4 vs Panda CSS 2026: Best Styling Tool for Frontend?",
+      "category": "frontend",
+      "confidence": 75,
+      "novelty": 70
+    },
+    {
+      "slug": "event-driven-architecture-with-net-2026-building-scalable-real-time-systems",
+      "title": "Event-Driven Architecture with .NET 2026: Building Scalable Real-Time Systems",
+      "category": "frontend",
+      "confidence": 75,
+      "novelty": 70
+    }
+  ],
   "weekly_digest": {
     "generated": false,
     "reason": "not_scheduled_day",
