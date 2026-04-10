@@ -17,9 +17,9 @@ class MultiAgentSystem:
         self.client = OpenRouterClient(or_config)
         self.config = multi_agent_config
         
-        self.maker_model = self.config.get("maker_model", "qwen/qwen3-coder-480b-a35b:free")
+        self.maker_model = self.config.get("maker_model", "qwen/qwen3-coder:free")
         self.reviewer_model = self.config.get("reviewer_model", "meta-llama/llama-3.3-70b-instruct:free")
-        self.fixer_model = self.config.get("fixer_model", "qwen/qwen3-coder-480b-a35b:free")
+        self.fixer_model = self.config.get("fixer_model", "qwen/qwen3-coder:free")
         self.auditor_model = self.config.get("auditor_model", "nousresearch/hermes-3-llama-3.1-405b:free")
         self.architect_model = self.config.get("architect_model", "methexis-inc/trinity-large")
         self.logic_model = self.config.get("logic_model", "liquid/lfm-40b:free")

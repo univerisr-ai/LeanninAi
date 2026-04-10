@@ -4,7 +4,7 @@
   "dry_run_default": false,
   "openrouter": {
     "base_url": "https://openrouter.ai/api/v1/chat/completions",
-    "primary_model": "qwen/qwen3-coder-480b-a35b:free",
+    "primary_model": "qwen/qwen3-coder:free",
     "fallback_model": "stepfun/step-3.5-flash:free",
     "max_tokens": 1200,
     "temperature": 0.2,
@@ -62,9 +62,9 @@
   "multi_agent": {
     "enabled": true,
     "max_retries": 3,
-    "maker_model": "qwen/qwen3-coder-480b-a35b:free",
+    "maker_model": "qwen/qwen3-coder:free",
     "reviewer_model": "meta-llama/llama-3.3-70b-instruct:free",
-    "fixer_model": "qwen/qwen3-coder-480b-a35b:free",
+    "fixer_model": "qwen/qwen3-coder:free",
     "auditor_model": "nousresearch/hermes-3-llama-3.1-405b:free",
     "architect_model": "trinity",
     "logic_model": "liquid/lfm-40b:free"

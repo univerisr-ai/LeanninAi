@@ -60,8 +60,8 @@ class BrainEnhancer:
         self.base_url = openrouter_config.get(
             "base_url", "https://openrouter.ai/api/v1/chat/completions"
         )
-        self.primary_model = openrouter_config.get("primary_model", "minimax/minimax-m2.7")
-        self.fallback_model = openrouter_config.get("fallback_model", "openai/gpt-4o-mini")
+        self.primary_model = openrouter_config.get("primary_model", "qwen/qwen3-coder:free")
+        self.fallback_model = openrouter_config.get("fallback_model", "stepfun/step-3.5-flash:free")
         self.max_tokens = int(openrouter_config.get("max_tokens", 1600))
         self.temperature = float(openrouter_config.get("temperature", 0.3))
         self.timeout_seconds = int(openrouter_config.get("request_timeout_seconds", 60))
