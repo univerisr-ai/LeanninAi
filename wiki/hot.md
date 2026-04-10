@@ -2,32 +2,32 @@
 
 Bu bolum en son uretilen draft bilgisinin hizli ozetidir.
 
-## 0xSteph/pentest-ai-agents
-Repository: 0xSteph/pentest-ai-agents. Description: Turn Claude Code into your offensive security research assistant. Specialized AI subagents for authorized penetration testing plan engagements, analyze recon, research exploits, build detections, audit STIGs, and write reports.. Topics: ai-agents,
+## Signals in React (VI): Stale Closures, Subscription Traps, and Reactive Graph Pitfalls
+Quick Overview   In the previous article, we discussed:   Why tearing occurs and how to...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
-## I Spent Hours in the DOM So You Don't Have To
-Full source: github.com/tusharpamnani/midnight-wallet-kit  When I started building frontends on...
+## Modern React Essentials: From Component Architecture to Advanced Hooks
+In an AI-driven world, we should keep our basics clear at all times. This is the second post in my...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
-## React Streaming SSR Without Server Components — A Practical Guide
-React Server Components get all the attention for streaming SSR. But RSC isn't the only way — and for...
+## ARIA Labels Done Wrong: The Most Common Mistakes I See in Production Code
+ARIA Labels Done Wrong: The Most Common Mistakes I See in Production Code    Meta: ARIA is...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
-## A Year of Building snappycart in Public or 7 Mistakes I Learned the Hard Way
-A year ago, I thought the hardest part of open source would be building the package....  It was...
+## Meta StyleX: Moving CSS-in-JS From Runtime to Build Time
+How Meta StyleX compiles JS-authored styles into atomic static CSS: less runtime injection, smaller bundles, and why that matters for huge apps.
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
-## Every React Developer Uses Hooks. Almost None Can Explain How They Work.
-Build React's hooks system from scratch and discover that the rules aren't arbitrary — they're consequences of a linked list with a cursor.
+## The Constraint Was Never Knowledge
+AI did not just make you faster at coding. It removed the excuse for skipping the work that mattered.
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
