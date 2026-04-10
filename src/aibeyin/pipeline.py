@@ -36,6 +36,7 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
     drafted_items: List[ConceptDraft] = []
     error_samples: List[Dict[str, str]] = []
     existing_titles = _collect_existing_titles(project_root / "wiki")
+    memory_context = _build_memory_context(project_root=project_root)
 
     existing_concept_slugs = list(inventory.payload.get("concepts", {}).keys())
     existing_concept_titles = [
@@ -77,7 +78,12 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
                 inventory.upsert_source(item.url, item.content_hash, status="skipped_duplicate")
                 continue
 
-            draft = llm.create_draft(item, existing_titles=existing_titles, dry_run=dry_run)
+            draft = llm.create_draft(
+                item,
+                existing_titles=existing_titles,
+                dry_run=dry_run,
+                memory_context=memory_context,
+            )
             if not _passes_quality(draft, config):
                 stats.rejected_quality += 1
                 inventory.upsert_source(item.url, item.content_hash, status="rejected_quality")
@@ -197,3 +203,42 @@ def _passes_quality(draft: ConceptDraft, config) -> bool:
     if not draft.summary.strip():
         return False
     return True
+
+
+def _build_memory_context(project_root: Path) -> str:
+    sections: List[str] = []
+
+    memory_file = project_root / "wiki" / "system-memory.md"
+    if memory_file.exists():
+        try:
+            memory_text = read_text(memory_file).strip()
+            if memory_text:
+                sections.append("[system-memory.md]\n" + memory_text[:3000])
+        except Exception:
+            pass
+
+    run_history = project_root / "storage" / "run_history.jsonl"
+    if run_history.exists():
+        try:
+            lines = [line for line in run_history.read_text(encoding="utf-8").splitlines() if line.strip()]
+            tail = lines[-8:]
+            recent_runs: List[str] = []
+            for line in tail:
+                try:
+                    obj = json.loads(line)
+                    stats = obj.get("stats", {})
+                    recent_runs.append(
+                        f"{obj.get('started_at')} status={obj.get('status')} "
+                        f"collected={stats.get('collected', 0)} drafted={stats.get('drafted', 0)} "
+                        f"errors={stats.get('errors', 0)}"
+                    )
+                except Exception:
+                    continue
+            if recent_runs:
+                sections.append("[recent-run-history]\n" + "\n".join(recent_runs))
+        except Exception:
+            pass
+
+    if not sections:
+        return ""
+    return "\n\n".join(sections)

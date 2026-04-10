@@ -180,8 +180,11 @@ OPENROUTER_API_KEY=...
 - Son calisma raporu: `storage/last_run_report.json`
 - Calisma gecmisi: `storage/run_history.jsonl`
 - Haftalik otomatik derleme: `wiki/reports/weekly-YYYY-wWW.md`
+- Kalici sistem hafizasi: `wiki/system-memory.md`
 
 Bu asamada yayin politikasi Draft-Review olarak uygulanir; otomatik dogrudan publish yoktur.
 
 Haftalik derleme mekanizmasi pazar gunu otomatik devreye girer ve son 7 gunun toplu metriklerini tek markdown dosyasina yazar.
 Pipeline raporu icinde `error_samples` alani tutulur; boylece hatali kaynagin URL ve hata nedeni gorulebilir.
+
+Prompt uretimi sirasinda sistem hafizasi (`wiki/system-memory.md`) ve son run gecmisi ozetleri birlikte modele verilir; bu sayede onceki kararlar her calismada korunur.

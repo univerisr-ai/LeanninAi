@@ -22,13 +22,14 @@ class OpenRouterClient:
         source: SourceItem,
         existing_titles: List[str],
         dry_run: bool,
+        memory_context: str = "",
     ) -> ConceptDraft:
         if dry_run:
             return self._fallback_draft(source, model_name="dry-run")
         if not self.api_key:
             raise RuntimeError("OPENROUTER_API_KEY is required for non-dry-run execution")
 
-        prompt = self._build_prompt(source, existing_titles)
+        prompt = self._build_prompt(source, existing_titles, memory_context)
 
         import time
         last_error = None
@@ -86,14 +87,17 @@ class OpenRouterClient:
         parsed = json.loads(raw)
         return parsed["choices"][0]["message"]["content"]
 
-    def _build_prompt(self, source: SourceItem, existing_titles: List[str]) -> str:
+    def _build_prompt(self, source: SourceItem, existing_titles: List[str], memory_context: str) -> str:
         existing_joined = "\n".join(existing_titles[:50])
+        memory_section = memory_context.strip() or "No persistent memory context provided."
         return (
             "Task: Create one wiki concept draft in Turkish for frontend/backend/security topics.\n"
             f"Source title: {source.title}\n"
             f"Source category: {source.category}\n"
             f"Source url: {source.url}\n"
             f"Source content:\n{source.content[:3500]}\n\n"
+            "Persistent project memory (must be respected):\n"
+            f"{memory_section}\n\n"
             "Existing concepts (avoid duplicates and repeat-learning):\n"
             f"{existing_joined}\n\n"
             "Rules:\n"
