@@ -2,32 +2,42 @@
 
 Bu bolum en son uretilen draft bilgisinin hizli ozetidir.
 
-## Signals in React (VI): Stale Closures, Subscription Traps, and Reactive Graph Pitfalls
-Quick Overview   In the previous article, we discussed:   Why tearing occurs and how to...
+## This Week In React #276: Boneyard, Ink, MUI, React Router, Next.js | RN 0.85, ViewTransition, Skia, Windows | JSIR, Security, esbuild, Ky, Intl
+→ [[review/this-week-in-react-276-boneyard-ink-mui-react-router-next-js-rn-0-85-viewtransition-skia-windows-jsir-security-esbuild-ky-intl]]
+
+Hi there, Seb and Jan here 👋!  This week brings a collection of smaller, yet still noteworthy, React...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
-## Modern React Essentials: From Component Architecture to Advanced Hooks
-In an AI-driven world, we should keep our basics clear at all times. This is the second post in my...
+## How I Built a Tinder-Style Group Decision App with React Native and Firebase
+→ [[review/how-i-built-a-tinder-style-group-decision-app-with-react-native-and-firebase]]
+
+My wife and I have a problem (no, not THAT kind of problem).   It's the same problem every couple...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
-## ARIA Labels Done Wrong: The Most Common Mistakes I See in Production Code
-ARIA Labels Done Wrong: The Most Common Mistakes I See in Production Code    Meta: ARIA is...
+## I Built a Free Hydration Tracker with No Signup: Here’s What I Learned
+→ [[review/i-built-a-free-hydration-tracker-with-no-signup-here-s-what-i-learned]]
+
+I recently built Drink Daily, a hydration tracking web app designed to be free, simple to use, and...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
-## Meta StyleX: Moving CSS-in-JS From Runtime to Build Time
-How Meta StyleX compiles JS-authored styles into atomic static CSS: less runtime injection, smaller bundles, and why that matters for huge apps.
+## 🧭 A Practical JavaScript Roadmap for 2026 (What Actually Matters)
+→ [[review/a-practical-javascript-roadmap-for-2026-what-actually-matters]]
+
+JavaScript is no longer just a "web language."   In 2026, it powers everything - from simple...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
-## The Constraint Was Never Knowledge
-AI did not just make you faster at coding. It removed the excuse for skipping the work that mattered.
+## Front-End & Struggles
+→ [[review/front-end-struggles]]
+
+I didn’t have much frontend experience. This post covers the struggles I ran into.           Starting...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
