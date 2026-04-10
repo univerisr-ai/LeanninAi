@@ -37,8 +37,7 @@ jobs:
         run: |
           git config user.name "aibeyin-bot"
           git config user.email "aibeyin-bot@users.noreply.github.com"
-          git add wiki/review wiki/log.md wiki/hot.md storage/inventory.json storage/last_run_report.json
-          git add wiki/reports storage/run_history.jsonl 2>/dev/null || true
+          git add wiki/ storage/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No generated changes"
           else

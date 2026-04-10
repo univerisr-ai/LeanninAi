@@ -19,6 +19,7 @@ Turn on SQLite WAL in Expo. It fixes “database is locked”. Batch writes in o
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

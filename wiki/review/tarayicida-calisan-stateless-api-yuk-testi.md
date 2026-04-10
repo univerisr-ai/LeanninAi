@@ -23,9 +23,10 @@ Modern tarayıcıların Web Worker ve parallel fetch API'lerini kullanarak sunuc
 - Worklet ve SharedArrayBuffer kullanımı ile performans optimizasyonu
 
 ## Iliskili Sayfalar
-- [[Web Performansı ve PWA (Service Worker)]]
-- [[CORS ve Güvenlik Headerları]]
-- [[Rate Limiting ve Token Bucket Algoritması]]
+- [[index]]
+- [[Web-Performansi-PWA]]
+- [[CORS-ve-Guvenlik-Headerlari]]
+- [[Rate-Limiting-Token-Bucket]]
 
 ## Kaynak Basligi
 How I Built a Stateless API Load Tester That Runs in Your Browser (No Setup Required)

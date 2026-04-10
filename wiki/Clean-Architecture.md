@@ -14,3 +14,6 @@ Yazılımda değişikliklerin birbirini etkilemesini en aza indiren en etkili ya
 **İlgili Bağlantılar:**
 - [[Veritabani-ve-Caching-Stratejileri]]
 - [[State-Yonetimi-Zustand-TanStack]] (Frontend Mimari Bağlantısı)
+
+## 📚 İlgili Draftlar
+- [[review/api-response-yapilari-flat-vs-nested-duzlestirilmis-vs-ic-ice]]

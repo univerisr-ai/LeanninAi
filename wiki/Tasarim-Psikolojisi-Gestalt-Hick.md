@@ -16,3 +16,6 @@ Kullanıcılar tekil elemanları değil, deseni (pattern) algılarlar:
 **İlgili Bağlantılar:**
 - [[Renk-Teorisi-ve-Tipografi]]
 - [[Erisilebilirlik-WCAG-ve-ARIA]]
+
+## 📚 İlgili Draftlar
+- [[review/gelistirici-deneyimi-ve-arac-secimi-psikolojisi]]

@@ -19,6 +19,7 @@ f you’ve ever shipped a UI bug where users see something like...
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

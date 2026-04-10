@@ -19,6 +19,7 @@ React error boundaries use class lifecycles, not hooks: what render errors they 
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

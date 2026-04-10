@@ -19,6 +19,7 @@ A clever approach for selecting multiple dates on a calendar where the :nth-chil
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

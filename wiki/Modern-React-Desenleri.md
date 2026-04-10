@@ -14,3 +14,10 @@ Frontend'in sunucu cevabını beklemeden, veritabanına yazılmış *varsayarak*
 
 **İlgili Bağlantılar:**
 - [[State-Yonetimi-Zustand-TanStack]]
+
+## 📚 İlgili Draftlar
+- [[review/api-response-yapilari-flat-vs-nested-duzlestirilmis-vs-ic-ice]]
+- [[review/boneyard-js-cli-driven-skeleton-ui-olusturma]]
+- [[review/gunluk-kullandigim-typescript-ipuclari-ve-puf-noktalari]]
+- [[review/react-projelerinde-biraktigim-aliskanliklar-ve-kod-kalitem-neden-daha-iyi-oldu]]
+- [[review/unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi]]

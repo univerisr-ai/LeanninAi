@@ -22,8 +22,9 @@ Yazılımcılar en iyi aracı değil, en kolay kullanılanı seçer. Bu ilke, he
 - Geliştirici deneyimi bir teknik özellik değil, rekabet avantajıdır
 
 ## Iliskili Sayfalar
-- [[Tasarım Psikolojisi: Gestalt ve Hick]]
-- [[Web Performansı ve PWA (Service Worker)]]
+- [[index]]
+- [[Tasarim-Psikolojisi-Gestalt-Hick]]
+- [[Web-Performansi-PWA]]
 
 ## Kaynak Basligi
 Users Don’t Choose the Best Tool — They Choose the Easiest One

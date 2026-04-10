@@ -23,6 +23,7 @@ Google ve benzeri platformlardan veri çıkarma sürecinde yaşanan dönüşüml
 - Export sonrası veri doğrulama ve içerik kontrolü yöntemleri
 
 ## Iliskili Sayfalar
+- [[index]]
 - CORS ve Güvenlik Headerları
 - XSS ve CSRF Açıkları
 - Veritabanı ve Caching Stratejileri

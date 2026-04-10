@@ -19,6 +19,7 @@ SnapMock — create mock APIs in 30 seconds with dynamic data, chaos testing, AI
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

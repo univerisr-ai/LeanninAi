@@ -22,3 +22,7 @@ Brute-force ve GPU saldırılarına karşı piyasadaki modern algoritma **Argon2
 **İlgili Bağlantılar:**
 - [[CORS-ve-Guvenlik-Headerlari]]
 - [[State-Yonetimi-Zustand-TanStack]]
+
+## 📚 İlgili Draftlar
+- [[review/ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]
+- [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]

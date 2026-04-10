@@ -15,3 +15,11 @@ Service Worker, web sayfanızdan tamamen bağımsız, arka planda çalışan (ta
 **İlgili Bağlantılar:**
 - [[State-Yonetimi-Zustand-TanStack]]
 - [[Veritabani-ve-Caching-Stratejileri]]
+
+## 📚 İlgili Draftlar
+- [[review/ai-kaynakli-tukenmislik-ve-yazilimci-kaygisi]]
+- [[review/boneyard-js-cli-driven-skeleton-ui-olusturma]]
+- [[review/gelistirici-deneyimi-ve-arac-secimi-psikolojisi]]
+- [[review/tarayicida-calisan-stateless-api-yuk-testi]]
+- [[review/unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi]]
+- [[review/webmcp-devtools-tarayicida-ai-model-baglamini-inceleme-ve-hata-ayiklama]]

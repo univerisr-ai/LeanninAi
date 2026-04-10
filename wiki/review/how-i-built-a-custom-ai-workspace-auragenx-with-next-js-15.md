@@ -19,6 +19,7 @@ Why I built my own AI Workspace (AuraGenX) instead of paying $20/mo   I love the
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

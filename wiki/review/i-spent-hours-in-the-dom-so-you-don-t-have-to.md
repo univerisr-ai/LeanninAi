@@ -19,6 +19,7 @@ Full source: github.com/tusharpamnani/midnight-wallet-kit  When I started buildi
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

@@ -15,3 +15,10 @@ Sadece tarayıcıda yaşayan (sekme kapanınca ölecek olan) geçici arayüz ver
 **İlgili Bağlantılar:**
 - [[Modern-React-Desenleri]]
 - [[Clean-Architecture]]
+
+## 📚 İlgili Draftlar
+- [[review/ai-kaynakli-tukenmislik-ve-yazilimci-kaygisi]]
+- [[review/ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]
+- [[review/api-response-yapilari-flat-vs-nested-duzlestirilmis-vs-ic-ice]]
+- [[review/react-projelerinde-biraktigim-aliskanliklar-ve-kod-kalitem-neden-daha-iyi-oldu]]
+- [[review/webmcp-devtools-tarayicida-ai-model-baglamini-inceleme-ve-hata-ayiklama]]

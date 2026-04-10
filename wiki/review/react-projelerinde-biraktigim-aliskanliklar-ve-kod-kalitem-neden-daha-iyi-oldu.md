@@ -23,9 +23,10 @@ Bu kavram, React projelerinde bırakılması gereken yaygın anti-pattern'leri v
 - Çoklu kiracı sistemlerde bileşen tekrar kullanımı ve modülerlik
 
 ## Iliskili Sayfalar
-- [[Modern React Desenleri]]
-- [[Erişilebilirlik: WCAG ve ARIA]]
-- [[State Yönetimi: Zustand ve TanStack Query]]
+- [[index]]
+- [[Modern-React-Desenleri]]
+- [[Erisilebilirlik-WCAG-ve-ARIA]]
+- [[State-Yonetimi-Zustand-TanStack]]
 
 ## Kaynak Basligi
 What I Stopped Doing in React Projects (and Why My Code Got Better)

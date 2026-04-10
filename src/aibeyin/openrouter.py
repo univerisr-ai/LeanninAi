@@ -91,7 +91,23 @@ class OpenRouterClient:
         existing_joined = "\n".join(existing_titles[:50])
         memory_section = memory_context.strip() or "No persistent memory context provided."
         return (
-            "Task: Create one wiki concept draft in Turkish for frontend/backend/security topics.\n"
+            "Task: Create one wiki concept draft in Turkish.\n\n"
+            "SCOPE (ONLY these topics are allowed):\n"
+            "- Web Frontend: React, Vue, Svelte, Next.js, Nuxt, CSS, TypeScript, JavaScript, Vite, Webpack\n"
+            "- Web Backend: Node.js, Express, Fastify, REST API, GraphQL, PostgreSQL, Redis, BullMQ\n"
+            "- Web Security: XSS, CSRF, JWT, CORS, CSP, rate limiting, bot detection, OWASP\n"
+            "- UI/UX Design: Gestalt, color theory, typography, micro-interactions, responsive design\n"
+            "- Web Accessibility (a11y): WCAG, ARIA, keyboard navigation, screen readers\n"
+            "- Web Performance: Core Web Vitals, PWA, Service Worker, lazy loading, code splitting\n\n"
+            "FORBIDDEN topics (set category='off-topic' and novelty=0 if source is about these):\n"
+            "- Blockchain, Solidity, Ethereum, Web3, DeFi, NFT\n"
+            "- Flutter, Dart, Swift, Kotlin, Android/iOS native\n"
+            "- .NET, C#, Blazor, MAUI, WPF\n"
+            "- Go/Golang, Rust (unless web-related tooling)\n"
+            "- Unity, Unreal Engine, game development\n"
+            "- ML model training, PyTorch, TensorFlow\n"
+            "- Career advice, soft skills, burnout, certification exams\n"
+            "- Sports, entertainment, non-tech topics\n\n"
             f"Source title: {source.title}\n"
             f"Source category: {source.category}\n"
             f"Source url: {source.url}\n"
@@ -101,10 +117,11 @@ class OpenRouterClient:
             "Existing concepts (avoid duplicates and repeat-learning):\n"
             f"{existing_joined}\n\n"
             "Rules:\n"
+            "- If the source is about a FORBIDDEN topic, return category='off-topic' and novelty=0.\n"
             "- If the source is too similar to existing concepts, set novelty below 60.\n"
-            "- Keep summary practical and action-oriented.\n"
+            "- Keep summary practical and action-oriented, in Turkish.\n"
             "- links_to_existing must use [[Page-Name]] format when possible.\n"
-            "- Return only JSON."
+            "- Return only valid JSON with fields: title, category, summary, key_points, links_to_existing, confidence, novelty."
         )
 
     def _parse_payload(self, content: str, source: SourceItem, model_name: str) -> ConceptDraft:

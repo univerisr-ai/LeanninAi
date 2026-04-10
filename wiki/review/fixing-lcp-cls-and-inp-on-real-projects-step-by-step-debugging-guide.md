@@ -19,6 +19,7 @@ For modern web performance, "fast enough" is no longer sufficient. Because Googl
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

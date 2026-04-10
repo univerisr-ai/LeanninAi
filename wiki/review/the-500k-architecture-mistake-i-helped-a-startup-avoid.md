@@ -19,6 +19,7 @@ A Series A startup was about to migrate to microservices. Here's why I told them
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

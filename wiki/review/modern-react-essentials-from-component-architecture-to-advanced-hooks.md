@@ -19,6 +19,7 @@ In an AI-driven world, we should keep our basics clear at all times. This is the
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

@@ -19,10 +19,11 @@ JavaScript'te iç içe dizileri (nested arrays) tek boyutlu, düz bir diziye (fl
 - `flatMap()` metodunun hem düzleştirme hem de dönüşümü tek seferde yapma avantajı.
 - Farklı yöntemlerin performans karşılaştırması (büyük diziler için optimize edilmiş yaklaşımlar).
 - Çok boyutlu dizileri işlerken dikkat edilmesi gereken tuzaklar (örn: referans tipleri, sonsuz döngüler).
-- [[API Response Yapıları: Flat vs. Nested]] bağlamında, düzleştirilmiş verinin neden ve ne zaman tercih edilmesi gerektiği.
+- [[review/api-response-yapilari-flat-vs-nested-duzlestirilmis-vs-ic-ice]] bağlamında, düzleştirilmiş verinin neden ve ne zaman tercih edilmesi gerektiği.
 
 ## Iliskili Sayfalar
-- [[API Response Yapıları: Flat vs. Nested]]
+- [[index]]
+- [[review/api-response-yapilari-flat-vs-nested-duzlestirilmis-vs-ic-ice]]
 
 ## Kaynak Basligi
 Array Flatten in JavaScript

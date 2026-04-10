@@ -19,6 +19,7 @@ For updating a counter, Redux requires you to set up a store, reducers, actions,
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

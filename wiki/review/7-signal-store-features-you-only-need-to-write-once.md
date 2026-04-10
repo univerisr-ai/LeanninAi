@@ -19,6 +19,7 @@ Reusable signalStoreFeature patterns from a production Angular codebase - loadin
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

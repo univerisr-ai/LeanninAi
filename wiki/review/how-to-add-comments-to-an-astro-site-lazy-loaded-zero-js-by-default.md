@@ -19,6 +19,7 @@ A reusable Astro component for privacy-first threaded comments, with optional in
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

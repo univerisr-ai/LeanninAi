@@ -19,6 +19,7 @@ Micro Frontends: The Ultimate Guide — React, Vite, Next.js, React Native &amp;
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

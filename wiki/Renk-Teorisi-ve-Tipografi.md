@@ -17,3 +17,6 @@ Bu sistem okunabilir ritim yaratır. Değerler CSS `clamp()` ile responsive (ekr
 **İlgili Bağlantılar:**
 - [[Tasarim-Psikolojisi-Gestalt-Hick]]
 - [[Erisilebilirlik-WCAG-ve-ARIA]]
+
+## 📚 İlgili Draftlar
+- [[review/unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi]]

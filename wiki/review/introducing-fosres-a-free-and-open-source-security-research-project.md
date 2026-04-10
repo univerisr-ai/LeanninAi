@@ -19,6 +19,7 @@ Free and Open Source Security Research (FOSRES)   Hi. I am Tanveer Salim. And us
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

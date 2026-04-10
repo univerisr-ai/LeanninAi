@@ -19,6 +19,7 @@ Last Tuesday, a “harmless” coding agent in staging opened a PR, fetched secr
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

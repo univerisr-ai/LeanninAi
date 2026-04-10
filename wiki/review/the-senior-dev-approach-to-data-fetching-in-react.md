@@ -19,6 +19,7 @@ The beauty of React is... flexibility.  In 2013, React was released as a client 
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

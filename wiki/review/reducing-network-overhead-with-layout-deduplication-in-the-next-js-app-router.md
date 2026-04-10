@@ -19,6 +19,7 @@ Why Layout Deduplication Exists   Every meaningful performance optimization in a
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

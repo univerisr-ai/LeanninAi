@@ -22,10 +22,11 @@ Bu makale, geliştiricilerin web güvenlik açıklarını (XSS, CSRF, SQL Enjeks
 - Araçlar: Go (Gin), Vue.js, Postman (veya benzeri) API test aracı, tarayıcı geliştirici araçları.
 
 ## Iliskili Sayfalar
-- [[XSS ve CSRF Açıkları]]
-- [[CORS ve Güvenlik Headerları]]
-- [[JWT ve Kimlik Doğrulama]]
-- [[Rate Limiting ve Token Bucket Algoritması]]
+- [[index]]
+- [[XSS-ve-CSRF-Açiklari]]
+- [[CORS-ve-Guvenlik-Headerlari]]
+- [[JWT-ve-Kimlik-Dogrulama]]
+- [[Rate-Limiting-Token-Bucket]]
 
 ## Kaynak Basligi
 Practicing Basic Concepts On Web Security

@@ -19,6 +19,7 @@ One server, six stages, the complete production map — from local stdio prototy
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

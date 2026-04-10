@@ -19,6 +19,7 @@ Browsers share one CSS model; Figma uses WASM and GPU shaders. Where design-to-c
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

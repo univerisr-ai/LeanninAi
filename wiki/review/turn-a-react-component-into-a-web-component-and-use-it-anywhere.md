@@ -19,6 +19,7 @@ React components are great — until you want to use them outside a React applic
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

@@ -22,8 +22,9 @@ Vite'nin varsayılan ortam değişkeni yönetimindeki dört temel eksikliği ana
 - Eklentinin `vite.config.ts`'de nasıl yapılandırılacağı ve kullanım örnekleri.
 
 ## Iliskili Sayfalar
-- [[Geliştirici Deneyimi ve Araç Seçimi Psikolojisi]]
-- [[TypeScript Hata Gruplama ve AI Bağlam Optimizasyonu (ContextZip)]]
+- [[index]]
+- [[review/gelistirici-deneyimi-ve-arac-secimi-psikolojisi]]
+- [[review/typescript-hata-gruplama-ve-ai-baglam-optimizasyonu-contextzip]]
 
 ## Kaynak Basligi
 Why I Built a New Vite Env Plugin

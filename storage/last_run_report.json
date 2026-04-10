@@ -1,97 +1,24 @@
 {
   "status": "ok",
-  "started_at": "2026-04-10T03:17:43+00:00",
-  "dry_run": false,
+  "started_at": "2026-04-10T09:08:01+00:00",
+  "dry_run": true,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 23
+    "wiki_changed": 1
   },
   "stats": {
     "collected": 76,
-    "skipped_unchanged": 34,
+    "skipped_unchanged": 76,
     "skipped_duplicate": 0,
     "rejected_quality": 0,
-    "drafted": 42,
+    "drafted": 0,
     "errors": 0
   },
   "enhancement": {},
   "error_samples": [],
-  "drafts_preview": [
-    {
-      "slug": "signals-in-react-vi-stale-closures-subscription-traps-and-reactive-graph-pitfalls",
-      "title": "Signals in React (VI): Stale Closures, Subscription Traps, and Reactive Graph Pitfalls",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "modern-react-essentials-from-component-architecture-to-advanced-hooks",
-      "title": "Modern React Essentials: From Component Architecture to Advanced Hooks",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "aria-labels-done-wrong-the-most-common-mistakes-i-see-in-production-code",
-      "title": "ARIA Labels Done Wrong: The Most Common Mistakes I See in Production Code",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "meta-stylex-moving-css-in-js-from-runtime-to-build-time",
-      "title": "Meta StyleX: Moving CSS-in-JS From Runtime to Build Time",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "the-constraint-was-never-knowledge",
-      "title": "The Constraint Was Never Knowledge",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "i-built-a-free-mock-api-platform-because-i-was-tired-of-waiting-for-backend-published-true",
-      "title": "I Built a Free Mock API Platform Because I Was Tired of Waiting for Backend\" published: true",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "fixing-lcp-cls-and-inp-on-real-projects-step-by-step-debugging-guide",
-      "title": "Fixing LCP, CLS, and INP on Real Projects (Step-by-Step Debugging Guide)",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "things-i-stopped-writing-in-react-and-what-replaced-them",
-      "title": "Things I Stopped Writing in React (And What Replaced Them)",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "the-16-6ms-frame-budget-why-fast-loads-still-feel-slow",
-      "title": "The 16.6ms Frame Budget: Why Fast Loads Still Feel Slow",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "why-css-never-matches-figma-browser-vs-canvas-pipelines",
-      "title": "Why CSS Never Matches Figma: Browser vs Canvas Pipelines",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    }
-  ],
+  "drafts_preview": [],
   "weekly_digest": {
     "generated": false,
-    "reason": "not_scheduled_day",
-    "run_day_of_week": 6,
-    "today_weekday": 4
+    "reason": "dry_run"
   }
 }

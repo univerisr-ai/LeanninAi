@@ -19,6 +19,7 @@ In this article, we'll explore how to implement a pure client-side PDF page remo
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

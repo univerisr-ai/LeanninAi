@@ -23,6 +23,7 @@ Google Takeout kullanarak 263 GB veri export etme sürecinde karşılaşılan so
 - AI asistanlarının veri işleme görevlerindeki sınırlılıkları
 
 ## Iliskili Sayfalar
+- [[index]]
 - [Veri Aktarımı ve Export Formatları]
 
 ## Kaynak Basligi

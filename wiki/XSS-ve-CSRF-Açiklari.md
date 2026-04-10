@@ -20,3 +20,6 @@ Kullanıcının başka bir sitedeyken (evil.com) kendi haberi olmadan bankası.c
 **İlgili Bağlantılar:**
 - [[JWT-ve-Kimlik-Dogrulama]]
 - [[CORS-ve-Guvenlik-Headerlari]]
+
+## 📚 İlgili Draftlar
+- [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]

@@ -17,3 +17,8 @@ Express uygulamalarında Helmet.js ile otomatik eklenen veya elle yazılması zo
 **İlgili Bağlantılar:**
 - [[XSS-ve-CSRF-Açiklari]]
 - [[JWT-ve-Kimlik-Dogrulama]]
+
+## 📚 İlgili Draftlar
+- [[review/ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]
+- [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]
+- [[review/tarayicida-calisan-stateless-api-yuk-testi]]

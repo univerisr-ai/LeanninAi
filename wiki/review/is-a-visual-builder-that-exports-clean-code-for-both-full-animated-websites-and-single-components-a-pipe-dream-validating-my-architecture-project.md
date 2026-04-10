@@ -19,6 +19,7 @@ Hey everyone, I'm a Computer Science student working on a massive architecture c
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

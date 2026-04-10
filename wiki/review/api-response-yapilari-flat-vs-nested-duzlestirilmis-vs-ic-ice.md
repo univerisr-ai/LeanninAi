@@ -25,10 +25,11 @@ API tasarımında flat (düzleştirilmiş) ve nested (iç içe) response yapıla
 - Caching stratejileri flat yapılarda daha etkili çalışır çünkü her kaynak bağımsız önbelleklenir
 
 ## Iliskili Sayfalar
-- [[State Yönetimi: Zustand ve TanStack Query]]
-- [[Clean Architecture (Katmanlı Mimari)]]
-- [[Modern React Desenleri]]
-- [[Veritabanı ve Caching Stratejileri]]
+- [[index]]
+- [[State-Yonetimi-Zustand-TanStack]]
+- [[Clean-Architecture]]
+- [[Modern-React-Desenleri]]
+- [[Veritabani-ve-Caching-Stratejileri]]
 
 ## Kaynak Basligi
 Flattening vs. Nested API Responses: Balancing Frontend Accessibility and Data Structure Integrity

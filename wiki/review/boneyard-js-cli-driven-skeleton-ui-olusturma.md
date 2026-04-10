@@ -23,8 +23,9 @@ boneyard-js, mevcut UI bileşenlerinizi yakalayarak eşleşen skeleton loading e
 - Skeleton screen'lerin erişilebilirlik ve kullanıcı deneyimi üzerindeki etkisi
 
 ## Iliskili Sayfalar
-- [[Web Performansı ve PWA (Service Worker)]]
-- [[Modern React Desenleri]]
+- [[index]]
+- [[Web-Performansi-PWA]]
+- [[Modern-React-Desenleri]]
 
 ## Kaynak Basligi
 boneyard-js: CLI-Driven Skeleton UI for Any Framework

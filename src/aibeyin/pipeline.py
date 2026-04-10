@@ -14,6 +14,7 @@ from .reporting import append_run_history, maybe_generate_weekly_digest
 from .sources import collect_sources
 from .storage_guard import enforce_disk_quota
 from .utils import now_utc_iso, read_text, safe_slug, sha256_text, write_json
+from .vault_hygiene import run_hygiene, OFF_TOPIC_KEYWORDS
 from .wiki_writer import WikiWriter
 
 
@@ -112,6 +113,12 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
 
     if not dry_run:
         writer.refresh_hot_cache(drafted_items)
+        repair_summary = writer.repair_existing_review_links()
+    else:
+        repair_summary = {"changed_files": 0, "link_replacements": 0}
+
+    # ── Otomatik vault bakımı ──
+    hygiene_result = run_hygiene(project_root, dry_run=dry_run)
 
     inventory.save()
 
@@ -136,6 +143,8 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
         },
         "stats": stats.as_dict(),
         "enhancement": enhancement_result,
+        "review_link_repair": repair_summary,
+        "vault_hygiene": hygiene_result.as_dict(),
         "error_samples": error_samples,
         "drafts_preview": [
             {
@@ -202,6 +211,11 @@ def _passes_quality(draft: ConceptDraft, config) -> bool:
         return False
     if not draft.summary.strip():
         return False
+    # ── Off-topic blacklist: LLM bazen yanlış kategori veriyor ──
+    check_text = f"{draft.title} {draft.summary}".lower()
+    for keyword in OFF_TOPIC_KEYWORDS:
+        if keyword in check_text:
+            return False
     return True
 
 

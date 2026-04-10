@@ -19,6 +19,7 @@ CSS dvh (dynamic viewport height) was introduced to replace the infamous 100vh b
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

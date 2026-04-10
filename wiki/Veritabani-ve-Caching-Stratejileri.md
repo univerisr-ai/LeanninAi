@@ -16,3 +16,6 @@ E-posta gönderme, video işleme, PDF oluşturma gibi HTTP isteğini kilitleyece
 
 **İlgili Bağlantılar:**
 - [[Clean-Architecture]]
+
+## 📚 İlgili Draftlar
+- [[review/api-response-yapilari-flat-vs-nested-duzlestirilmis-vs-ic-ice]]

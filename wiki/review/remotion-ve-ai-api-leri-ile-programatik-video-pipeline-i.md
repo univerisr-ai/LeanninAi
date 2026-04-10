@@ -22,6 +22,7 @@ Remotion framework'ünü ve AI API'lerini kullanarak kod tabanlı video otomasyo
 - Önbellekleme ve performans optimizasyonu teknikleri
 
 ## Iliskili Sayfalar
+- [[index]]
 - Modern React Desenleri
 - State Yönetimi: Zustand ve TanStack Query
 

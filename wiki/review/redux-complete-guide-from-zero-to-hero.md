@@ -19,6 +19,7 @@ Redux &amp; React-Redux: Complete Deep Dive 🚀 Let me break this down from abs
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

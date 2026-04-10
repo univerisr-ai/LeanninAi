@@ -19,6 +19,7 @@ Claude Code is powerful. It has full access to your file system,  your shell, an
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

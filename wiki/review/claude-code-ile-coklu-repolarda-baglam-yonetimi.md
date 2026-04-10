@@ -22,6 +22,7 @@ Claude Code kullanarak birden fazla repository ile çalışırken bağlam kaybı
 - Büyük kod tabanlarında relevance window yönetimi
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

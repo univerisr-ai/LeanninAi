@@ -19,6 +19,7 @@ Introduction: The Need for Change   Chrome’s decision to replace libxml2, a C-
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

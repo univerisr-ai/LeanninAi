@@ -19,6 +19,7 @@ Learn how React Server Components work, the difference between Server and Client
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi

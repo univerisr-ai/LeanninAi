@@ -24,6 +24,7 @@ Create-cloudinary-react CLI aracı, React projelerinde Cloudinary entegrasyonunu
 - TypeScript desteği ve tip tanımları ile geliştirici deneyimi
 
 ## Iliskili Sayfalar
+- [[index]]
 - [Modern React Desenleri] - React component mimarisi bağlamında
 - [Web Performansı ve PWA] - Görsel optimizasyonu ve yükleme performansı açısından
 

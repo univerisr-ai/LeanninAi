@@ -19,6 +19,7 @@ How Meta StyleX compiles JS-authored styles into atomic static CSS: less runtime
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
+- [[index]]
 - -
 
 ## Kaynak Basligi
