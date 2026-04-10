@@ -12,8 +12,10 @@
   },
   "quality_gates": {
     "min_confidence": 70,
-    "min_novelty": 60,
-    "max_semantic_similarity": 0.86,
+    "min_novelty": 65,
+    "max_semantic_similarity": 0.78,
+    "max_title_similarity": 0.55,
+    "max_concept_similarity": 0.50,
     "allowed_categories": [
       "frontend",
       "backend",

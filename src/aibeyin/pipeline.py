@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 
 from .brain_enhancer import BrainEnhancer
 from .config import load_pipeline_config
-from .dedup import detect_concept_title_duplicate, detect_wiki_duplicate
+from .dedup import detect_concept_title_duplicate, detect_concept_fingerprint_duplicate, detect_wiki_duplicate
 from .inventory import InventoryStore
 from .models import ConceptDraft, PipelineStats, SourceItem
 from .openrouter import OpenRouterClient
@@ -88,6 +88,24 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
             if not _passes_quality(draft, config):
                 stats.rejected_quality += 1
                 inventory.upsert_source(item.url, item.content_hash, status="rejected_quality")
+                continue
+
+            # ── Katman 4: Konsept parmak izi ile tekrar kontrolü ──
+            # LLM farklı başlıkla aynı konuyu üretebilir, burada yakalıyoruz
+            concept_dup, concept_reason, concept_match = detect_concept_fingerprint_duplicate(
+                candidate_title=draft.title,
+                candidate_summary=draft.summary,
+                candidate_key_points=draft.key_points,
+                existing_concept_titles=existing_concept_titles,
+                wiki_root=project_root / "wiki",
+                threshold=float(config.quality.get("max_concept_similarity", 0.50)),
+            )
+            if concept_dup:
+                stats.skipped_duplicate += 1
+                inventory.upsert_source(
+                    item.url, item.content_hash,
+                    status=f"skipped_concept_dup:{concept_reason}",
+                )
                 continue
 
             if not dry_run:
