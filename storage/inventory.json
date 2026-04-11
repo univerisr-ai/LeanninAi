@@ -65,10 +65,6 @@
         "sha256": "d9d151a5c26d9a93af01b732fc02f0a4f6e797dd350a874ca1862ea90ca89c20",
         "size": "1668"
       },
-      "wiki/log.md": {
-        "sha256": "385c0b209604d1755e97f473f82ab209e5f7e113aa4d5b578384d48b0557ae7f",
-        "size": "34918"
-      },
       "wiki/Modern-React-Desenleri.md": {
         "sha256": "9da7019cfc8857ae3be7673a11127cb6f04097a5fdca5d567235b20ab9daa0f2",
         "size": "1633"
@@ -1449,7 +1445,7 @@
     },
     "https://dev.to/iprithv/how-apache-polaris-vends-credentials-securing-data-access-without-sharing-keys-156i": {
       "content_hash": "19c802fef2c7ce9caa22ad46af77cc5af5837360634be65f5575c73e52decdcf",
-      "last_seen_at": "2026-04-10T09:08:04+00:00",
+      "last_seen_at": "2026-04-10T19:20:35+00:00",
       "last_status": "skipped_unchanged",
       "last_processed_at": "2026-04-10T03:21:23+00:00"
     },
@@ -1533,19 +1529,19 @@
     },
     "https://dev.to/adrai/next-intl-vs-next-i18next-choosing-the-right-i18n-library-for-nextjs-646": {
       "content_hash": "eb87804f2f78cc07f417671a70f9a0ed5448c2291940059ba8c3fbed08d1bbbd",
-      "last_seen_at": "2026-04-10T09:08:04+00:00",
+      "last_seen_at": "2026-04-11T02:42:43+00:00",
       "last_status": "skipped_unchanged",
       "last_processed_at": "2026-04-10T09:04:17+00:00"
     },
     "https://dev.to/childrentime/mastering-react-state-patterns-beyond-usestate-4c72": {
       "content_hash": "3a1911707145b563417ad2e2113b32c36a5fa94d5114ea9d1e2ebd93a26bb16f",
-      "last_seen_at": "2026-04-10T09:08:04+00:00",
+      "last_seen_at": "2026-04-11T02:42:43+00:00",
       "last_status": "skipped_unchanged",
       "last_processed_at": "2026-04-10T09:04:17+00:00"
     },
     "https://dev.to/saqueib/building-ahcalc-a-solar-and-battery-sizing-calculator-that-works-440h": {
       "content_hash": "7e02d43ecacb762cc92030278bee9c7659c3a3d3c033b64503c82018e404aa1d",
-      "last_seen_at": "2026-04-10T09:08:04+00:00",
+      "last_seen_at": "2026-04-11T02:42:43+00:00",
       "last_status": "skipped_unchanged",
       "last_processed_at": "2026-04-10T09:04:18+00:00"
     },
@@ -1557,7 +1553,7 @@
     },
     "https://dev.to/yiyaoai/i-pointed-claude-code-at-my-local-ollama-models-heres-the-3-minute-setup-4hha": {
       "content_hash": "bf73e5263fd456306a39ad26eb547eea3ec1fee2d3ed7fdcaaaae32327feaf64",
-      "last_seen_at": "2026-04-10T09:08:04+00:00",
+      "last_seen_at": "2026-04-11T02:43:29+00:00",
       "last_status": "skipped_unchanged",
       "last_processed_at": "2026-04-10T09:04:18+00:00"
     },
@@ -1599,7 +1595,7 @@
     },
     "https://dev.to/jsxyzb/why-prompt-only-moderation-failed-in-my-ai-generation-app-1m11": {
       "content_hash": "60c1e4206952e26f3bbfea87d7345847fc7189b369c61a9c0a885b425ed17999",
-      "last_seen_at": "2026-04-10T09:08:04+00:00",
+      "last_seen_at": "2026-04-10T19:18:57+00:00",
       "last_status": "skipped_unchanged",
       "last_processed_at": "2026-04-10T09:04:18+00:00"
     },
@@ -2556,6 +2552,234 @@
       "content_hash": "337c5fd5c887abef8ddd7ab677c437ac703d29f4c38b16f0f87788b7638be000",
       "source_url": "https://css-tricks.com/selecting-a-date-range-in-css/",
       "last_written_at": "2026-04-10T03:22:15+00:00"
+    },
+    "this-week-in-react-276-boneyard-ink-mui-react-router-next-js-rn-0-85-viewtransition-skia-windows-jsir-security-esbuild-ky-intl": {
+      "title": "This Week In React #276: Boneyard, Ink, MUI, React Router, Next.js | RN 0.85, ViewTransition, Skia, Windows | JSIR, Security, esbuild, Ky, Intl",
+      "content_hash": "5468c0aeada6929a56eb35f518c14f2c4c3657a1253188550e7863aa99a8fcd1",
+      "source_url": "https://dev.to/sebastienlorber/this-week-in-react-276-boneyard-ink-mui-react-router-nextjs-rn-085-viewtransition-skia-4inb",
+      "last_written_at": "2026-04-10T19:12:21+00:00"
+    },
+    "how-i-built-a-tinder-style-group-decision-app-with-react-native-and-firebase": {
+      "title": "How I Built a Tinder-Style Group Decision App with React Native and Firebase",
+      "content_hash": "9df27a070402689daa2645e41440455612ec9aea0a159880bb6e048fb72cc311",
+      "source_url": "https://dev.to/networkingguru/how-i-built-a-tinder-style-group-decision-app-with-react-native-and-firebase-1p37",
+      "last_written_at": "2026-04-10T19:12:46+00:00"
+    },
+    "i-built-a-free-hydration-tracker-with-no-signup-here-s-what-i-learned": {
+      "title": "I Built a Free Hydration Tracker with No Signup: Here\u2019s What I Learned",
+      "content_hash": "fe6cf4fff6d1eb1c9f884e54db1f22a17af84ab85992a2700d935664377554e2",
+      "source_url": "https://dev.to/johnnylemonny/i-built-a-free-hydration-tracker-with-no-signup-heres-what-i-learned-1aon",
+      "last_written_at": "2026-04-10T19:13:10+00:00"
+    },
+    "a-practical-javascript-roadmap-for-2026-what-actually-matters": {
+      "title": "\ud83e\udded A Practical JavaScript Roadmap for 2026 (What Actually\u00a0Matters)",
+      "content_hash": "de2aabe8614854b7c8e1020acb15dc3e75afc3085ae8d1361dfecbabf983ef9f",
+      "source_url": "https://dev.to/codehuntersharath/a-practical-javascript-roadmap-for-2026-what-actually-matters-52of",
+      "last_written_at": "2026-04-10T19:13:35+00:00"
+    },
+    "front-end-struggles": {
+      "title": "Front-End & Struggles",
+      "content_hash": "d74c0dca4e2d1b5b2629e3b0fd6f5eb29fafdf39f1f753223cca030418ce18fd",
+      "source_url": "https://dev.to/yepchaos/front-end-struggles-14f9",
+      "last_written_at": "2026-04-10T19:13:59+00:00"
+    },
+    "from-idea-to-paid-saas-in-24-hours-the-claude-code-blueprint-is-live": {
+      "title": "From Idea to Paid SaaS in 24 Hours \u2014 The Claude Code Blueprint Is Live",
+      "content_hash": "9ac0eaaca75421b3affab5dee4600fd5af2a76a980c93513cbc76e7a169fc5d5",
+      "source_url": "https://dev.to/myogeshchavan97/from-idea-to-paid-saas-in-24-hours-the-claude-code-blueprint-is-live-221k",
+      "last_written_at": "2026-04-10T19:14:24+00:00"
+    },
+    "cve-2026-23869-the-precompute-pattern-boneyard-use-cache-migration-rsc-boundary": {
+      "title": "CVE-2026-23869, The Precompute Pattern, Boneyard, use cache migration, RSC Boundary",
+      "content_hash": "b756b1ca2510517da2048c08424ca603674fbd7b35249b871e0c4b31cc73b3bb",
+      "source_url": "https://dev.to/erfanebrahimnia/cve-2026-23869-the-precompute-pattern-boneyard-use-cache-migration-rsc-boundary-be2",
+      "last_written_at": "2026-04-10T19:14:48+00:00"
+    },
+    "i-keep-telling-claude-the-same-things-so-he-started-writing-them-down-himself": {
+      "title": "I Keep Telling Claude the Same Things. So He Started Writing Them Down Himself.",
+      "content_hash": "fb747cca38e69180e33f194aa9c59912c8246e414a1f4a6bb369488f5d051da0",
+      "source_url": "https://dev.to/eli_coding/i-keep-telling-claude-the-same-things-so-he-started-writing-them-down-himself-1i9",
+      "last_written_at": "2026-04-10T19:15:13+00:00"
+    },
+    "the-formula-was-exact-the-assumption-was-wrong-that-s-not-an-ai-problem": {
+      "title": "The Formula Was Exact. The Assumption Was Wrong. That's Not an AI Problem.",
+      "content_hash": "1253d705b94ec8839e55c8d9633d86a0ce60ad699b4be49498630cca6d8c758b",
+      "source_url": "https://dev.to/dannwaneri/the-formula-was-exact-the-assumption-was-wrong-thats-not-an-ai-problem-58dm",
+      "last_written_at": "2026-04-10T19:15:37+00:00"
+    },
+    "how-i-built-a-web-interface-for-1-4-million-government-documents-with-fastapi-htmx-and-sqlite": {
+      "title": "How I Built a Web Interface for 1.4 Million Government Documents with FastAPI, HTMX, and SQLite",
+      "content_hash": "94b08348ebde6cb2011fea1243fc367f76871c9e7a54c65b5e1968814aed0002",
+      "source_url": "https://dev.to/networkingguru/how-i-built-a-web-interface-for-14-million-government-documents-with-fastapi-htmx-and-sqlite-1ofm",
+      "last_written_at": "2026-04-10T19:16:02+00:00"
+    },
+    "i-got-cryptomined-5-times-in-10-days-here-s-my-story": {
+      "title": "I got cryptomined 5 times in 10 days. Here's my story \ud83e\uddf5",
+      "content_hash": "d9970d9eb07885c6c541bff50c45902f4d3e5e50dc7135a7730f118361ae6475",
+      "source_url": "https://dev.to/dd_aa_abaee26be1a34448721/i-got-cryptomined-5-times-in-10-days-heres-my-story-48ab",
+      "last_written_at": "2026-04-10T19:16:29+00:00"
+    },
+    "how-ai-voice-agents-enhance-customer-support-and-sales": {
+      "title": "How AI Voice Agents Enhance Customer Support and Sales",
+      "content_hash": "596e88ef0376bd6dc0d823b323d8b4f594ae1798f375794a0e9346a64d58842c",
+      "source_url": "https://dev.to/mario-malick98/how-ai-voice-agents-enhance-customer-support-and-sales-448k",
+      "last_written_at": "2026-04-10T19:16:54+00:00"
+    },
+    "ucp-april-2026-cart-catalog-and-signals-change-everything": {
+      "title": "UCP April 2026: Cart, Catalog, and Signals Change Everything",
+      "content_hash": "5bfc7c886b8d87708686232daccef1fa06e01af940d74ca94e0db74eeac8a985",
+      "source_url": "https://dev.to/integration-maestro/ucp-april-2026-cart-catalog-and-signals-change-everything-chl",
+      "last_written_at": "2026-04-10T19:17:18+00:00"
+    },
+    "what-if-you-could-reverse-a-template-engine": {
+      "title": "What if you could reverse a template engine?",
+      "content_hash": "1c5b14da31e9c3fe49064a0142d5ac4b449c9b9d7e5b543c8b9fcaac3a76e996",
+      "source_url": "https://dev.to/lucasrainett/what-if-you-could-reverse-a-template-engine-5nk",
+      "last_written_at": "2026-04-10T19:17:43+00:00"
+    },
+    "announcing-fuik-a-webhook-engine-for-rails": {
+      "title": "Announcing Fuik: a webhook engine for Rails",
+      "content_hash": "681dfed5e75868c1f2056ac300101e9c0b6d0b0045944a3be4e29260d64d1bfa",
+      "source_url": "https://dev.to/railsdesigner/announcing-fuik-a-webhook-engine-for-rails-5627",
+      "last_written_at": "2026-04-10T19:18:08+00:00"
+    },
+    "soft-deleting-postgres-rows-without-losing-the-url-slug": {
+      "title": "Soft-deleting Postgres rows without losing the URL slug",
+      "content_hash": "98951cf44d8170be8b4bb6682036226d9b99ef35f884c4aa227c012298fda252",
+      "source_url": "https://dev.to/danielrusnok/soft-deleting-postgres-rows-without-losing-the-url-slug-351k",
+      "last_written_at": "2026-04-10T19:18:32+00:00"
+    },
+    "i-built-an-email-verification-api-from-scratch": {
+      "title": "I built an email verification API from scratch",
+      "content_hash": "0ded73a46a131ba953506446a293d2101c1f5b58a5f1c043226c22748b016e45",
+      "source_url": "https://dev.to/maulik1807/i-built-an-email-verification-api-from-scratch-2aca",
+      "last_written_at": "2026-04-10T19:18:57+00:00"
+    },
+    "the-most-valuable-signal-on-my-network-was-silence": {
+      "title": "The Most Valuable Signal on My Network Was Silence",
+      "content_hash": "5c0010fa21b3ab6191d93bc63aae45de2d37b8bdc3044235d0d1753b26a874eb",
+      "source_url": "https://dev.to/hiddenlayermedia/the-most-valuable-signal-on-my-network-was-silence-1gag",
+      "last_written_at": "2026-04-10T19:19:21+00:00"
+    },
+    "the-ethical-grey-coding-for-results-when-the-best-practices-manual-is-burning": {
+      "title": "The Ethical Grey: Coding for Results When the \u201cBest Practices\u201d Manual Is Burning",
+      "content_hash": "2bde0c8dd7ac26903f0044e9f39be6bb2014a48a63344c0d8ff13aa3a295ae31",
+      "source_url": "https://dev.to/numbpill3d/the-ethical-grey-coding-for-results-when-the-best-practices-manual-is-burning-59ad",
+      "last_written_at": "2026-04-10T19:19:46+00:00"
+    },
+    "why-math-random-will-fail-your-next-security-audit": {
+      "title": "Why Math.random() Will Fail Your Next Security Audit",
+      "content_hash": "e02a2dcdfce7e1bd94eb17f8880ee9de47e4c15953302b92c3716b6928dc61e8",
+      "source_url": "https://dev.to/tim_o_5617baa5171354e/why-mathrandom-will-fail-your-next-security-audit-4h2c",
+      "last_written_at": "2026-04-10T19:20:11+00:00"
+    },
+    "sdk-v0-2-9-output-verification-attestations-preflight-and-budgets": {
+      "title": "SDK v0.2.9: Output Verification, Attestations, Preflight and Budgets",
+      "content_hash": "5756d30df2437c282ec36cf776e50e6160994201ed6a698e3fb4162028be5017",
+      "source_url": "https://dev.to/jagmarques/sdk-v029-output-verification-attestations-preflight-and-budgets-17a9",
+      "last_written_at": "2026-04-10T19:21:00+00:00"
+    },
+    "i-built-a-captcha-replacement-after-ai-hit-91-bypass-rate": {
+      "title": "I built a CAPTCHA replacement after AI hit 91% bypass rate",
+      "content_hash": "c646c81f942f9ade54d49b2f48b8086798dbf536180eb6559ad4754e1fe01ead",
+      "source_url": "https://dev.to/rickardo_hudson_83429b764/i-built-a-captcha-replacement-after-ai-hit-91-bypass-rate-43gg",
+      "last_written_at": "2026-04-10T19:21:25+00:00"
+    },
+    "secure-truenas-plex-setup-for-your-homelab": {
+      "title": "Secure TrueNAS Plex Setup for Your Homelab",
+      "content_hash": "92f7205a1028a92e7a621a34a8bec3e52b9a6d2f2fba63656f3d56311c953e1c",
+      "source_url": "https://dev.to/orthogonalinfo/secure-truenas-plex-setup-for-your-homelab-42i3",
+      "last_written_at": "2026-04-10T19:21:49+00:00"
+    },
+    "i-wrote-a-novel-about-personal-ai-in-2017-in-2026-i-built-it": {
+      "title": "I wrote a novel about personal AI in 2017. In 2026, I built it.",
+      "content_hash": "c2888d473b7aeb1ec42791e97dbbc5a8d9ed5e1c7a8fd9b5d9ad53cb1d9f4858",
+      "source_url": "https://dev.to/hrajmohanr/i-wrote-a-novel-about-personal-ai-in-2017-in-2026-i-built-it-4g18",
+      "last_written_at": "2026-04-10T19:22:14+00:00"
+    },
+    "lost-your-private-key-for-your-ssl-certificate-here-is-how-to-fix-it-in-10-minutes": {
+      "title": "Lost Your Private Key for Your SSL Certificate? Here is How to Fix It in 10 Minutes",
+      "content_hash": "ab82b364c91a13075398a0f14483f03049a8c068d23cf0277fe8b567ab38e419",
+      "source_url": "https://dev.to/muhammadaqib86/lost-your-private-key-for-your-ssl-certificate-here-is-how-to-fix-it-in-10-minutes-onc",
+      "last_written_at": "2026-04-10T19:22:39+00:00"
+    },
+    "how-to-improve-ux-in-legacy-systems": {
+      "title": "How To Improve UX In Legacy Systems",
+      "content_hash": "921af357a3438e5ebb92d4a1bcce6e14a39663c35eb9c3dc0bd371268a601e84",
+      "source_url": "https://smashingmagazine.com/2026/04/legacy-systems/",
+      "last_written_at": "2026-04-10T19:23:03+00:00"
+    },
+    "typescript-tip-cikarma-motoru-yazmak": {
+      "title": "TypeScript Tip \u00c7\u0131karma Motoru Yazmak",
+      "content_hash": "cb2cb32743062fddabd2046775c43641175ff5f1af2d34ecd835db6d2f5edf97",
+      "source_url": "https://dev.to/sendotltd/writing-a-typescript-type-inference-engine-in-300-lines-of-vanilla-js-21cj",
+      "last_written_at": "2026-04-11T02:43:04+00:00"
+    },
+    "wordpress-7-0-the-good-the-ai-and-the-still-missing": {
+      "title": "WordPress 7.0: The Good, the AI, and the Still Missing",
+      "content_hash": "1464945076059cd53ce33a323499dd95b0666ba3d5bb0279ea27ff2b40c7489b",
+      "source_url": "https://dev.to/adamgreenough/wordpress-70-the-good-the-ai-and-the-still-missing-4oa8",
+      "last_written_at": "2026-04-11T02:43:54+00:00"
+    },
+    "how-i-fixed-transparent-video-alpha-in-playwright-using-1970s-film-math": {
+      "title": "How I Fixed Transparent Video Alpha in Playwright Using 1970s Film Math",
+      "content_hash": "a952400a239aecfe20b10fb2024fe1d65813ae6211a1cd2c130b5de3cae66a57",
+      "source_url": "https://dev.to/camb/how-i-fixed-transparent-video-alpha-in-playwright-using-1970s-film-math-2j38",
+      "last_written_at": "2026-04-11T02:44:19+00:00"
+    },
+    "we-built-an-open-source-coding-exam-platform-because-every-vendor-let-us-down": {
+      "title": "We Built an Open-Source Coding Exam Platform Because Every Vendor Let Us Down",
+      "content_hash": "3f2644f3f533f5e5393822e24e69ed9bf8cef897ca040fc0229f6a515c044416",
+      "source_url": "https://dev.to/mickyarun/we-built-an-open-source-coding-exam-platform-because-every-vendor-let-us-down-a7m",
+      "last_written_at": "2026-04-11T02:44:44+00:00"
+    },
+    "react-flexi-window-v2-0-i-added-a-wasm-powered-liquid-glass-engine-to-my-react-window-component": {
+      "title": "React-flexi-window v2.0 \u2014 I added a WASM-powered Liquid Glass engine to my React window component",
+      "content_hash": "f8dd2c277835b5bf3993a0dc6bf333aeeff8199e4a8b2e9a81e220c4d3173722",
+      "source_url": "https://dev.to/nathraktim/react-flexi-window-v20-i-added-a-wasm-powered-liquid-glass-engine-to-my-react-window-component-2n81",
+      "last_written_at": "2026-04-11T02:45:22+00:00"
+    },
+    "how-i-automated-62-of-europe-s-rgaa-accessibility-criteria": {
+      "title": "How I automated 62% of Europe's RGAA accessibility criteria",
+      "content_hash": "8b243e61b12a5b47011bc0396c0faefe24435fc937cb11e82f62d7c1c073e15e",
+      "source_url": "https://dev.to/chabane_lemared_4cf92157/how-i-automated-62-of-europes-rgaa-accessibility-criteria-3pc3",
+      "last_written_at": "2026-04-11T02:45:47+00:00"
+    },
+    "i-built-an-ai-workflow-for-bug-bounty-automation-here-is-what-worked": {
+      "title": "I Built an AI Workflow for Bug Bounty Automation. Here is What Worked.",
+      "content_hash": "18ab85041675eb09ac8763eb79295f83fd27bea7f0df094a5311c2ed65b34766",
+      "source_url": "https://dev.to/chudi_nnorukam/i-built-an-ai-workflow-for-bug-bounty-automation-here-is-what-worked-18ge",
+      "last_written_at": "2026-04-11T02:46:25+00:00"
+    },
+    "cert-gating-every-tool-call-zero-trust-for-ai-agents": {
+      "title": "Cert-gating every tool call: zero-trust for AI agents",
+      "content_hash": "1e825d23e94b031616f7aa215796966c8f95ba622f668e480b4060ec0884e637",
+      "source_url": "https://dev.to/1r0nw1ll/cert-gating-every-tool-call-zero-trust-for-ai-agents-8pg",
+      "last_written_at": "2026-04-11T02:46:50+00:00"
+    },
+    "nomshub-how-to-check-if-your-mac-was-affected-by-the-cursor-sandbox-escape": {
+      "title": "NomShub: How to Check If Your Mac Was Affected by the Cursor Sandbox Escape",
+      "content_hash": "6646c303c86085ea481b710f93a725155093ae0bcfa07a9ebe301f165f0952dd",
+      "source_url": "https://dev.to/armor1ai/nomshub-how-to-check-if-your-mac-was-affected-by-the-cursor-sandbox-escape-2bif",
+      "last_written_at": "2026-04-11T02:47:35+00:00"
+    },
+    "how-to-add-human-approval-to-mcp-tool-calls-no-code-changes": {
+      "title": "How to add human approval to MCP tool calls \u2014 no code changes",
+      "content_hash": "bec11e769608030533afa9232d70bfa7db7270d18456adc63dbd74ea1a659457",
+      "source_url": "https://dev.to/sidclaw/how-to-add-human-approval-to-mcp-tool-calls-no-code-changes-om0",
+      "last_written_at": "2026-04-11T02:48:00+00:00"
+    },
+    "how-to-prove-compliance-in-ai-generated-code": {
+      "title": "How to Prove Compliance in AI-Generated Code",
+      "content_hash": "13fcdceed7ae6e0b965cd49f28f880f9f2321e1d515ace07e8b4ffe7a3618044",
+      "source_url": "https://dev.to/max_gerhardson_9a99976541/how-to-prove-compliance-in-ai-generated-code-3f9j",
+      "last_written_at": "2026-04-11T02:48:25+00:00"
+    },
+    "not-yet-falco-ai-agent-part-1-real-time-kubernetes-security-analysis-with-claude": {
+      "title": "(not yet) Falco AI Agent - Part 1: Real-time Kubernetes Security Analysis with Claude\ud83d\udd0d",
+      "content_hash": "19e9004bac1a39e75d5fa42c1218a03cb22839a88e40df6c4424122d8d582e01",
+      "source_url": "https://dev.to/ivantsanev13/not-yet-falco-ai-agent-part-1-real-time-kubernetes-security-analysis-with-claude-2pom",
+      "last_written_at": "2026-04-11T02:48:52+00:00"
     }
   }
 }

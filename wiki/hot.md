@@ -2,32 +2,42 @@
 
 Bu bolum en son uretilen draft bilgisinin hizli ozetidir.
 
-## Signals in React (VI): Stale Closures, Subscription Traps, and Reactive Graph Pitfalls
-Quick Overview   In the previous article, we discussed:   Why tearing occurs and how to...
+## TypeScript Tip Çıkarma Motoru Yazmak
+→ [[review/typescript-tip-cikarma-motoru-yazmak]]
+
+Bu konsept, saf JavaScript kullanarak basit bir TypeScript tip çıkarma motorunun nasıl yazılacağını açıklar. Kod tabanında tip çıkarımı yapmak için temel algoritmaların uygulanışı ele alınır.
+- Tip çıkarımı, derleme zamanında değişken tiplerini otomatik olarak belirleme işlemidir.
+- Vanilla JS ile 300 satırda çalışır bir prototip geliştirilebilir.
+- AST (Abstract Syntax Tree) üzerinden kod analizi yapılır.
+
+## WordPress 7.0: The Good, the AI, and the Still Missing
+→ [[review/wordpress-7-0-the-good-the-ai-and-the-still-missing]]
+
+WordPress 7.0 was supposed to launch yesterday at WordCamp Asia. It didn't. On March 31st, the core...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
-## Modern React Essentials: From Component Architecture to Advanced Hooks
-In an AI-driven world, we should keep our basics clear at all times. This is the second post in my...
+## How I Fixed Transparent Video Alpha in Playwright Using 1970s Film Math
+→ [[review/how-i-fixed-transparent-video-alpha-in-playwright-using-1970s-film-math]]
+
+How I Fixed Transparent Video Alpha in Playwright Using 1970s Film Math   I've been building...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
-## ARIA Labels Done Wrong: The Most Common Mistakes I See in Production Code
-ARIA Labels Done Wrong: The Most Common Mistakes I See in Production Code    Meta: ARIA is...
+## We Built an Open-Source Coding Exam Platform Because Every Vendor Let Us Down
+→ [[review/we-built-an-open-source-coding-exam-platform-because-every-vendor-let-us-down]]
+
+Every year, our team visits engineering colleges across India to hire freshers. The first round is...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
-## Meta StyleX: Moving CSS-in-JS From Runtime to Build Time
-How Meta StyleX compiles JS-authored styles into atomic static CSS: less runtime injection, smaller bundles, and why that matters for huge apps.
-- Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
-- Bu draft, tekrar ogrenmeme filtresinden gecmistir.
-- Publish oncesi teknik dogruluk kontrolu onerilir.
+## React-flexi-window v2.0 — I added a WASM-powered Liquid Glass engine to my React window component
+→ [[review/react-flexi-window-v2-0-i-added-a-wasm-powered-liquid-glass-engine-to-my-react-window-component]]
 
-## The Constraint Was Never Knowledge
-AI did not just make you faster at coding. It removed the excuse for skipping the work that mattered.
+Hellooooooo DEV Community!  About 9 months ago, I shared my first ever npm package here —...
 - Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.
 - Bu draft, tekrar ogrenmeme filtresinden gecmistir.
 - Publish oncesi teknik dogruluk kontrolu onerilir.
