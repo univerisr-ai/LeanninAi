@@ -1,28 +1,28 @@
 {
   "status": "ok",
-  "started_at": "2026-04-10T19:11:54+00:00",
+  "started_at": "2026-04-11T02:42:40+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 127
+    "wiki_changed": 31
   },
   "stats": {
     "collected": 76,
-    "skipped_unchanged": 49,
+    "skipped_unchanged": 59,
     "skipped_duplicate": 0,
-    "rejected_quality": 1,
-    "drafted": 26,
+    "rejected_quality": 5,
+    "drafted": 12,
     "errors": 0
   },
   "enhancement": {},
   "review_link_repair": {
-    "changed_files": 0,
-    "link_replacements": 0
+    "changed_files": 1,
+    "link_replacements": 2
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
     "broken_links_found": 0,
-    "bidirectional_links_added": 52,
+    "bidirectional_links_added": 24,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [],
@@ -31,71 +31,71 @@
   "error_samples": [],
   "drafts_preview": [
     {
-      "slug": "this-week-in-react-276-boneyard-ink-mui-react-router-next-js-rn-0-85-viewtransition-skia-windows-jsir-security-esbuild-ky-intl",
-      "title": "This Week In React #276: Boneyard, Ink, MUI, React Router, Next.js | RN 0.85, ViewTransition, Skia, Windows | JSIR, Security, esbuild, Ky, Intl",
+      "slug": "typescript-tip-cikarma-motoru-yazmak",
+      "title": "TypeScript Tip \u00c7\u0131karma Motoru Yazmak",
+      "category": "frontend",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "wordpress-7-0-the-good-the-ai-and-the-still-missing",
+      "title": "WordPress 7.0: The Good, the AI, and the Still Missing",
       "category": "frontend",
       "confidence": 75,
       "novelty": 70
     },
     {
-      "slug": "how-i-built-a-tinder-style-group-decision-app-with-react-native-and-firebase",
-      "title": "How I Built a Tinder-Style Group Decision App with React Native and Firebase",
+      "slug": "how-i-fixed-transparent-video-alpha-in-playwright-using-1970s-film-math",
+      "title": "How I Fixed Transparent Video Alpha in Playwright Using 1970s Film Math",
       "category": "frontend",
       "confidence": 75,
       "novelty": 70
     },
     {
-      "slug": "i-built-a-free-hydration-tracker-with-no-signup-here-s-what-i-learned",
-      "title": "I Built a Free Hydration Tracker with No Signup: Here\u2019s What I Learned",
+      "slug": "we-built-an-open-source-coding-exam-platform-because-every-vendor-let-us-down",
+      "title": "We Built an Open-Source Coding Exam Platform Because Every Vendor Let Us Down",
       "category": "frontend",
       "confidence": 75,
       "novelty": 70
     },
     {
-      "slug": "a-practical-javascript-roadmap-for-2026-what-actually-matters",
-      "title": "\ud83e\udded A Practical JavaScript Roadmap for 2026 (What Actually\u00a0Matters)",
+      "slug": "react-flexi-window-v2-0-i-added-a-wasm-powered-liquid-glass-engine-to-my-react-window-component",
+      "title": "React-flexi-window v2.0 \u2014 I added a WASM-powered Liquid Glass engine to my React window component",
       "category": "frontend",
       "confidence": 75,
       "novelty": 70
     },
     {
-      "slug": "front-end-struggles",
-      "title": "Front-End & Struggles",
+      "slug": "how-i-automated-62-of-europe-s-rgaa-accessibility-criteria",
+      "title": "How I automated 62% of Europe's RGAA accessibility criteria",
       "category": "frontend",
       "confidence": 75,
       "novelty": 70
     },
     {
-      "slug": "from-idea-to-paid-saas-in-24-hours-the-claude-code-blueprint-is-live",
-      "title": "From Idea to Paid SaaS in 24 Hours \u2014 The Claude Code Blueprint Is Live",
+      "slug": "i-built-an-ai-workflow-for-bug-bounty-automation-here-is-what-worked",
+      "title": "I Built an AI Workflow for Bug Bounty Automation. Here is What Worked.",
       "category": "frontend",
       "confidence": 75,
       "novelty": 70
     },
     {
-      "slug": "cve-2026-23869-the-precompute-pattern-boneyard-use-cache-migration-rsc-boundary",
-      "title": "CVE-2026-23869, The Precompute Pattern, Boneyard, use cache migration, RSC Boundary",
+      "slug": "cert-gating-every-tool-call-zero-trust-for-ai-agents",
+      "title": "Cert-gating every tool call: zero-trust for AI agents",
       "category": "frontend",
       "confidence": 75,
       "novelty": 70
     },
     {
-      "slug": "i-keep-telling-claude-the-same-things-so-he-started-writing-them-down-himself",
-      "title": "I Keep Telling Claude the Same Things. So He Started Writing Them Down Himself.",
+      "slug": "nomshub-how-to-check-if-your-mac-was-affected-by-the-cursor-sandbox-escape",
+      "title": "NomShub: How to Check If Your Mac Was Affected by the Cursor Sandbox Escape",
       "category": "frontend",
       "confidence": 75,
       "novelty": 70
     },
     {
-      "slug": "the-formula-was-exact-the-assumption-was-wrong-that-s-not-an-ai-problem",
-      "title": "The Formula Was Exact. The Assumption Was Wrong. That's Not an AI Problem.",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "how-i-built-a-web-interface-for-1-4-million-government-documents-with-fastapi-htmx-and-sqlite",
-      "title": "How I Built a Web Interface for 1.4 Million Government Documents with FastAPI, HTMX, and SQLite",
+      "slug": "how-to-add-human-approval-to-mcp-tool-calls-no-code-changes",
+      "title": "How to add human approval to MCP tool calls \u2014 no code changes",
       "category": "frontend",
       "confidence": 75,
       "novelty": 70
@@ -105,6 +105,6 @@
     "generated": false,
     "reason": "not_scheduled_day",
     "run_day_of_week": 6,
-    "today_weekday": 4
+    "today_weekday": 5
   }
 }
