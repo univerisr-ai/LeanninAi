@@ -1,5 +1,10 @@
 # Erişilebilirlik: WCAG ve ARIA
 
+## Meta
+- category: a11y
+- status: published
+
+
 Web'in kapsayıcı olması (engelliler, klavye kullanıcıları vb.) için gözetilen yasal zorunluluğa giren standartlar bütünüdür.
 
 ## 4 Temel WCAG İlkesi (POUR)

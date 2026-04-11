@@ -1,7 +1,7 @@
 # Remotion ve AI API'leri ile Programatik Video Pipeline'ı
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 85
 - novelty: 80

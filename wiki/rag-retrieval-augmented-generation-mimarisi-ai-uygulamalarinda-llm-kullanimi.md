@@ -1,7 +1,7 @@
 # RAG (Retrieval-Augmented Generation) Mimarisi: AI Uygulamalarında LLM Kullanımı
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 92
 - novelty: 78

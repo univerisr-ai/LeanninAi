@@ -1,5 +1,10 @@
 # Bot Tespiti ve Honeypot (Bal Küpü)
 
+## Meta
+- category: security
+- status: published
+
+
 Scraping (veri kazıma) ve Spam form doldurma botlarına karşı savunma mekanizmalarıdır.
 
 ## Honeypot (Görünmez Form)

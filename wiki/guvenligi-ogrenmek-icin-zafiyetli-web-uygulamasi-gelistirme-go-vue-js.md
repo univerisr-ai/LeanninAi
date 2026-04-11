@@ -1,7 +1,7 @@
 # Güvenliği Öğrenmek için Zafiyetli Web Uygulaması Geliştirme (Go + Vue.js)
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 90
 - novelty: 85

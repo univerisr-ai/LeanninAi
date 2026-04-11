@@ -6,9 +6,9 @@
     "base_url": "https://openrouter.ai/api/v1/chat/completions",
     "primary_model": "qwen/qwen3-coder:free",
     "fallback_model": "stepfun/step-3.5-flash:free",
-    "max_tokens": 1200,
+    "max_tokens": 2500,
     "temperature": 0.2,
-    "request_timeout_seconds": 45
+    "request_timeout_seconds": 60
   },
   "quality_gates": {
     "min_confidence": 70,
@@ -24,10 +24,24 @@
       "a11y"
     ]
   },
+  "auto_publish": {
+    "enabled": true,
+    "min_confidence": 85,
+    "min_novelty": 70,
+    "min_word_count": 80,
+    "purge_low_quality": true,
+    "purge_max_confidence": 50
+  },
   "weekly_digest": {
     "enabled": true,
     "lookback_days": 7,
     "run_day_of_week": 6
+  },
+  "brain_enhancement": {
+    "enabled": true,
+    "max_pages_per_run": 5,
+    "min_score_threshold": 30.0,
+    "min_age_days": 7.0
   },
   "sources": {
     "github_repos": {
@@ -51,11 +65,33 @@
         "frontend",
         "react",
         "webdev",
-        "security"
+        "security",
+        "typescript",
+        "nextjs",
+        "a11y"
       ],
       "rss": [
         "https://www.smashingmagazine.com/feed/",
         "https://css-tricks.com/feed/"
+      ]
+    },
+    "hackernews": {
+      "enabled": true,
+      "limit": 10,
+      "lookback_hours": 48,
+      "keywords": [
+        "frontend", "backend", "web", "security", "api",
+        "css", "javascript", "typescript", "node", "react",
+        "xss", "csrf", "vulnerability", "accessibility"
+      ]
+    },
+    "extra_rss": {
+      "enabled": true,
+      "limit": 8,
+      "feeds": [
+        { "url": "https://web.dev/feed.xml", "category": "frontend" },
+        { "url": "https://blog.mozilla.org/en/feed/", "category": "frontend" },
+        { "url": "https://github.blog/feed/", "category": "backend" }
       ]
     }
   },

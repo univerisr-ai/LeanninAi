@@ -1,7 +1,7 @@
 # AI Kaynaklı Tükenmişlik ve Yazılımcı Kaygısı
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 85
 - novelty: 92

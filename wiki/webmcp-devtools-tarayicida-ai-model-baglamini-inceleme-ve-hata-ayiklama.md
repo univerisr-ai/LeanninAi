@@ -1,7 +1,7 @@
 # WebMCP DevTools: Tarayıcıda AI Model Bağlamını İnceleme ve Hata Ayıklama
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 92
 - novelty: 95

@@ -1,7 +1,7 @@
 # boneyard-js: CLI-Driven Skeleton UI Oluşturma
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 88
 - novelty: 82

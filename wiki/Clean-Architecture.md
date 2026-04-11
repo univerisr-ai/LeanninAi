@@ -1,5 +1,10 @@
 # Clean Architecture (Katmanlı Mimari)
 
+## Meta
+- category: backend
+- status: published
+
+
 Yazılımda değişikliklerin birbirini etkilemesini en aza indiren en etkili yapıdır. Temel kural: **Bağımlılıklar daima dışardan içeriye, çekirdeğe (Domain) doğru bakmalıdır.** Çekirdek hiçbir dış aracı (Veritabanı, Framework) bilmez.
 
 ## Katmanlar (İçten Dışa)

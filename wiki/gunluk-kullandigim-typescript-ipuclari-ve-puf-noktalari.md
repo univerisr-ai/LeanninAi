@@ -1,7 +1,7 @@
 # Günlük Kullandığım TypeScript İpuçları ve Püf Noktaları
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 88
 - novelty: 78

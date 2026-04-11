@@ -1,7 +1,7 @@
 # Yerel LLM Entegrasyonu: React Hooks ile Yapay Zeka Uygulamaları
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 92
 - novelty: 82

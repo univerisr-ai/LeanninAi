@@ -1,7 +1,7 @@
 # Unicode Para Birimi Sembolleri ve U+20C3 UAE Dirham: Web'de Özel Karakter Renderı
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 85
 - novelty: 78

@@ -1,7 +1,7 @@
 # JavaScript'te Diziyi Düzleştirme (Array Flatten)
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 90
 - novelty: 75

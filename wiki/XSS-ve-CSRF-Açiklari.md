@@ -1,5 +1,10 @@
 # XSS ve CSRF Açıkları
 
+## Meta
+- category: security
+- status: published
+
+
 Web güvenliğinin en yaygın ve tehlikeli iki cephesidir. Biri tarayıcı tarafındaki güveni kötüye kullanırken diğeri sunucunun kimlik bağlamını yanıltır.
 
 ## XSS (Cross-Site Scripting)

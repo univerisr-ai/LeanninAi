@@ -1,5 +1,10 @@
 # Veritabanı ve Caching Stratejileri
 
+## Meta
+- category: backend
+- status: published
+
+
 Yüksek trafikli sistemlerde veritabanının yorulmamasını sağlamak en kritik mimari konudur. Okuma ve yazma stratejileri ayrı tasarlanır.
 
 ## N+1 Problemi ve Prisma ORM

@@ -1,20 +1,37 @@
 {
   "status": "ok",
-  "started_at": "2026-04-10T09:08:01+00:00",
+  "started_at": "2026-04-11T18:16:45+00:00",
   "dry_run": true,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 1
+    "wiki_changed": 127
   },
   "stats": {
-    "collected": 76,
-    "skipped_unchanged": 76,
-    "skipped_duplicate": 0,
-    "rejected_quality": 0,
+    "collected": 107,
+    "skipped_unchanged": 27,
+    "skipped_duplicate": 7,
+    "rejected_quality": 73,
     "drafted": 0,
     "errors": 0
   },
+  "auto_publish": {
+    "published": 0,
+    "purged": 0
+  },
   "enhancement": {},
+  "review_link_repair": {
+    "changed_files": 0,
+    "link_replacements": 0
+  },
+  "vault_hygiene": {
+    "off_topic_deleted": 0,
+    "broken_links_found": 0,
+    "bidirectional_links_added": 0,
+    "near_duplicates_found": 0,
+    "deleted_files": [],
+    "broken_link_details": [],
+    "duplicate_pairs": []
+  },
   "error_samples": [],
   "drafts_preview": [],
   "weekly_digest": {

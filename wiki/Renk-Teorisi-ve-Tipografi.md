@@ -1,5 +1,10 @@
 # Renk Teorisi ve Tipografi
 
+## Meta
+- category: ui-ux
+- status: published
+
+
 Uygulamalı tasarım sisteminin arkasındaki temel matematik kuralları.
 
 ## HSL (Hue, Saturation, Lightness)

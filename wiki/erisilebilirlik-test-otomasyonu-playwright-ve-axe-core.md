@@ -1,7 +1,7 @@
 # Erişilebilirlik Test Otomasyonu: Playwright ve Axe Core
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 85
 - novelty: 70

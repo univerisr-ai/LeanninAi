@@ -1,5 +1,10 @@
 # State Yönetimi: Zustand ve TanStack Query
 
+## Meta
+- category: frontend
+- status: published
+
+
 Redux'ın karmaşıklığı yerine, modern state yönetiminde state iki farklı sorumluluğa bölünür: Sunucu State'i ve İstemci (UI) State'i.
 
 ## Sunucu (Server) State: TanStack Query

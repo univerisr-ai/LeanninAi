@@ -50,6 +50,155 @@ class WikiWriter:
         self.append_log_entry(draft, source)
         return draft_path
 
+    def auto_publish_reviews(self, publish_config: dict) -> dict:
+        """Yuksek kaliteli review draft'larini ana wiki'ye promote et."""
+        if not publish_config.get("enabled", False):
+            return {"published": 0, "purged": 0}
+
+        min_confidence = int(publish_config.get("min_confidence", 85))
+        min_novelty = int(publish_config.get("min_novelty", 70))
+        min_words = int(publish_config.get("min_word_count", 80))
+        do_purge = bool(publish_config.get("purge_low_quality", False))
+        purge_max_conf = int(publish_config.get("purge_max_confidence", 50))
+
+        published = 0
+        purged = 0
+
+        skip_names = {"index.md", ".gitkeep"}
+        review_files = [
+            p for p in sorted(self.review_root.glob("*.md"))
+            if p.name.lower() not in skip_names
+        ]
+
+        for path in review_files:
+            try:
+                text = read_text(path)
+                meta = self._parse_review_meta(text)
+                confidence = meta.get("confidence", 0)
+                novelty = meta.get("novelty", 0)
+                word_count = len(text.split())
+                is_fallback = "fallback:" in meta.get("model", "")
+
+                # Publish: yuksek kaliteli ve yeterli uzunlukta
+                if (confidence >= min_confidence and
+                        novelty >= min_novelty and
+                        word_count >= min_words and
+                        not is_fallback):
+                    dest = self.wiki_root / path.name
+                    if not dest.exists():
+                        # Status'u guncelle
+                        text = text.replace("- status: draft-review", "- status: published")
+                        write_text(dest, text)
+                        path.unlink(missing_ok=True)
+                        published += 1
+
+                # Purge: cok dusuk kaliteli veya fallback
+                elif do_purge and (confidence <= purge_max_conf or is_fallback):
+                    path.unlink(missing_ok=True)
+                    purged += 1
+
+            except Exception:
+                continue
+
+        if published > 0:
+            self._refresh_wiki_index()
+            self.refresh_review_index()
+            log_line = (
+                f"- **{now_utc_iso()}**: Auto-publish: {published} draft wiki'ye tasinip publish edildi, "
+                f"{purged} dusuk kaliteli draft temizlendi.\n"
+            )
+            existing = read_text(self.log_path) if self.log_path.exists() else "# Islem Gecmisi\n\n"
+            write_text(self.log_path, existing.rstrip() + "\n" + log_line)
+
+        return {"published": published, "purged": purged}
+
+    def _parse_review_meta(self, text: str) -> dict:
+        """Review dosyasindan meta bilgileri cikar."""
+        meta = {}
+        for line in text.splitlines():
+            line = line.strip()
+            if line.startswith("- confidence:"):
+                try:
+                    meta["confidence"] = int(line.split(":", 1)[1].strip())
+                except ValueError:
+                    pass
+            elif line.startswith("- novelty:"):
+                try:
+                    meta["novelty"] = int(line.split(":", 1)[1].strip())
+                except ValueError:
+                    pass
+            elif line.startswith("- model:"):
+                meta["model"] = line.split(":", 1)[1].strip()
+            elif line.startswith("- category:"):
+                meta["category"] = line.split(":", 1)[1].strip()
+            elif line.startswith("# "):
+                if "title" not in meta:
+                    meta["title"] = line[2:].strip()
+        return meta
+
+    def _refresh_wiki_index(self) -> None:
+        """Ana wiki index.md dosyasini mevcut tum wiki sayfalarindan yeniden olustur."""
+        index_path = self.wiki_root / "index.md"
+        skip = {"index.md", "log.md", "hot.md", "system-memory.md"}
+
+        categories: dict = {
+            "frontend": [], "backend": [], "security": [],
+            "ui-ux": [], "a11y": [], "other": [],
+        }
+        cat_labels = {
+            "frontend": "🏗️ Frontend",
+            "backend": "🔧 Backend",
+            "security": "🛡️ Security",
+            "ui-ux": "🎨 UI/UX",
+            "a11y": "♿ Erişilebilirlik",
+            "other": "📦 Diğer",
+        }
+
+        for path in sorted(self.wiki_root.glob("*.md")):
+            if path.name.lower() in skip:
+                continue
+            try:
+                text = read_text(path)
+                cat = "other"
+                for line in text.splitlines():
+                    if line.strip().startswith("- category:"):
+                        cat = line.split(":", 1)[1].strip().lower()
+                        break
+                if cat not in categories:
+                    cat = "other"
+                title = path.stem.replace("-", " ").title()
+                for line in text.splitlines():
+                    if line.startswith("# "):
+                        title = line[2:].strip()
+                        break
+                categories[cat].append((path.stem, title))
+            except Exception:
+                categories["other"].append((path.stem, path.stem))
+
+        lines = [
+            "# 🧠 AiBeyin Wiki — Ana Indeks",
+            "",
+            "Bu sayfa, bilgi tabanindaki tum konseptleri kategorilere gore siralar.",
+            "",
+            f"Son guncelleme: {now_utc_iso()}",
+            "",
+            "* Islem gecmisi: [[log]]",
+            "* Son bilgi ozeti: [[hot]]",
+            "",
+        ]
+
+        for cat_key, label in cat_labels.items():
+            items = categories.get(cat_key, [])
+            if not items:
+                continue
+            lines.append(f"## {label}")
+            lines.append("")
+            for slug, title in items:
+                lines.append(f"- [[{slug}|{title}]]")
+            lines.append("")
+
+        write_text(index_path, "\n".join(lines) + "\n")
+
     def refresh_review_index(self) -> None:
         self.review_root.mkdir(parents=True, exist_ok=True)
         index_path = self.review_root / "index.md"

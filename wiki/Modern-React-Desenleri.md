@@ -1,5 +1,10 @@
 # Modern React Desenleri
 
+## Meta
+- category: frontend
+- status: published
+
+
 UI geliştirmesinde bileşen (component) bağımlılığını azaltmak ve tekrar kullanılabilirliği (reusability) artırmak için kullanılan mimari tekniklerdir.
 
 ## 1. Compound Components (Bileşik Bileşenler)

@@ -4,6 +4,17 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry Run (Sadece test, wiki değişmez)'
+        required: false
+        default: false
+        type: boolean
+      force_run:
+        description: 'Manuel Tetikleme'
+        required: false
+        default: true
+        type: boolean
 
 jobs:
   run-daily-pipeline:
@@ -31,7 +42,11 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          python scripts/run_pipeline.py --config config/pipeline.json
+          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            python scripts/run_pipeline.py --config config/pipeline.json --dry-run
+          else
+            python scripts/run_pipeline.py --config config/pipeline.json
+          fi
 
       - name: Commit generated updates
         run: |

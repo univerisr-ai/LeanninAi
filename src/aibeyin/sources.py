@@ -123,6 +123,7 @@ def _collect_frontend_feeds(cfg: Dict) -> List[SourceItem]:
 
 def _collect_devto(tags: List[str], limit: int) -> List[SourceItem]:
     items: List[SourceItem] = []
+    seen_urls: set = set()
     for tag in tags:
         url = f"https://dev.to/api/articles?tag={urllib.parse.quote(tag)}&per_page={limit}"
         try:
@@ -132,18 +133,35 @@ def _collect_devto(tags: List[str], limit: int) -> List[SourceItem]:
         for article in payload:
             title = article.get("title", "")
             link = article.get("url", "")
+            if not title or not link or link in seen_urls:
+                continue
+            seen_urls.add(link)
+
             desc = article.get("description") or ""
             body = article.get("body_markdown") or ""
+
+            # Dev.to listing API genellikle body_markdown dondurmez
+            # Tek makale endpoint'ini deneyelim
+            if not body and article.get("id"):
+                try:
+                    single = json.loads(_http_get(
+                        f"https://dev.to/api/articles/{article['id']}", timeout_seconds=15
+                    ))
+                    body = single.get("body_markdown") or ""
+                except Exception:
+                    pass
+
             content = f"{desc}\n\n{body}".strip()
-            if not title or not link:
-                continue
+            # Akilli kategori tahmini
+            category = _guess_hn_category(f"{title} {desc}".lower())
+
             items.append(
                 SourceItem(
                     source_name="devto",
                     url=link,
                     title=title,
                     published_at=article.get("published_at") or now_utc_iso(),
-                    category="frontend",
+                    category=category,
                     content=content,
                     content_hash=sha256_text(content),
                 )

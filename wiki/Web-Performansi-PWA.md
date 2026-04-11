@@ -1,5 +1,10 @@
 # Web Performansı ve PWA (Service Worker)
 
+## Meta
+- category: frontend
+- status: published
+
+
 Kullanıcıyı sistemde tutan en geçerli faktör "Süper Hızlı Çalışan Bir Arayüz" izlenimi vermektir.
 
 ## Service Worker (Offline/Proxy Mimarisi)

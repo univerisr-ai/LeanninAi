@@ -1,5 +1,10 @@
 # Rate Limiting ve Token Bucket Algoritması
 
+## Meta
+- category: security
+- status: published
+
+
 API'nizin (Sunucunuzun) kötü niyetli veya kontrolden çıkmış isteklerle boğulmaması (DDoS / Brute Force) için konulan hız sınırlarıdır.
 
 ## Token Bucket (Jeton Kovası) Algoritması

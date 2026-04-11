@@ -175,19 +175,48 @@ class OpenRouterClient:
     def _fallback_draft(self, source: SourceItem, model_name: str) -> ConceptDraft:
         summary = source.content[:300].strip()
         title = source.title.strip() or "Untitled Concept"
+        category = self._guess_category(title, summary)
         return ConceptDraft(
             slug=safe_slug(title),
             title=title,
-            category=source.category,
+            category=category,
             summary=summary,
             key_points=[
-                "Kaynak ozetinden cikarilan temel fikirler manuel gozden gecirilmeli.",
-                "Bu draft, tekrar ogrenmeme filtresinden gecmistir.",
-                "Publish oncesi teknik dogruluk kontrolu onerilir.",
+                "Bu draft LLM ciktisi alinamadigi icin fallback olarak uretilmistir.",
+                "Icerigi manuel gozden gecirin veya yeniden isleyin.",
             ],
             links_to_existing=[],
-            confidence=75,
-            novelty=70,
-            model_used=model_name,
+            confidence=40,
+            novelty=30,
+            model_used=f"fallback:{model_name}",
             source_url=source.url,
         )
+
+    @staticmethod
+    def _guess_category(title: str, content: str) -> str:
+        """Baslik ve icerikten akilli kategori tahmini."""
+        text = f"{title} {content}".lower()
+        security_kw = ["security", "vulnerability", "cve", "hack", "auth", "xss",
+                        "csrf", "jwt", "pentest", "exploit", "zero-trust", "sandbox",
+                        "malicious", "injection", "cryptomin", "bounty", "credential",
+                        "ssl", "tls", "rate limit", "bot detect", "güvenlik", "zafiyet"]
+        a11y_kw = ["accessibility", "a11y", "wcag", "aria", "screen reader",
+                    "keyboard", "erişilebilirlik", "rgaa"]
+        uiux_kw = ["ui", "ux", "design", "animation", "css", "tailwind", "figma",
+                    "color", "typography", "layout", "skeleton", "responsive"]
+        backend_kw = ["backend", "api", "database", "redis", "postgresql", "node",
+                      "express", "fastify", "graphql", "prisma", "docker", "deploy",
+                      "server", "queue", "ci/cd", "kubernetes"]
+        frontend_kw = ["react", "vue", "svelte", "next", "nuxt", "frontend",
+                       "browser", "component", "hook", "typescript", "javascript",
+                       "vite", "webpack", "pwa", "service worker"]
+
+        scores = {
+            "security": sum(1 for kw in security_kw if kw in text),
+            "a11y": sum(1 for kw in a11y_kw if kw in text),
+            "ui-ux": sum(1 for kw in uiux_kw if kw in text),
+            "backend": sum(1 for kw in backend_kw if kw in text),
+            "frontend": sum(1 for kw in frontend_kw if kw in text),
+        }
+        best = max(scores, key=scores.get)
+        return best if scores[best] > 0 else "frontend"

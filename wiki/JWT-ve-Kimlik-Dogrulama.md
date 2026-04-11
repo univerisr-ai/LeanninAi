@@ -1,5 +1,10 @@
 # JWT ve Kimlik Doğrulama
 
+## Meta
+- category: security
+- status: published
+
+
 JSON Web Token (JWT), durumsuz (stateless) kimlik doğrulama için endüstri standardıdır, ancak frontend'de güvenli şekilde saklanması her zaman büyük bir tartışma konusudur.
 
 ## Güvenli JWT Mimarisi (İkili Sistem)

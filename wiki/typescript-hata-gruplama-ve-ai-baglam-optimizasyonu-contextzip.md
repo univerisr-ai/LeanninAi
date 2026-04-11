@@ -1,7 +1,7 @@
 # TypeScript Hata Gruplama ve AI Bağlam Optimizasyonu (ContextZip)
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 85
 - novelty: 72

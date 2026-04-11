@@ -1,5 +1,10 @@
 # Klavye Navigasyon ve Focus (A11y)
 
+## Meta
+- category: a11y
+- status: published
+
+
 Bir web uygulamasının faresi olmayan veya görme engelli birisi tarafından sadece klavye (`Tab`, `Space`, `Enter`, `Yön Tusları`) kullanılarak %100 yönetilebilmesidir.
 
 ## Outline Yönetimi: `focus-visible`

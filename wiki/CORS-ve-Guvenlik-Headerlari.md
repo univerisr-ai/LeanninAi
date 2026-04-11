@@ -1,5 +1,10 @@
 # CORS ve Güvenlik Headerları
 
+## Meta
+- category: security
+- status: published
+
+
 Tarayıcının domain (Alan Adı) güvenliği prensiplerini yöneten Sunucu (Server) yanıt başlıklarıdır.
 
 ## CORS (Cross-Origin Resource Sharing)

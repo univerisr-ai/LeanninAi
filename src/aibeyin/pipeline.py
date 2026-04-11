@@ -138,6 +138,13 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
     # ── Otomatik vault bakımı ──
     hygiene_result = run_hygiene(project_root, dry_run=dry_run)
 
+    # ── Otomatik publish: yüksek kaliteli review'ları wiki'ye taşı ──
+    publish_config = config.data.get("auto_publish", {})
+    if not dry_run:
+        publish_result = writer.auto_publish_reviews(publish_config)
+    else:
+        publish_result = {"published": 0, "purged": 0}
+
     inventory.save()
 
     enhancement_result: Dict = {}
@@ -160,6 +167,7 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
             "wiki_changed": snapshot_delta.wiki_changed,
         },
         "stats": stats.as_dict(),
+        "auto_publish": publish_result,
         "enhancement": enhancement_result,
         "review_link_repair": repair_summary,
         "vault_hygiene": hygiene_result.as_dict(),

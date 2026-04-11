@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b0e69c2e400a2c8e",
+        "id": "6de1a343e77ca885",
         "type": "tabs",
         "children": [
           {
-            "id": "30fb7f8c5f9c6377",
+            "id": "92cf6838b9968836",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -176,8 +176,9 @@
       "bases:Yeni taban oluştur": false
     }
   },
-  "active": "30fb7f8c5f9c6377",
+  "active": "92cf6838b9968836",
   "lastOpenFiles": [
+    "wiki/State-Yonetimi-Zustand-TanStack.md",
     "storage/run_history.jsonl",
     "src/aibeyin/__pycache__/brain_enhancer.cpython-314.pyc",
     "src/aibeyin/brain_enhancer.py",
@@ -189,7 +190,6 @@
     "storage/last_run_report.json",
     "src/aibeyin/__pycache__/wiki_writer.cpython-314.pyc",
     "src/aibeyin/__pycache__/storage_guard.cpython-314.pyc",
-    "src/aibeyin/__pycache__/sources.cpython-314.pyc",
     "wiki/Klavye-Navigasyon-Focus.md",
     "README.md"
   ]

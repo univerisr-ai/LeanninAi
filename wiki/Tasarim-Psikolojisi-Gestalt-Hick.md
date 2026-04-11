@@ -1,5 +1,10 @@
 # Tasarım Psikolojisi: Gestalt ve Hick
 
+## Meta
+- category: ui-ux
+- status: published
+
+
 Arayüz (UI) tasarımı dekorasyon değil, insan beyninin bilgiyi algılama sisteminin manipülasyonudur.
 
 ## Gestalt Algı Yasaları
