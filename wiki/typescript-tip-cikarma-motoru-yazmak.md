@@ -1,7 +1,7 @@
 # TypeScript Tip Çıkarma Motoru Yazmak
 
 ## Meta
-- status: draft-review
+- status: published
 - category: frontend
 - confidence: 90
 - novelty: 75
