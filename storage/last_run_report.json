@@ -1,21 +1,21 @@
 {
   "status": "ok",
-  "started_at": "2026-04-12T03:20:47+00:00",
+  "started_at": "2026-04-12T18:50:07+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 82
+    "wiki_changed": 9
   },
   "stats": {
     "collected": 105,
-    "skipped_unchanged": 73,
-    "skipped_duplicate": 0,
-    "rejected_quality": 32,
+    "skipped_unchanged": 54,
+    "skipped_duplicate": 1,
+    "rejected_quality": 50,
     "drafted": 0,
     "errors": 0
   },
   "auto_publish": {
-    "published": 1,
+    "published": 0,
     "purged": 0
   },
   "enhancement": {
@@ -31,8 +31,8 @@
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
-    "broken_links_found": 24,
-    "bidirectional_links_added": 76,
+    "broken_links_found": 27,
+    "bidirectional_links_added": 0,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
@@ -44,6 +44,7 @@
       "Modern-React-Desenleri.md -> [[review/boneyard-js-cli-driven-skeleton-ui-olusturma]]",
       "Modern-React-Desenleri.md -> [[review/gunluk-kullandigim-typescript-ipuclari-ve-puf-noktalari]]",
       "Modern-React-Desenleri.md -> [[review/unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi]]",
+      "Modern-React-Desenleri.md -> [[review/typescript-tip-cikarma-motoru-yazmak]]",
       "Rate-Limiting-Token-Bucket.md -> [[review/ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]",
       "Rate-Limiting-Token-Bucket.md -> [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]",
       "Renk-Teorisi-ve-Tipografi.md -> [[review/unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi]]",
@@ -54,8 +55,7 @@
       "Web-Performansi-PWA.md -> [[review/boneyard-js-cli-driven-skeleton-ui-olusturma]]",
       "Web-Performansi-PWA.md -> [[review/unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi]]",
       "Web-Performansi-PWA.md -> [[review/webmcp-devtools-tarayicida-ai-model-baglamini-inceleme-ve-hata-ayiklama]]",
-      "XSS-ve-CSRF-A\u00e7iklari.md -> [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]",
-      "ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme.md -> [[review/yerel-llm-entegrasyonu-react-hooks-ile-yapay-zeka-uygulamalari]]"
+      "Web-Performansi-PWA.md -> [[review/typescript-tip-cikarma-motoru-yazmak]]"
     ],
     "duplicate_pairs": []
   },
@@ -64,7 +64,7 @@
   "weekly_digest": {
     "generated": true,
     "path": "wiki/reports/weekly-2026-w15.md",
-    "included_runs": 10,
+    "included_runs": 11,
     "lookback_days": 7
   }
 }
