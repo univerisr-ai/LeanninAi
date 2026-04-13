@@ -1,38 +1,32 @@
 {
   "status": "ok",
-  "started_at": "2026-04-12T18:50:07+00:00",
+  "started_at": "2026-04-13T03:27:18+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 9
+    "wiki_changed": 1
   },
   "stats": {
-    "collected": 105,
-    "skipped_unchanged": 54,
-    "skipped_duplicate": 1,
-    "rejected_quality": 50,
-    "drafted": 0,
+    "collected": 102,
+    "skipped_unchanged": 77,
+    "skipped_duplicate": 0,
+    "rejected_quality": 23,
+    "drafted": 2,
     "errors": 0
   },
   "auto_publish": {
-    "published": 0,
+    "published": 2,
     "purged": 0
   },
-  "enhancement": {
-    "candidates_found": 0,
-    "enhanced": 0,
-    "skipped_dry_run": 0,
-    "errors": 0,
-    "enhanced_slugs": []
-  },
+  "enhancement": {},
   "review_link_repair": {
-    "changed_files": 0,
-    "link_replacements": 0
+    "changed_files": 1,
+    "link_replacements": 2
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
     "broken_links_found": 27,
-    "bidirectional_links_added": 0,
+    "bidirectional_links_added": 5,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
@@ -60,11 +54,26 @@
     "duplicate_pairs": []
   },
   "error_samples": [],
-  "drafts_preview": [],
+  "drafts_preview": [
+    {
+      "slug": "tailwind-css-v4-yenilikleri-ve-gecis-rehberi",
+      "title": "Tailwind CSS v4 Yenilikleri ve Ge\u00e7i\u015f Rehberi",
+      "category": "ui-ux",
+      "confidence": 95,
+      "novelty": 75
+    },
+    {
+      "slug": "reaktif-durum-yonetiminde-cebirsel-veri-turleri",
+      "title": "Reaktif Durum Y\u00f6netiminde Cebirsel Veri T\u00fcrleri",
+      "category": "frontend",
+      "confidence": 95,
+      "novelty": 72
+    }
+  ],
   "weekly_digest": {
-    "generated": true,
-    "path": "wiki/reports/weekly-2026-w15.md",
-    "included_runs": 11,
-    "lookback_days": 7
+    "generated": false,
+    "reason": "not_scheduled_day",
+    "run_day_of_week": 6,
+    "today_weekday": 0
   }
 }

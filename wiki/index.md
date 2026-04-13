@@ -2,7 +2,7 @@
 
 Bu sayfa, bilgi tabanindaki tum konseptleri kategorilere gore siralar.
 
-Son guncelleme: 2026-04-12T03:34:18+00:00
+Son guncelleme: 2026-04-13T03:36:51+00:00
 
 * Islem gecmisi: [[log]]
 * Son bilgi ozeti: [[hot]]
@@ -20,6 +20,7 @@ Son guncelleme: 2026-04-12T03:34:18+00:00
 - [[guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js|Güvenliği Öğrenmek için Zafiyetli Web Uygulaması Geliştirme (Go + Vue.js)]]
 - [[javascript-te-diziyi-duzlestirme-array-flatten|JavaScript'te Diziyi Düzleştirme (Array Flatten)]]
 - [[rag-retrieval-augmented-generation-mimarisi-ai-uygulamalarinda-llm-kullanimi|RAG (Retrieval-Augmented Generation) Mimarisi: AI Uygulamalarında LLM Kullanımı]]
+- [[reaktif-durum-yonetiminde-cebirsel-veri-turleri|Reaktif Durum Yönetiminde Cebirsel Veri Türleri]]
 - [[remotion-ve-ai-api-leri-ile-programatik-video-pipeline-i|Remotion ve AI API'leri ile Programatik Video Pipeline'ı]]
 - [[typescript-hata-gruplama-ve-ai-baglam-optimizasyonu-contextzip|TypeScript Hata Gruplama ve AI Bağlam Optimizasyonu (ContextZip)]]
 - [[typescript-tip-cikarma-motoru-yazmak|TypeScript Tip Çıkarma Motoru Yazmak]]
@@ -44,6 +45,7 @@ Son guncelleme: 2026-04-12T03:34:18+00:00
 
 - [[Renk-Teorisi-ve-Tipografi|Renk Teorisi ve Tipografi]]
 - [[Tasarim-Psikolojisi-Gestalt-Hick|Tasarım Psikolojisi: Gestalt ve Hick]]
+- [[tailwind-css-v4-yenilikleri-ve-gecis-rehberi|Tailwind CSS v4 Yenilikleri ve Geçiş Rehberi]]
 
 ## ♿ Erişilebilirlik
 

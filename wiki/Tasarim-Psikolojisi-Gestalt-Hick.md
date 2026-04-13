@@ -24,3 +24,4 @@ Kullanıcılar tekil elemanları değil, deseni (pattern) algılarlar:
 
 ## 📚 İlgili Draftlar
 - [[review/gelistirici-deneyimi-ve-arac-secimi-psikolojisi]]
+- [[review/tailwind-css-v4-yenilikleri-ve-gecis-rehberi]]

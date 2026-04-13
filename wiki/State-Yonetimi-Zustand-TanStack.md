@@ -27,3 +27,4 @@ Sadece tarayıcıda yaşayan (sekme kapanınca ölecek olan) geçici arayüz ver
 - [[review/api-response-yapilari-flat-vs-nested-duzlestirilmis-vs-ic-ice]]
 - [[review/react-projelerinde-biraktigim-aliskanliklar-ve-kod-kalitem-neden-daha-iyi-oldu]]
 - [[review/webmcp-devtools-tarayicida-ai-model-baglamini-inceleme-ve-hata-ayiklama]]
+- [[review/reaktif-durum-yonetiminde-cebirsel-veri-turleri]]

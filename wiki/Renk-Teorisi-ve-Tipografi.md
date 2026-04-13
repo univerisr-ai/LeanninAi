@@ -25,3 +25,4 @@ Bu sistem okunabilir ritim yaratır. Değerler CSS `clamp()` ile responsive (ekr
 
 ## 📚 İlgili Draftlar
 - [[review/unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi]]
+- [[review/tailwind-css-v4-yenilikleri-ve-gecis-rehberi]]

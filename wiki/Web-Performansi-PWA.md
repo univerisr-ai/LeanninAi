@@ -66,3 +66,4 @@ Service Worker, web sayfanızdan tamamen bağımsız, arka planda çalışan (ta
 - [[review/what-if-you-could-reverse-a-template-engine]]
 - [[review/why-math-random-will-fail-your-next-security-audit]]
 - [[review/wordpress-7-0-the-good-the-ai-and-the-still-missing]]
+- [[review/reaktif-durum-yonetiminde-cebirsel-veri-turleri]]

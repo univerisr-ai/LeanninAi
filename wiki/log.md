@@ -129,3 +129,6 @@ Bu dosya, LLM Wiki ajanı (Antigravity/Claude Code) tarafından yapılan kaynak 
 - **2026-04-10T03:22:15+00:00**: Draft olusturuldu -> review/selecting-a-date-range-in-css.md | model=stepfun/step-3.5-flash:free | confidence=75 | novelty=70 | source=https://css-tricks.com/selecting-a-date-range-in-css/
 - **2026-04-11T18:22:12+00:00**: Auto-publish: 13 draft wiki'ye tasinip publish edildi, 0 dusuk kaliteli draft temizlendi.
 - **2026-04-12T03:34:18+00:00**: Auto-publish: 1 draft wiki'ye tasinip publish edildi, 0 dusuk kaliteli draft temizlendi.
+- **2026-04-13T03:29:24+00:00**: Draft olusturuldu -> review/tailwind-css-v4-yenilikleri-ve-gecis-rehberi.md | model=qwen/qwen3-coder:free | confidence=95 | novelty=75 | source=https://dev.to/whoffagents/tailwind-css-v4-what-actually-changed-and-how-to-migrate-without-breaking-everything-4f6h
+- **2026-04-13T03:34:46+00:00**: Draft olusturuldu -> review/reaktif-durum-yonetiminde-cebirsel-veri-turleri.md | model=qwen/qwen3-coder:free | confidence=95 | novelty=72 | source=https://dev.to/jasuperior/signals-effects-and-the-algebra-between-them-p71
+- **2026-04-13T03:36:51+00:00**: Auto-publish: 2 draft wiki'ye tasinip publish edildi, 0 dusuk kaliteli draft temizlendi.
