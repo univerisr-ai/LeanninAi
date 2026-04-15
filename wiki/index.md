@@ -2,7 +2,7 @@
 
 Bu sayfa, bilgi tabanindaki tum konseptleri kategorilere gore siralar.
 
-Son guncelleme: 2026-04-13T03:36:51+00:00
+Son guncelleme: 2026-04-15T03:09:20+00:00
 
 * Islem gecmisi: [[log]]
 * Son bilgi ozeti: [[hot]]
@@ -46,6 +46,7 @@ Son guncelleme: 2026-04-13T03:36:51+00:00
 - [[Renk-Teorisi-ve-Tipografi|Renk Teorisi ve Tipografi]]
 - [[Tasarim-Psikolojisi-Gestalt-Hick|Tasarım Psikolojisi: Gestalt ve Hick]]
 - [[tailwind-css-v4-yenilikleri-ve-gecis-rehberi|Tailwind CSS v4 Yenilikleri ve Geçiş Rehberi]]
+- [[tasarim-becerisi-olmadan-minimalist-ui-olusturmak-flickle-ornegi|Tasarım Becerisi Olmadan Minimalist UI Oluşturmak: Flickle Örneği]]
 
 ## ♿ Erişilebilirlik
 

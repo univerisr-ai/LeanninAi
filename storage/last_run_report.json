@@ -1,32 +1,32 @@
 {
   "status": "ok",
-  "started_at": "2026-04-14T03:17:40+00:00",
+  "started_at": "2026-04-15T02:56:33+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 10
+    "wiki_changed": 0
   },
   "stats": {
-    "collected": 104,
-    "skipped_unchanged": 42,
-    "skipped_duplicate": 1,
-    "rejected_quality": 61,
-    "drafted": 0,
+    "collected": 84,
+    "skipped_unchanged": 54,
+    "skipped_duplicate": 2,
+    "rejected_quality": 27,
+    "drafted": 1,
     "errors": 0
   },
   "auto_publish": {
-    "published": 0,
+    "published": 1,
     "purged": 0
   },
   "enhancement": {},
   "review_link_repair": {
-    "changed_files": 0,
-    "link_replacements": 0
+    "changed_files": 1,
+    "link_replacements": 3
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
-    "broken_links_found": 34,
-    "bidirectional_links_added": 0,
+    "broken_links_found": 32,
+    "bidirectional_links_added": 3,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
@@ -54,11 +54,19 @@
     "duplicate_pairs": []
   },
   "error_samples": [],
-  "drafts_preview": [],
+  "drafts_preview": [
+    {
+      "slug": "tasarim-becerisi-olmadan-minimalist-ui-olusturmak-flickle-ornegi",
+      "title": "Tasar\u0131m Becerisi Olmadan Minimalist UI Olu\u015fturmak: Flickle \u00d6rne\u011fi",
+      "category": "ui-ux",
+      "confidence": 95,
+      "novelty": 72
+    }
+  ],
   "weekly_digest": {
     "generated": false,
     "reason": "not_scheduled_day",
     "run_day_of_week": 6,
-    "today_weekday": 1
+    "today_weekday": 2
   }
 }

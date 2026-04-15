@@ -132,3 +132,5 @@ Bu dosya, LLM Wiki ajanı (Antigravity/Claude Code) tarafından yapılan kaynak 
 - **2026-04-13T03:29:24+00:00**: Draft olusturuldu -> review/tailwind-css-v4-yenilikleri-ve-gecis-rehberi.md | model=qwen/qwen3-coder:free | confidence=95 | novelty=75 | source=https://dev.to/whoffagents/tailwind-css-v4-what-actually-changed-and-how-to-migrate-without-breaking-everything-4f6h
 - **2026-04-13T03:34:46+00:00**: Draft olusturuldu -> review/reaktif-durum-yonetiminde-cebirsel-veri-turleri.md | model=qwen/qwen3-coder:free | confidence=95 | novelty=72 | source=https://dev.to/jasuperior/signals-effects-and-the-algebra-between-them-p71
 - **2026-04-13T03:36:51+00:00**: Auto-publish: 2 draft wiki'ye tasinip publish edildi, 0 dusuk kaliteli draft temizlendi.
+- **2026-04-15T03:05:20+00:00**: Draft olusturuldu -> review/tasarim-becerisi-olmadan-minimalist-ui-olusturmak-flickle-ornegi.md | model=qwen/qwen3-coder:free | confidence=95 | novelty=72 | source=https://dev.to/rgb1903/building-a-movie-puzzle-game-when-you-have-zero-design-skills-d56
+- **2026-04-15T03:09:20+00:00**: Auto-publish: 1 draft wiki'ye tasinip publish edildi, 0 dusuk kaliteli draft temizlendi.
