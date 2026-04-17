@@ -19,3 +19,7 @@ Puppeteer, Playwright gibi otomasyon botları genellikle tespit edilebilir imzal
 
 **İlgili Bağlantılar:**
 - [[Rate-Limiting-Token-Bucket]]
+
+## 📚 İlgili Draftlar
+- [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]
+- [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]

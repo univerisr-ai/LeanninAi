@@ -26,3 +26,6 @@ Kullanıcılar tekil elemanları değil, deseni (pattern) algılarlar:
 - [[review/gelistirici-deneyimi-ve-arac-secimi-psikolojisi]]
 - [[review/tailwind-css-v4-yenilikleri-ve-gecis-rehberi]]
 - [[review/tasarim-becerisi-olmadan-minimalist-ui-olusturmak-flickle-ornegi]]
+- [[review/ai-ile-oyun-ve-uygulama-icin-telifsiz-muzik-uretimi]]
+- [[review/angular-icin-gercekci-ui-bileseni-destegi]]
+- [[review/tek-json-dan-coklu-cikti-uretimi-design-token-pipeline]]

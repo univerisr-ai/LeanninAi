@@ -68,3 +68,5 @@ Service Worker, web sayfanızdan tamamen bağımsız, arka planda çalışan (ta
 - [[review/wordpress-7-0-the-good-the-ai-and-the-still-missing]]
 - [[review/reaktif-durum-yonetiminde-cebirsel-veri-turleri]]
 - [[review/tasarim-becerisi-olmadan-minimalist-ui-olusturmak-flickle-ornegi]]
+- [[review/react-formlarinda-performans-optimizasyonu-schepta-ornegi]]
+- [[review/statik-erisilebilirlik-tarayicilarinin-kacirdigi-6-yaygin-kontrol]]

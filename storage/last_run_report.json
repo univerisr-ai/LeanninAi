@@ -1,32 +1,32 @@
 {
   "status": "ok",
-  "started_at": "2026-04-16T03:23:46+00:00",
+  "started_at": "2026-04-17T03:18:44+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 7
+    "wiki_changed": 0
   },
   "stats": {
-    "collected": 96,
-    "skipped_unchanged": 36,
+    "collected": 105,
+    "skipped_unchanged": 45,
     "skipped_duplicate": 0,
-    "rejected_quality": 60,
-    "drafted": 0,
+    "rejected_quality": 50,
+    "drafted": 10,
     "errors": 0
   },
   "auto_publish": {
-    "published": 0,
+    "published": 10,
     "purged": 0
   },
   "enhancement": {},
   "review_link_repair": {
-    "changed_files": 0,
-    "link_replacements": 0
+    "changed_files": 8,
+    "link_replacements": 16
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
-    "broken_links_found": 36,
-    "bidirectional_links_added": 0,
+    "broken_links_found": 44,
+    "bidirectional_links_added": 28,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
@@ -54,11 +54,82 @@
     "duplicate_pairs": []
   },
   "error_samples": [],
-  "drafts_preview": [],
+  "drafts_preview": [
+    {
+      "slug": "angular-icin-gercekci-ui-bileseni-destegi",
+      "title": "Angular \u0130\u00e7in Ger\u00e7ek\u00e7i UI Bile\u015feni Deste\u011fi",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "react-formlarinda-performans-optimizasyonu-schepta-ornegi",
+      "title": "React Formlar\u0131nda Performans Optimizasyonu: Schepta \u00d6rne\u011fi",
+      "category": "frontend",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "ai-ile-oyun-ve-uygulama-icin-telifsiz-muzik-uretimi",
+      "title": "AI ile Oyun ve Uygulama \u0130\u00e7in Telifsiz M\u00fczik \u00dcretimi",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi",
+      "title": "MCP Sunucular\u0131: Geli\u015ftiriciler \u0130\u00e7in Yeni Bir Backend Paradigmas\u0131",
+      "category": "backend",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik",
+      "title": "Mimari Dok\u00fcmantasyonu: AI Destekli Kalite Kontrol\u00fcnde \u00d6nemli Bir Varl\u0131k",
+      "category": "backend",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi",
+      "title": "AI Tehdit Modelleme: STRIDE-AI ve MITRE-ATLAS ile G\u00fcvenlik Analizi",
+      "category": "security",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu",
+      "title": "Compliance M\u00fchendisli\u011fi: A\u00e7\u0131k Kaynakl\u0131 Bilgi G\u00fcvenli\u011fi ve AI Y\u00f6netimi Platformu",
+      "category": "security",
+      "confidence": 95,
+      "novelty": 72
+    },
+    {
+      "slug": "tek-json-dan-coklu-cikti-uretimi-design-token-pipeline",
+      "title": "Tek JSON'dan \u00c7oklu \u00c7\u0131kt\u0131 \u00dcretimi: Design Token Pipeline",
+      "category": "ui-ux",
+      "confidence": 95,
+      "novelty": 72
+    },
+    {
+      "slug": "spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim",
+      "title": "Spec-Driven AI Development: Ger\u00e7ek D\u00fcnya \u00d6rne\u011fi ile Uygulamal\u0131 Yakla\u015f\u0131m",
+      "category": "backend",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "statik-erisilebilirlik-tarayicilarinin-kacirdigi-6-yaygin-kontrol",
+      "title": "Statik Eri\u015filebilirlik Taray\u0131c\u0131lar\u0131n\u0131n Ka\u00e7\u0131rd\u0131\u011f\u0131 6 Yayg\u0131n Kontrol",
+      "category": "frontend",
+      "confidence": 95,
+      "novelty": 70
+    }
+  ],
   "weekly_digest": {
     "generated": false,
     "reason": "not_scheduled_day",
     "run_day_of_week": 6,
-    "today_weekday": 3
+    "today_weekday": 4
   }
 }

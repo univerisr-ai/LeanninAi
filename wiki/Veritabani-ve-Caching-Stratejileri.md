@@ -24,3 +24,6 @@ E-posta gönderme, video işleme, PDF oluşturma gibi HTTP isteğini kilitleyece
 
 ## 📚 İlgili Draftlar
 - [[review/api-response-yapilari-flat-vs-nested-duzlestirilmis-vs-ic-ice]]
+- [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]
+- [[review/mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik]]
+- [[review/spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim]]

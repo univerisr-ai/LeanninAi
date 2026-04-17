@@ -65,3 +65,5 @@ Frontend'in sunucu cevabını beklemeden, veritabanına yazılmış *varsayarak*
 - [[review/why-math-random-will-fail-your-next-security-audit]]
 - [[review/wordpress-7-0-the-good-the-ai-and-the-still-missing]]
 - [[review/reaktif-durum-yonetiminde-cebirsel-veri-turleri]]
+- [[review/react-formlarinda-performans-optimizasyonu-schepta-ornegi]]
+- [[review/statik-erisilebilirlik-tarayicilarinin-kacirdigi-6-yaygin-kontrol]]

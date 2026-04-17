@@ -22,3 +22,6 @@ Yazılımda değişikliklerin birbirini etkilemesini en aza indiren en etkili ya
 
 ## 📚 İlgili Draftlar
 - [[review/api-response-yapilari-flat-vs-nested-duzlestirilmis-vs-ic-ice]]
+- [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]
+- [[review/mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik]]
+- [[review/spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim]]

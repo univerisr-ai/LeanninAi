@@ -27,3 +27,5 @@ Express uygulamalarında Helmet.js ile otomatik eklenen veya elle yazılması zo
 - [[review/ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]
 - [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]
 - [[review/tarayicida-calisan-stateless-api-yuk-testi]]
+- [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]
+- [[review/compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu]]
