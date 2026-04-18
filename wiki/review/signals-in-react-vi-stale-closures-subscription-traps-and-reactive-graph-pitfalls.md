@@ -19,7 +19,7 @@ Quick Overview   In the previous article, we discussed:   Why tearing occurs and
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

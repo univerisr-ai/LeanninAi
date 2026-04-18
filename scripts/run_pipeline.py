@@ -36,10 +36,12 @@ def main() -> int:
     bootstrap_path()
 
     from aibeyin.pipeline import run_pipeline  # Imported after path bootstrap
+    from aibeyin.utils import load_env_file
 
     args = parse_args()
     project_root = Path(__file__).resolve().parents[1]
     config_path = project_root / args.config
+    load_env_file(project_root / ".env")
 
     result = run_pipeline(project_root=project_root, config_path=config_path, dry_run=args.dry_run)
     print(json.dumps(result, ensure_ascii=True, indent=2))

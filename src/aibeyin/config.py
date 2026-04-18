@@ -18,8 +18,16 @@ class PipelineConfig:
         return self.data.get("quality_gates", {})
 
     @property
+    def llm(self) -> Dict[str, Any]:
+        return self.data.get("llm") or self.data.get("openrouter") or {}
+
+    @property
     def openrouter(self) -> Dict[str, Any]:
-        return self.data.get("openrouter", {})
+        return self.llm
+
+    @property
+    def model_profiles(self) -> Dict[str, Any]:
+        return self.data.get("model_profiles", {})
 
     @property
     def sources(self) -> Dict[str, Any]:

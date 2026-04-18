@@ -23,7 +23,7 @@ Bu kavram, React projelerinde bırakılması gereken yaygın anti-pattern'leri v
 - Çoklu kiracı sistemlerde bileşen tekrar kullanımı ve modülerlik
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Erisilebilirlik-WCAG-ve-ARIA]]
 - [[State-Yonetimi-Zustand-TanStack]]

@@ -26,7 +26,7 @@ RAG, büyük dil modellerinin (LLM) bilgi tabanı sınırlamalarını aşmak iç
 - RAG vs fine-tuning: hangi durumda hangi yaklaşımın tercih edileceği kararı
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - Yerel LLM Entegrasyonu: React Hooks ile Yapay Zeka Uygulamaları
 - Veritabanı ve Caching Stratejileri
 - API Response Yapıları: Flat vs Nested (Düzleştirilmiş vs İç İçe)

@@ -19,7 +19,7 @@ Building a SaaS that maps axe-core to RGAA 4.1 — pattern detection, multi-page
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

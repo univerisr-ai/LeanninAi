@@ -19,7 +19,7 @@ MCP servers do what agents tell them. There's no policy check between "the agent
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

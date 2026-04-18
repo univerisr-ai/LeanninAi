@@ -19,7 +19,7 @@ Hello, I am Benjy, a newbie in front end. Below will be my take on mircro front 
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

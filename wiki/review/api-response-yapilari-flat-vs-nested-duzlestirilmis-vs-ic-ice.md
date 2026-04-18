@@ -25,7 +25,7 @@ API tasarımında flat (düzleştirilmiş) ve nested (iç içe) response yapıla
 - Caching stratejileri flat yapılarda daha etkili çalışır çünkü her kaynak bağımsız önbelleklenir
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[State-Yonetimi-Zustand-TanStack]]
 - [[Clean-Architecture]]
 - [[Modern-React-Desenleri]]

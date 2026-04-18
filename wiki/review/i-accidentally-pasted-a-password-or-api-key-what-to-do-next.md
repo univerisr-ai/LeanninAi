@@ -19,7 +19,7 @@ Take a breath. Here is the calm, step-by-step recovery playbook for the moment a
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

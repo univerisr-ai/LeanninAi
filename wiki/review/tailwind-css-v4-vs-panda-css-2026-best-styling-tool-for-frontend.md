@@ -19,7 +19,7 @@ Tailwind CSS v4 dropped in early 2025 with a completely rewritten engine. Panda 
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

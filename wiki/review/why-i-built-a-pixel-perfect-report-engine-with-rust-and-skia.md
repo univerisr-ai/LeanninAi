@@ -19,7 +19,7 @@ Introduction   For many years, I have been working on business systems where rep
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

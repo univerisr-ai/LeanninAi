@@ -27,4 +27,4 @@ Asla `*:focus { outline: none; }` yazıp odak göstergesini tamamen silmeyin! En
 
 ## 📚 İlgili Draftlar
 - [[review/react-projelerinde-biraktigim-aliskanliklar-ve-kod-kalitem-neden-daha-iyi-oldu]]
-- [[review/unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi]]
+- [[unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi]]

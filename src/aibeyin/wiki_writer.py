@@ -1,9 +1,9 @@
 from pathlib import Path
 import re
-from typing import List
+from typing import Dict, List, Tuple
 
 from .models import ConceptDraft, SourceItem
-from .utils import now_utc_iso, read_text, write_text
+from .utils import now_utc_iso, read_text, safe_slug, write_text
 
 
 class WikiWriter:
@@ -294,6 +294,37 @@ class WikiWriter:
             "link_replacements": total_replacements,
         }
 
+    def repair_all_wikilinks(self) -> dict:
+        changed_files = 0
+        total_replacements = 0
+        existing_targets, title_lookup = self._build_wikilink_lookup()
+        pattern = re.compile(r"\[\[([^\]|#]+)(#[^\]|]+)?(\|[^\]]+)?\]\]")
+
+        for path in sorted(self.wiki_root.rglob("*.md")):
+            content = read_text(path)
+            original = content
+
+            def replace(match: re.Match) -> str:
+                nonlocal total_replacements
+                raw_target = match.group(1).strip()
+                heading = match.group(2) or ""
+                alias = match.group(3) or ""
+                canonical = self._canonical_target(raw_target, existing_targets, title_lookup)
+                if not canonical or canonical == raw_target:
+                    return match.group(0)
+                total_replacements += 1
+                return f"[[{canonical}{heading}{alias}]]"
+
+            content = pattern.sub(replace, content)
+            if content != original:
+                write_text(path, content)
+                changed_files += 1
+
+        return {
+            "changed_files": changed_files,
+            "link_replacements": total_replacements,
+        }
+
     def append_log_entry(self, draft: ConceptDraft, source: SourceItem) -> None:
         line = (
             f"- **{now_utc_iso()}**: Draft olusturuldu -> review/{draft.slug}.md "
@@ -392,3 +423,47 @@ class WikiWriter:
             "a11y": ["[[Erisilebilirlik-WCAG-ve-ARIA]]", "[[Klavye-Navigasyon-Focus]]"],
         }
         return hub_map.get((category or "").strip().lower(), ["[[Modern-React-Desenleri]]"])
+
+    def _build_wikilink_lookup(self) -> Tuple[Dict[str, str], Dict[str, str]]:
+        existing_targets: Dict[str, str] = {}
+        title_lookup: Dict[str, str] = {}
+
+        for path in sorted(self.wiki_root.rglob("*.md")):
+            rel = path.relative_to(self.wiki_root).with_suffix("")
+            canonical = str(rel).replace("\\", "/")
+            existing_targets[canonical.lower()] = canonical
+            existing_targets[path.stem.lower()] = canonical
+
+            try:
+                first_line = read_text(path).splitlines()[0].strip()
+            except Exception:
+                continue
+            if first_line.startswith("# "):
+                title = first_line[2:].strip()
+                if title:
+                    title_lookup[title.lower()] = canonical
+                    title_lookup[safe_slug(title).lower()] = canonical
+
+        return existing_targets, title_lookup
+
+    @staticmethod
+    def _canonical_target(raw_target: str, existing_targets: Dict[str, str], title_lookup: Dict[str, str]) -> str:
+        lowered = raw_target.lower().strip()
+        if lowered in existing_targets:
+            return existing_targets[lowered]
+
+        if lowered.startswith("review/"):
+            stripped = lowered.split("/", 1)[1]
+            if stripped in existing_targets:
+                return existing_targets[stripped]
+
+        if lowered in title_lookup:
+            return title_lookup[lowered]
+
+        slug_candidate = safe_slug(raw_target).lower()
+        if slug_candidate in title_lookup:
+            return title_lookup[slug_candidate]
+        if slug_candidate in existing_targets:
+            return existing_targets[slug_candidate]
+
+        return raw_target

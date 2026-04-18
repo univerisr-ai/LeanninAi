@@ -19,7 +19,7 @@ WordPress 7.0 was supposed to launch yesterday at WordCamp Asia. It didn't. On M
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

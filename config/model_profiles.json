@@ -1,0 +1,46 @@
+{
+  "default_profiles": [
+    "azure_gpt4o_mini",
+    "azure_kimi_k2_5"
+  ],
+  "profiles": {
+    "openrouter_default": {
+      "provider": "openrouter",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "base_url": "https://openrouter.ai/api/v1/chat/completions",
+      "primary_model": "qwen/qwen3-coder:free",
+      "fallback_model": "stepfun/step-3.5-flash:free",
+      "max_tokens": 800,
+      "temperature": 0.2,
+      "request_timeout_seconds": 45
+    },
+    "azure_gpt4o_mini": {
+      "provider": "azure_openai",
+      "api_key_env": "AZURE_OPENAI_API_KEY",
+      "base_url_env": "AZURE_OPENAI_ENDPOINT",
+      "primary_model_env": "AZURE_GPT4O_MINI_DEPLOYMENT",
+      "api_versions": [
+        "2024-10-21",
+        "2024-07-18",
+        "2024-02-15-preview"
+      ],
+      "max_tokens": 500,
+      "temperature": 0.2,
+      "request_timeout_seconds": 45
+    },
+    "azure_kimi_k2_5": {
+      "provider": "azure_openai",
+      "api_key_env": "AZURE_OPENAI_API_KEY",
+      "base_url_env": "AZURE_OPENAI_ENDPOINT",
+      "primary_model_env": "AZURE_KIMI_DEPLOYMENT",
+      "api_versions": [
+        "2024-10-21",
+        "2024-07-18",
+        "2024-02-15-preview"
+      ],
+      "max_tokens": 800,
+      "temperature": 0.2,
+      "request_timeout_seconds": 45
+    }
+  }
+}

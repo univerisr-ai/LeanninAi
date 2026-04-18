@@ -19,7 +19,7 @@ Build React's hooks system from scratch and discover that the rules aren't arbit
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

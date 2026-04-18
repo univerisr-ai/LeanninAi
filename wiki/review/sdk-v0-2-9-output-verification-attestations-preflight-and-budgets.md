@@ -19,7 +19,7 @@ v0.2.9 is out on PyPI. Four new things, all driven by what people asked for afte
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

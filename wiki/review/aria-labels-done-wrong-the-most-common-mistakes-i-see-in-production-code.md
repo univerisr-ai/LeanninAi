@@ -19,7 +19,7 @@ ARIA Labels Done Wrong: The Most Common Mistakes I See in Production Code    Met
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

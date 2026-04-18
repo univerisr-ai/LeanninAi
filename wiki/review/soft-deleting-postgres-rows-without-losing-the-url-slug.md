@@ -19,7 +19,7 @@ Six lines of code that let you release a unique-constrained slug back into the n
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

@@ -19,7 +19,7 @@ Running AI inference natively in the browser is the holy grail for reducing API 
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

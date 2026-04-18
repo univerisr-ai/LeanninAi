@@ -19,7 +19,7 @@ Introduction: The Challenge of Secure Stack Trace Decoding   Decoding minified J
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

@@ -19,7 +19,7 @@ Hi there, Seb and Jan here 👋!  This week brings a collection of smaller, yet 
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

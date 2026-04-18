@@ -23,7 +23,7 @@ AI araçlarının hızla gelişmesiyle ortaya çıkan tükenmişlik sendromu ve 
 - Gerçekçi beklentiler belirleyerek öz-yeterlilik duygusunu yeniden inşa etme
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[Web-Performansi-PWA]] (performans optimizasyonu için AI kullanımı)
 - [[State-Yonetimi-Zustand-TanStack]] (modern toolchain adaptasyonu)
 

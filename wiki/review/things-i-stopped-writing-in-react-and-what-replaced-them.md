@@ -19,7 +19,7 @@ Over the past year, I noticed I was deleting more code than I was writing. Not b
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

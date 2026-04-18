@@ -34,10 +34,12 @@ def main() -> int:
     
     from aibeyin.config import load_pipeline_config
     from aibeyin.agents import MultiAgentSystem
+    from aibeyin.utils import load_env_file
     
     args = parse_args()
     project_root = Path(__file__).resolve().parents[1]
     config_path = project_root / args.config
+    load_env_file(project_root / ".env")
     
     cfg = load_pipeline_config(config_path)
     
@@ -46,7 +48,7 @@ def main() -> int:
          return 1
          
     agent_sys = MultiAgentSystem(
-         openrouter_config=cfg.openrouter,
+         openrouter_config=cfg.llm,
          multi_agent_config=cfg.data.get("multi_agent", {})
     )
     

@@ -19,7 +19,7 @@ Hi!  I'm @nyaomaru, a frontend engineer who finally managed to make it to the fi
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

@@ -23,7 +23,7 @@ WebMCP DevTools, Web Model Context Protocol (WebMCP) araçlarını tarayıcı i�
 - AI entegrasyonlu web uygulamalarında model davranışını anlamak için kritik öneme sahiptir
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[Web-Performansi-PWA]]
 - [[State-Yonetimi-Zustand-TanStack]]
 

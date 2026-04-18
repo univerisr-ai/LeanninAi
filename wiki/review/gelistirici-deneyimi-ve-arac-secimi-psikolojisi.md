@@ -22,7 +22,7 @@ Yazılımcılar en iyi aracı değil, en kolay kullanılanı seçer. Bu ilke, he
 - Geliştirici deneyimi bir teknik özellik değil, rekabet avantajıdır
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[Tasarim-Psikolojisi-Gestalt-Hick]]
 - [[Web-Performansi-PWA]]
 

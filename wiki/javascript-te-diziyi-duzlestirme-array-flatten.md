@@ -22,7 +22,7 @@ JavaScript'te iç içe dizileri (nested arrays) tek boyutlu, düz bir diziye (fl
 - [[review/api-response-yapilari-flat-vs-nested-duzlestirilmis-vs-ic-ice]] bağlamında, düzleştirilmiş verinin neden ve ne zaman tercih edilmesi gerektiği.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/api-response-yapilari-flat-vs-nested-duzlestirilmis-vs-ic-ice]]
 
 ## Kaynak Basligi

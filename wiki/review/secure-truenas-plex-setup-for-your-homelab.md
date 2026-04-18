@@ -19,7 +19,7 @@ Set up Plex on TrueNAS with enterprise-grade security. Covers ZFS datasets, ACLs
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

@@ -1,0 +1,40 @@
+name: Feature Request
+description: Yeni kaynak, provider, workflow veya wiki kabiliyeti onerisi
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Hangi problemi cozuyor?
+      description: Once ihtiyaci anlatin.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Onerilen Cozum
+      description: Beklenen davranisi veya akisi yazin.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Etkilenen Alan
+      options:
+        - Pipeline
+        - Wiki ingestion
+        - Model providers
+        - GitHub automation
+        - Frontend / UI
+        - Security
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Referanslar
+      description: Link, issue, makale veya repo varsa ekleyin.
+    validations:
+      required: false

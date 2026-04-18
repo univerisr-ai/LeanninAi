@@ -27,4 +27,4 @@ Kullanıcının başka bir sitedeyken (evil.com) kendi haberi olmadan bankası.c
 - [[CORS-ve-Guvenlik-Headerlari]]
 
 ## 📚 İlgili Draftlar
-- [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]
+- [[guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]

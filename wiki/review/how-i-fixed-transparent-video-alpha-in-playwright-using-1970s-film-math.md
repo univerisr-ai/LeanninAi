@@ -19,7 +19,7 @@ How I Fixed Transparent Video Alpha in Playwright Using 1970s Film Math   I've b
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

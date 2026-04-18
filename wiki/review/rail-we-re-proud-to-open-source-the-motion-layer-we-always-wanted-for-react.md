@@ -19,7 +19,7 @@ There is a peculiar pride in shipping something you felt before you could name i
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

@@ -19,7 +19,7 @@ In 2017, I published a novel called UTOPAI, which was about an AI Utopia. The no
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

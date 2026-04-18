@@ -19,7 +19,7 @@ At 60Hz the browser has ~16.6ms per frame for JS, layout, and paint. Why load sc
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

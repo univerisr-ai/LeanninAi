@@ -24,12 +24,12 @@ Modern AI SaaS uygulamalarında en büyük zaman kaybı sıfırdan proje kurulum
 - Evrilmiş bir başlangıç kiti, sadece yeni projeler için değil, mevcut projelerin yeniden yapılandırılması için de referans mimari sağlar.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[JWT-ve-Kimlik-Dogrulama]]
 - [[Rate-Limiting-Token-Bucket]]
 - [[CORS-ve-Guvenlik-Headerlari]]
 - [[State-Yonetimi-Zustand-TanStack]]
-- [[review/yerel-llm-entegrasyonu-react-hooks-ile-yapay-zeka-uygulamalari]]
+- [[yerel-llm-entegrasyonu-react-hooks-ile-yapay-zeka-uygulamalari]]
 
 ## Kaynak Basligi
 Why I built an AI SaaS starter kit — and how it saves 40 hours of setup

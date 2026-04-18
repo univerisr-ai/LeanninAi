@@ -1,5 +1,6 @@
 import datetime as dt
 import json
+import os
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -12,8 +13,11 @@ from .utils import now_utc_iso, sha256_text, strip_html
 USER_AGENT = "AiBeyinBot/0.1 (+https://openrouter.ai)"
 
 
-def _http_get(url: str, timeout_seconds: int = 30) -> str:
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+def _http_get(url: str, timeout_seconds: int = 30, extra_headers: Dict[str, str] = None) -> str:
+    headers = {"User-Agent": USER_AGENT}
+    if extra_headers:
+        headers.update(extra_headers)
+    request = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
         return response.read().decode("utf-8", errors="ignore")
 
@@ -46,7 +50,7 @@ def _collect_github_repos(cfg: Dict) -> List[SourceItem]:
         f"?q={encoded_query}&sort=stars&order=desc&per_page={limit}"
     )
 
-    raw = _http_get(url)
+    raw = _http_get(url, extra_headers=_github_headers())
     payload = json.loads(raw)
     repos = payload.get("items", [])
     items: List[SourceItem] = []
@@ -55,14 +59,22 @@ def _collect_github_repos(cfg: Dict) -> List[SourceItem]:
         title = repo.get("full_name", "")
         description = repo.get("description") or ""
         topics = ", ".join(repo.get("topics", []))
-        content = f"Repository: {title}. Description: {description}. Topics: {topics}."
+        readme_excerpt = _fetch_github_readme_excerpt(title)
+        content_parts = [
+            f"Repository: {title}.",
+            f"Description: {description}.",
+            f"Topics: {topics}.",
+        ]
+        if readme_excerpt:
+            content_parts.append(f"README excerpt: {readme_excerpt}")
+        content = " ".join(part.strip() for part in content_parts if part.strip())
         items.append(
             SourceItem(
                 source_name="github_repos",
                 url=repo.get("html_url", ""),
                 title=title,
                 published_at=repo.get("updated_at") or now_utc_iso(),
-                category="backend",
+                category=_guess_hn_category(f"{title} {description} {topics}".lower()),
                 content=content,
                 content_hash=sha256_text(content),
             )
@@ -326,3 +338,31 @@ def _collect_extra_rss(cfg: Dict) -> List[SourceItem]:
             )
 
     return items[:limit]
+
+
+def _github_headers() -> Dict[str, str]:
+    token = os.getenv("GITHUB_TOKEN", "").strip() or os.getenv("GH_TOKEN", "").strip()
+    headers = {
+        "Accept": "application/vnd.github+json",
+    }
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
+
+
+def _fetch_github_readme_excerpt(full_name: str) -> str:
+    if not full_name or "/" not in full_name:
+        return ""
+
+    url = f"https://api.github.com/repos/{full_name}/readme"
+    headers = _github_headers()
+    headers["Accept"] = "application/vnd.github.raw+json"
+    try:
+        raw = _http_get(url, timeout_seconds=15, extra_headers=headers)
+    except Exception:
+        return ""
+
+    text = strip_html(raw).strip()
+    if not text:
+        return ""
+    return text[:1800]

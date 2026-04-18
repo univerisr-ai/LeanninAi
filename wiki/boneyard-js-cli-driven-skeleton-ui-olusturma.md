@@ -23,7 +23,7 @@ boneyard-js, mevcut UI bileşenlerinizi yakalayarak eşleşen skeleton loading e
 - Skeleton screen'lerin erişilebilirlik ve kullanıcı deneyimi üzerindeki etkisi
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[Web-Performansi-PWA]]
 - [[Modern-React-Desenleri]]
 

@@ -19,7 +19,7 @@ Two days ago, Anthropic launched Managed Agents — a hosted runtime where tool 
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

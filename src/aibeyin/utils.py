@@ -1,6 +1,7 @@
 import datetime as dt
 import hashlib
 import json
+import os
 import re
 from pathlib import Path
 from typing import Dict, Iterable, List
@@ -48,6 +49,24 @@ def read_json(path: Path) -> Dict:
 def write_json(path: Path, payload: Dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=True, indent=2), encoding="utf-8")
+
+
+def load_env_file(path: Path, override: bool = False) -> Dict[str, str]:
+    loaded: Dict[str, str] = {}
+    if not path.exists():
+        return loaded
+
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip("\"'")
+        if override or key not in os.environ:
+            os.environ[key] = value
+        loaded[key] = value
+    return loaded
 
 
 def iter_markdown_files(root: Path) -> Iterable[Path]:

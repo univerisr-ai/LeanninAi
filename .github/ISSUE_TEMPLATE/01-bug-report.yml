@@ -1,0 +1,42 @@
+name: Bug Report
+description: Pipeline, wiki sync, model testing, or automation bug bildirin
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tesekkurler. Lutfen sorunu tekrar uretilebilecek kadar net yazin.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Sorun Ozeti
+      description: Ne bozuk?
+      placeholder: Kisa ama net bir ozet yazin.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Yeniden Uretim Adimlari
+      description: Komutlar, config veya adimlari yazin.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Beklenen Davranis
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Ilgili Cikti veya Hata
+      description: Secret iceren kisimlari maskeleyin.
+      render: shell
+    validations:
+      required: false

@@ -22,7 +22,7 @@ Playwright ve Axe Core kullanarak web uygulamalarında erişilebilirlik testleri
 - Manuel test ile otomatik test kombinasyonu ile kapsamlı erişilebilirlik stratejisi
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - Erişilebilirlik: WCAG ve ARIA
 - Klavye Navigasyon ve Focus (A11y)
 

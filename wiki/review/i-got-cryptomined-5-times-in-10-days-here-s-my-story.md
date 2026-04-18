@@ -19,7 +19,7 @@ I got cryptomined 5 times in 10 days. Here's my story 🧵   It started with my 
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

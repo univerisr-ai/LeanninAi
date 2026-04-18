@@ -19,7 +19,7 @@ Hellooooooo DEV Community!  About 9 months ago, I shared my first ever npm packa
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

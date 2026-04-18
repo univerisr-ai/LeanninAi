@@ -19,7 +19,7 @@ I was setting up Claude connectors for my Supabase project — checking permissi
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

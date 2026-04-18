@@ -24,7 +24,7 @@ Ollama, LM Studio veya llama.cpp gibi araçlarla yerel olarak çalışan büyük
 - WebSocket veya Server-Sent Events (SSE) ile gerçek zamanlı veri akışı
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - Modern React Desenleri
 - State Yönetimi: Zustand ve TanStack Query
 - Web Performansı ve PWA

@@ -26,7 +26,7 @@ Gerçek projelerde aktif olarak kullandığınız TypeScript ipuçlarını öğr
 - React.FC vs function component tip desteği karşılaştırması
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[Modern-React-Desenleri]]
 
 ## Kaynak Basligi

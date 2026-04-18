@@ -23,7 +23,7 @@ Modern tarayıcıların Web Worker ve parallel fetch API'lerini kullanarak sunuc
 - Worklet ve SharedArrayBuffer kullanımı ile performans optimizasyonu
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[Web-Performansi-PWA]]
 - [[CORS-ve-Guvenlik-Headerlari]]
 - [[Rate-Limiting-Token-Bucket]]

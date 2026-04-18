@@ -19,7 +19,7 @@ The 4 CLI auth methods that matter, how GitHub, AWS, and AI tools implement them
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

@@ -21,9 +21,9 @@ Bu konsept, saf JavaScript kullanarak basit bir TypeScript tip çıkarma motorun
 - Türkçe teknik terminolojiyle pratik örnekler sunulur.
 
 ## Iliskili Sayfalar
-- [[review/gunluk-kullandigim-typescript-ipuclari-ve-puf-noktalari]]
-- [[review/typescript-hata-gruplama-ve-ai-baglam-optimizasyonu-contextzip]]
-- [[index]]
+- [[gunluk-kullandigim-typescript-ipuclari-ve-puf-noktalari]]
+- [[typescript-hata-gruplama-ve-ai-baglam-optimizasyonu-contextzip]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

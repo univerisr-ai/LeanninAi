@@ -19,7 +19,7 @@ On February 3, 2026, security researchers disclosed CVE-2026-25253 in OpenClaw â
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

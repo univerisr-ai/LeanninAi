@@ -19,7 +19,7 @@ Your team added content filtering. You're scanning user messages for injection p
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

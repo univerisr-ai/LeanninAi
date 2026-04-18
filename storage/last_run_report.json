@@ -1,16 +1,16 @@
 {
   "status": "ok",
-  "started_at": "2026-04-11T18:16:45+00:00",
+  "started_at": "2026-04-18T20:20:01+00:00",
   "dry_run": true,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 127
+    "wiki_changed": 141
   },
   "stats": {
-    "collected": 107,
-    "skipped_unchanged": 27,
-    "skipped_duplicate": 7,
-    "rejected_quality": 73,
+    "collected": 98,
+    "skipped_unchanged": 98,
+    "skipped_duplicate": 0,
+    "rejected_quality": 0,
     "drafted": 0,
     "errors": 0
   },
@@ -23,92 +23,23 @@
     "changed_files": 0,
     "link_replacements": 0
   },
+  "canonical_link_repair": {
+    "changed_files": 0,
+    "link_replacements": 0
+  },
   "vault_hygiene": {
     "off_topic_deleted": 0,
     "broken_links_found": 0,
-    "bidirectional_links_added": 0,
+    "bidirectional_links_added": 79,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [],
     "duplicate_pairs": []
   },
   "error_samples": [],
-  "drafts_preview": [
-    {
-      "slug": "typescript-tip-cikarma-motoru-yazmak",
-      "title": "TypeScript Tip \u00c7\u0131karma Motoru Yazmak",
-      "category": "frontend",
-      "confidence": 90,
-      "novelty": 75
-    },
-    {
-      "slug": "wordpress-7-0-the-good-the-ai-and-the-still-missing",
-      "title": "WordPress 7.0: The Good, the AI, and the Still Missing",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "how-i-fixed-transparent-video-alpha-in-playwright-using-1970s-film-math",
-      "title": "How I Fixed Transparent Video Alpha in Playwright Using 1970s Film Math",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "we-built-an-open-source-coding-exam-platform-because-every-vendor-let-us-down",
-      "title": "We Built an Open-Source Coding Exam Platform Because Every Vendor Let Us Down",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "react-flexi-window-v2-0-i-added-a-wasm-powered-liquid-glass-engine-to-my-react-window-component",
-      "title": "React-flexi-window v2.0 \u2014 I added a WASM-powered Liquid Glass engine to my React window component",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "how-i-automated-62-of-europe-s-rgaa-accessibility-criteria",
-      "title": "How I automated 62% of Europe's RGAA accessibility criteria",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "i-built-an-ai-workflow-for-bug-bounty-automation-here-is-what-worked",
-      "title": "I Built an AI Workflow for Bug Bounty Automation. Here is What Worked.",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "cert-gating-every-tool-call-zero-trust-for-ai-agents",
-      "title": "Cert-gating every tool call: zero-trust for AI agents",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "nomshub-how-to-check-if-your-mac-was-affected-by-the-cursor-sandbox-escape",
-      "title": "NomShub: How to Check If Your Mac Was Affected by the Cursor Sandbox Escape",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    },
-    {
-      "slug": "how-to-add-human-approval-to-mcp-tool-calls-no-code-changes",
-      "title": "How to add human approval to MCP tool calls \u2014 no code changes",
-      "category": "frontend",
-      "confidence": 75,
-      "novelty": 70
-    }
-  ],
+  "drafts_preview": [],
   "weekly_digest": {
     "generated": false,
-    "reason": "not_scheduled_day",
-    "run_day_of_week": 6,
-    "today_weekday": 5
+    "reason": "dry_run"
   }
 }

@@ -8,8 +8,8 @@ from .brain_enhancer import BrainEnhancer
 from .config import load_pipeline_config
 from .dedup import detect_concept_title_duplicate, detect_concept_fingerprint_duplicate, detect_wiki_duplicate
 from .inventory import InventoryStore
+from .llm_client import LLMClient
 from .models import ConceptDraft, PipelineStats, SourceItem
-from .openrouter import OpenRouterClient
 from .reporting import append_run_history, maybe_generate_weekly_digest
 from .sources import collect_sources
 from .storage_guard import enforce_disk_quota
@@ -31,7 +31,7 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
     inventory = InventoryStore(inventory_path)
     snapshot_delta = inventory.sync_repo_snapshot(project_root)
     writer = WikiWriter(project_root)
-    llm = OpenRouterClient(config.openrouter)
+    llm = LLMClient(config.llm)
 
     stats = PipelineStats()
     drafted_items: List[ConceptDraft] = []
@@ -132,8 +132,10 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
     if not dry_run:
         writer.refresh_hot_cache(drafted_items)
         repair_summary = writer.repair_existing_review_links()
+        canonical_link_summary = writer.repair_all_wikilinks()
     else:
         repair_summary = {"changed_files": 0, "link_replacements": 0}
+        canonical_link_summary = {"changed_files": 0, "link_replacements": 0}
 
     # ── Otomatik vault bakımı ──
     hygiene_result = run_hygiene(project_root, dry_run=dry_run)
@@ -152,7 +154,7 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
         enhancement_cfg = config.data.get("brain_enhancement", {})
         if enhancement_cfg.get("enabled", True):
             enhancer = BrainEnhancer(
-                openrouter_config=config.openrouter,
+                openrouter_config=config.llm,
                 enhancement_config=enhancement_cfg,
             )
             enh = enhancer.run(wiki_root=project_root / "wiki", dry_run=dry_run)
@@ -170,6 +172,7 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
         "auto_publish": publish_result,
         "enhancement": enhancement_result,
         "review_link_repair": repair_summary,
+        "canonical_link_repair": canonical_link_summary,
         "vault_hygiene": hygiene_result.as_dict(),
         "error_samples": error_samples,
         "drafts_preview": [

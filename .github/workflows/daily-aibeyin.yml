@@ -38,9 +38,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run tests
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m unittest discover -s tests -v
+
       - name: Run pipeline
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+          AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
+          AZURE_GPT4O_MINI_DEPLOYMENT: ${{ secrets.AZURE_GPT4O_MINI_DEPLOYMENT }}
+          AZURE_KIMI_DEPLOYMENT: ${{ secrets.AZURE_KIMI_DEPLOYMENT }}
+          PYTHONPATH: src
         run: |
           if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
             python scripts/run_pipeline.py --config config/pipeline.json --dry-run

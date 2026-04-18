@@ -24,6 +24,6 @@ Express.js ekosisteminde `express-rate-limit` veya Nginx gibi araçların arka p
 - [[CORS-ve-Guvenlik-Headerlari]]
 
 ## 📚 İlgili Draftlar
-- [[review/ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]
-- [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]
+- [[ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]
+- [[guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]
 - [[review/tarayicida-calisan-stateless-api-yuk-testi]]

@@ -19,7 +19,7 @@ Saqué 98/100 en Lighthouse y axe en juanchi.dev. Después le pedí a alguien co
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

@@ -19,7 +19,7 @@ When you paste a JWT or API key into an online tool, where does it actually go? 
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

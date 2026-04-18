@@ -19,7 +19,7 @@ As a developer who spends half my day in Figma and the other half in VS Code, Iâ
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

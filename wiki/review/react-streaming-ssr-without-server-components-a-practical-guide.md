@@ -19,7 +19,7 @@ React Server Components get all the attention for streaming SSR. But RSC isn't t
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

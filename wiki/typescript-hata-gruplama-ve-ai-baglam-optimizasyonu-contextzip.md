@@ -22,8 +22,8 @@ TypeScript, aynı tip hataları onlarca dosyada tekrar tekrar raporlayarak geli�
 - Pratik kullanım: Büyük kod tabanlarında ve monorepo projelerinde hata düzeltme sürecini hızlandırır
 
 ## Iliskili Sayfalar
-- [[index]]
-- [[review/gunluk-kullandigim-typescript-ipuclari-ve-puf-noktalari]]
+- [[review/index]]
+- [[gunluk-kullandigim-typescript-ipuclari-ve-puf-noktalari]]
 
 ## Kaynak Basligi
 40 Identical TypeScript Errors? Group Them Into 1

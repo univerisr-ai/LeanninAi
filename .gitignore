@@ -10,3 +10,8 @@ venv/
 storage/cache/
 storage/logs/
 storage/rejected/
+logs/
+staging/
+src/output/
+frontend/node_modules/
+frontend/dist/

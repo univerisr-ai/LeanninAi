@@ -2,19 +2,19 @@ import logging
 from pathlib import Path
 from typing import Dict, Optional
 
-from .openrouter import OpenRouterClient
+from .llm_client import LLMClient
 from .utils import now_utc_iso, write_text
 
 logger = logging.getLogger(__name__)
 
 class MultiAgentSystem:
     def __init__(self, openrouter_config: Dict, multi_agent_config: Dict):
-        # Temporarily adapt OpenRouterClient max_tokens for coding tasks
+        # Temporarily adapt LLMClient max_tokens for coding tasks
         # Coding tasks might require more than the standard wiki summarization tokens.
         or_config = dict(openrouter_config)
         or_config["max_tokens"] = max(int(or_config.get("max_tokens", 4000)), 4000)
         
-        self.client = OpenRouterClient(or_config)
+        self.client = LLMClient(or_config)
         self.config = multi_agent_config
         
         self.maker_model = self.config.get("maker_model", "qwen/qwen3-coder:free")

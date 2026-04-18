@@ -19,7 +19,7 @@ When Claude Code runs in a cloud container, every subprocess it spawns — curl,
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - -
 
 ## Kaynak Basligi

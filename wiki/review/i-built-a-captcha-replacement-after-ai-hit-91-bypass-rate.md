@@ -19,7 +19,7 @@ CAPTCHA is broken. Here's the data.   Stanford AI Lab confirmed it in 2024: GPT-
 - Publish oncesi teknik dogruluk kontrolu onerilir.
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[review/index]]
 - [[Modern-React-Desenleri]]
 - [[Web-Performansi-PWA]]

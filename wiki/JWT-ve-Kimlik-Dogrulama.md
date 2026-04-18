@@ -29,5 +29,5 @@ Brute-force ve GPU saldırılarına karşı piyasadaki modern algoritma **Argon2
 - [[State-Yonetimi-Zustand-TanStack]]
 
 ## 📚 İlgili Draftlar
-- [[review/ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]
-- [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]
+- [[ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]
+- [[guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]

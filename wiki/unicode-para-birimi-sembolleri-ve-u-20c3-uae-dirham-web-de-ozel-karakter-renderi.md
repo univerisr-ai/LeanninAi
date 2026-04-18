@@ -24,7 +24,7 @@ UAE Dirham sembolü (U+20C3) Unicode standardına 18 yıl sonra dahil edildi. Bu
 - Para birimi sembolleri UX ve localization açısından kritik öneme sahiptir
 
 ## Iliskili Sayfalar
-- [[index]]
+- [[review/index]]
 - [[Web-Performansi-PWA]]
 - [[Renk-Teorisi-ve-Tipografi]]
 - [[Modern-React-Desenleri]]

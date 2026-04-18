@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/univerisr-ai/LeanninAi/security/advisories/new
+    about: Guvenlik aciklarini public issue yerine private security report olarak gonderin.

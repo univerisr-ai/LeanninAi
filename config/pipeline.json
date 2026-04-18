@@ -2,7 +2,9 @@
   "timezone": "Europe/Istanbul",
   "project_disk_limit_gb": 10,
   "dry_run_default": false,
-  "openrouter": {
+  "llm": {
+    "provider": "openrouter",
+    "api_key_env": "OPENROUTER_API_KEY",
     "base_url": "https://openrouter.ai/api/v1/chat/completions",
     "primary_model": "qwen/qwen3-coder:free",
     "fallback_model": "stepfun/step-3.5-flash:free",
@@ -48,7 +50,7 @@
       "enabled": true,
       "lookback_days": 14,
       "limit": 10,
-      "query": "(frontend OR backend OR security OR accessibility) stars:>200 created:>={date}"
+      "query": "(frontend OR backend OR security OR accessibility) stars:>200 pushed:>={date}"
     },
     "owasp_cve_rss": {
       "enabled": true,
