@@ -29,3 +29,5 @@ Express uygulamalarında Helmet.js ile otomatik eklenen veya elle yazılması zo
 - [[review/tarayicida-calisan-stateless-api-yuk-testi]]
 - [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]
 - [[review/compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu]]
+- [[review/cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu]]
+- [[review/supabase-row-level-security-rls-uretim-ortami-desenleri]]

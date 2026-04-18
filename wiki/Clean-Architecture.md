@@ -25,3 +25,4 @@ Yazılımda değişikliklerin birbirini etkilemesini en aza indiren en etkili ya
 - [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]
 - [[review/mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik]]
 - [[review/spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim]]
+- [[review/mcp-sunuculari-ile-claude-icin-guvenlik-zek-si-saglama]]

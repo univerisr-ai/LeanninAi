@@ -30,3 +30,5 @@ Kullanıcının başka bir sitedeyken (evil.com) kendi haberi olmadan bankası.c
 - [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]
 - [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]
 - [[review/compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu]]
+- [[review/cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu]]
+- [[review/supabase-row-level-security-rls-uretim-ortami-desenleri]]

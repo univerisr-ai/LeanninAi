@@ -70,3 +70,4 @@ Service Worker, web sayfanızdan tamamen bağımsız, arka planda çalışan (ta
 - [[review/tasarim-becerisi-olmadan-minimalist-ui-olusturmak-flickle-ornegi]]
 - [[review/react-formlarinda-performans-optimizasyonu-schepta-ornegi]]
 - [[review/statik-erisilebilirlik-tarayicilarinin-kacirdigi-6-yaygin-kontrol]]
+- [[review/html-in-canvas-interaktif-web-deneyimlerini-donusturebilecek-deneysel-api]]

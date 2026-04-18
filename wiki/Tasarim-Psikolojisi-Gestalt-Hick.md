@@ -29,3 +29,5 @@ Kullanıcılar tekil elemanları değil, deseni (pattern) algılarlar:
 - [[review/ai-ile-oyun-ve-uygulama-icin-telifsiz-muzik-uretimi]]
 - [[review/angular-icin-gercekci-ui-bileseni-destegi]]
 - [[review/tek-json-dan-coklu-cikti-uretimi-design-token-pipeline]]
+- [[review/html-den-markdown-a-donusturerek-llm-maliyetlerini-azaltmak]]
+- [[review/html-in-canvas-interaktif-web-deneyimlerini-donusturebilecek-deneysel-api]]

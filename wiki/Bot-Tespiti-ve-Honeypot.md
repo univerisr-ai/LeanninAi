@@ -23,3 +23,4 @@ Puppeteer, Playwright gibi otomasyon botları genellikle tespit edilebilir imzal
 ## 📚 İlgili Draftlar
 - [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]
 - [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]
+- [[review/cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu]]

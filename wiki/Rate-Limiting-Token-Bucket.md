@@ -30,3 +30,4 @@ Express.js ekosisteminde `express-rate-limit` veya Nginx gibi araçların arka p
 - [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]
 - [[review/compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu]]
 - [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]
+- [[review/cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu]]

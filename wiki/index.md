@@ -2,7 +2,7 @@
 
 Bu sayfa, bilgi tabanindaki tum konseptleri kategorilere gore siralar.
 
-Son guncelleme: 2026-04-17T03:46:39+00:00
+Son guncelleme: 2026-04-18T03:07:07+00:00
 
 * Islem gecmisi: [[log]]
 * Son bilgi ozeti: [[hot]]
@@ -35,6 +35,7 @@ Son guncelleme: 2026-04-17T03:46:39+00:00
 - [[Clean-Architecture|Clean Architecture (Katmanlı Mimari)]]
 - [[Veritabani-ve-Caching-Stratejileri|Veritabanı ve Caching Stratejileri]]
 - [[mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi|MCP Sunucuları: Geliştiriciler İçin Yeni Bir Backend Paradigması]]
+- [[mcp-sunuculari-ile-claude-icin-guvenlik-zek-si-saglama|MCP Sunucuları ile Claude için Güvenlik Zekâsı Sağlama]]
 - [[mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik|Mimari Dokümantasyonu: AI Destekli Kalite Kontrolünde Önemli Bir Varlık]]
 - [[spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim|Spec-Driven AI Development: Gerçek Dünya Örneği ile Uygulamalı Yaklaşım]]
 
@@ -47,6 +48,8 @@ Son guncelleme: 2026-04-17T03:46:39+00:00
 - [[XSS-ve-CSRF-Açiklari|XSS ve CSRF Açıkları]]
 - [[ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi|AI Tehdit Modelleme: STRIDE-AI ve MITRE-ATLAS ile Güvenlik Analizi]]
 - [[compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu|Compliance Mühendisliği: Açık Kaynaklı Bilgi Güvenliği ve AI Yönetimi Platformu]]
+- [[cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu|CVE-2026-34197: 13 Yıldır Gizli Kalan ActiveMQ RCE Açığı ve Acil Patch Zorunluluğu]]
+- [[supabase-row-level-security-rls-uretim-ortami-desenleri|Supabase Row Level Security (RLS) Üretim Ortamı Desenleri]]
 
 ## 🎨 UI/UX
 
@@ -54,6 +57,8 @@ Son guncelleme: 2026-04-17T03:46:39+00:00
 - [[Tasarim-Psikolojisi-Gestalt-Hick|Tasarım Psikolojisi: Gestalt ve Hick]]
 - [[ai-ile-oyun-ve-uygulama-icin-telifsiz-muzik-uretimi|AI ile Oyun ve Uygulama İçin Telifsiz Müzik Üretimi]]
 - [[angular-icin-gercekci-ui-bileseni-destegi|Angular İçin Gerçekçi UI Bileşeni Desteği]]
+- [[html-den-markdown-a-donusturerek-llm-maliyetlerini-azaltmak|HTML'den Markdown'a Dönüştürerek LLM Maliyetlerini Azaltmak]]
+- [[html-in-canvas-interaktif-web-deneyimlerini-donusturebilecek-deneysel-api|HTML-in-Canvas: İnteraktif Web Deneyimlerini Dönüştürebilecek Deneysel API]]
 - [[tailwind-css-v4-yenilikleri-ve-gecis-rehberi|Tailwind CSS v4 Yenilikleri ve Geçiş Rehberi]]
 - [[tasarim-becerisi-olmadan-minimalist-ui-olusturmak-flickle-ornegi|Tasarım Becerisi Olmadan Minimalist UI Oluşturmak: Flickle Örneği]]
 - [[tek-json-dan-coklu-cikti-uretimi-design-token-pipeline|Tek JSON'dan Çoklu Çıktı Üretimi: Design Token Pipeline]]

@@ -27,3 +27,4 @@ E-posta gönderme, video işleme, PDF oluşturma gibi HTTP isteğini kilitleyece
 - [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]
 - [[review/mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik]]
 - [[review/spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim]]
+- [[review/mcp-sunuculari-ile-claude-icin-guvenlik-zek-si-saglama]]
