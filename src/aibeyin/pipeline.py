@@ -11,6 +11,7 @@ from .inventory import InventoryStore
 from .llm_client import LLMClient
 from .models import ConceptDraft, PipelineStats, SourceItem
 from .reporting import append_run_history, maybe_generate_weekly_digest
+from .query_engine import write_brain_index
 from .sources import collect_sources
 from .storage_guard import enforce_disk_quota
 from .utils import now_utc_iso, read_text, safe_slug, sha256_text, write_json
@@ -133,9 +134,11 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
         writer.refresh_hot_cache(drafted_items)
         repair_summary = writer.repair_existing_review_links()
         canonical_link_summary = writer.repair_all_wikilinks()
+        brain_index_summary = write_brain_index(project_root)
     else:
         repair_summary = {"changed_files": 0, "link_replacements": 0}
         canonical_link_summary = {"changed_files": 0, "link_replacements": 0}
+        brain_index_summary = {}
 
     # ── Otomatik vault bakımı ──
     hygiene_result = run_hygiene(project_root, dry_run=dry_run)
@@ -173,6 +176,7 @@ def run_pipeline(project_root: Path, config_path: Path, dry_run: bool = False) -
         "enhancement": enhancement_result,
         "review_link_repair": repair_summary,
         "canonical_link_repair": canonical_link_summary,
+        "brain_index": brain_index_summary,
         "vault_hygiene": hygiene_result.as_dict(),
         "error_samples": error_samples,
         "drafts_preview": [

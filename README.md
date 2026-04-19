@@ -80,7 +80,25 @@ $env:PYTHONPATH='src'
 .venv\Scripts\python.exe scripts\run_pipeline.py --config config/pipeline.json --dry-run
 ```
 
-### 5. Testler
+### 5. Brain query ve graph index
+
+```powershell
+$env:PYTHONPATH='src'
+.venv\Scripts\python.exe scripts\build_brain_index.py
+```
+
+```powershell
+$env:PYTHONPATH='src'
+.venv\Scripts\python.exe scripts\query_brain.py "rate limiting ve bot korumasi"
+```
+
+Bu katman, projenin sadece ingest yapan bir wiki kalmamasini saglar:
+
+- `storage/query_index.json`: sorgu icin kullanilabilir sayfa ozeti
+- `storage/knowledge_graph.json`: sayfalar arasi graph baglantilari
+- `scripts/query_brain.py`: local retrieval CLI
+
+### 6. Testler
 
 ```powershell
 $env:PYTHONPATH='src'
@@ -105,6 +123,15 @@ AiBeyin'in ana prensibi, ogrenilen bilgiyi koruyarak ilerlemektir.
 - Concept fingerprint ve benzerlik kontrolu uygular
 - Sistem hafizasini `wiki/system-memory.md` ve `storage/run_history.jsonl` ile modele tasir
 - Harici bir taze repo geldiğinde `sync_learning_repo.py` ile union-merge yapar
+
+## Neden Bu Artik Daha Ciddi Bir Ikinci Beyin Adayi
+
+Bu repo artik sadece "RAG denemesi" degil:
+
+- kalici wiki graph'i uretiyor
+- local retrieval ile query sonucunu aciklanabilir sekilde veriyor
+- hangi sayfanin neden bulundugunu skor ve baglanti nedeni ile gosterebiliyor
+- guncel bilgi deposunu kayipsiz merge edebiliyor
 
 ## GitHub Hazirligi
 
