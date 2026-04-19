@@ -41,10 +41,12 @@ def load_pages(wiki_root: Path) -> List[PageRecord]:
 
 def build_brain_index(wiki_root: Path) -> Dict:
     pages = load_pages(wiki_root)
+    _canonicalize_page_links(pages)
     edges, degree_map = _build_graph(pages)
     orphans = sorted(page.slug for page in pages if degree_map.get(page.slug, 0) == 0)
 
-    hottest = _load_hot_slugs(wiki_root / "hot.md")
+    hottest = _canonicalize_slug_list(_load_hot_slugs(wiki_root / "hot.md"), pages)
+    page_lookup = {page.slug: page for page in pages}
     central_pages = sorted(
         (
             {
@@ -58,15 +60,38 @@ def build_brain_index(wiki_root: Path) -> Dict:
         key=lambda item: (-item["degree"], item["title"].lower()),
     )[:12]
 
+    hot_pages = []
+    for slug in hottest:
+        page = page_lookup.get(slug)
+        if not page:
+            continue
+        hot_pages.append(
+            {
+                "slug": page.slug,
+                "title": page.title,
+                "category": page.category,
+                "summary": page.summary,
+                "degree": degree_map.get(page.slug, 0),
+            }
+        )
+
     return {
         "generated_at": now_utc_iso(),
         "page_count": len(pages),
         "edge_count": len(edges),
         "orphan_count": len(orphans),
         "hot_slugs": hottest,
+        "hot_pages": hot_pages,
         "central_pages": central_pages,
         "orphans": orphans[:50],
-        "pages": [asdict(page) for page in pages],
+        "pages": [
+            {
+                **asdict(page),
+                "degree": degree_map.get(page.slug, 0),
+                "is_hot": page.slug in hottest,
+            }
+            for page in pages
+        ],
         "graph": {
             "nodes": [
                 {
@@ -95,6 +120,7 @@ def write_brain_index(project_root: Path) -> Dict[str, str]:
     graph_path = storage_root / "knowledge_graph.json"
     write_json(index_path, payload)
     write_json(graph_path, payload["graph"])
+    frontend_exports = _write_frontend_exports(project_root, payload)
 
     return {
         "query_index": str(index_path),
@@ -102,13 +128,15 @@ def write_brain_index(project_root: Path) -> Dict[str, str]:
         "page_count": str(payload["page_count"]),
         "edge_count": str(payload["edge_count"]),
         "orphan_count": str(payload["orphan_count"]),
+        **frontend_exports,
     }
 
 
 def query_brain(wiki_root: Path, query: str, limit: int = 5) -> Dict:
     pages = load_pages(wiki_root)
+    _canonicalize_page_links(pages)
     edges, degree_map = _build_graph(pages)
-    hot_slugs = set(_load_hot_slugs(wiki_root / "hot.md"))
+    hot_slugs = set(_canonicalize_slug_list(_load_hot_slugs(wiki_root / "hot.md"), pages))
     results = []
     query_norm = normalize_space(query)
 
@@ -234,6 +262,38 @@ def _load_hot_slugs(hot_path: Path) -> List[str]:
     return slugs[:10]
 
 
+def _canonicalize_page_links(pages: List[PageRecord]) -> None:
+    slug_map = {page.slug.lower(): page.slug for page in pages}
+    stem_map = {page.slug.split("/")[-1].lower(): page.slug for page in pages}
+
+    for page in pages:
+        canonical_links: List[str] = []
+        seen: Set[str] = set()
+        for raw_link in page.related_links:
+            target = slug_map.get(raw_link.lower()) or stem_map.get(raw_link.lower())
+            if not target or target == page.slug or target in seen:
+                continue
+            seen.add(target)
+            canonical_links.append(target)
+        page.related_links = canonical_links
+
+
+def _canonicalize_slug_list(raw_slugs: List[str], pages: List[PageRecord]) -> List[str]:
+    slug_map = {page.slug.lower(): page.slug for page in pages}
+    stem_map = {page.slug.split("/")[-1].lower(): page.slug for page in pages}
+    canonical: List[str] = []
+    seen: Set[str] = set()
+
+    for raw_slug in raw_slugs:
+        target = slug_map.get(raw_slug.lower()) or stem_map.get(raw_slug.lower())
+        if not target or target in seen:
+            continue
+        seen.add(target)
+        canonical.append(target)
+
+    return canonical
+
+
 def _build_graph(pages: List[PageRecord]) -> Tuple[Set[Tuple[str, str]], Dict[str, int]]:
     slug_map = {page.slug.lower(): page.slug for page in pages}
     stem_map = {page.slug.split("/")[-1].lower(): page.slug for page in pages}
@@ -292,3 +352,21 @@ def _score_page(query: str, page: PageRecord, degree: int, hot_slugs: Set[str]) 
     if score < 1.0:
         return 0.0, []
     return score, reasons
+
+
+def _write_frontend_exports(project_root: Path, payload: Dict) -> Dict[str, str]:
+    frontend_root = project_root / "frontend"
+    if not frontend_root.exists():
+        return {}
+
+    data_root = frontend_root / "public" / "data"
+    query_index_path = data_root / "query_index.json"
+    graph_path = data_root / "knowledge_graph.json"
+
+    write_json(query_index_path, payload)
+    write_json(graph_path, payload["graph"])
+
+    return {
+        "frontend_query_index": str(query_index_path),
+        "frontend_knowledge_graph": str(graph_path),
+    }

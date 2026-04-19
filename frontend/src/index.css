@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap');
+
+:root {
+  --paper: #f4ede3;
+  --panel: #fffaf4;
+  --panel-strong: #fff5ec;
+  --ink: #1b1612;
+  --muted: #61564e;
+  --line: rgba(74, 58, 48, 0.18);
+  --accent: #c75b3b;
+  --accent-soft: rgba(199, 91, 59, 0.12);
+  --teal: #0b6e72;
+  --shadow-soft:
+    0 24px 48px rgba(58, 32, 18, 0.08),
+    0 8px 18px rgba(58, 32, 18, 0.04);
+
+  font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: 400;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(199, 91, 59, 0.12), transparent 24rem),
+    radial-gradient(circle at top right, rgba(11, 110, 114, 0.09), transparent 20rem),
+    var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--ink);
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(92, 75, 63, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(92, 75, 63, 0.03) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(circle at center, black 45%, transparent 92%);
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+strong {
+  font-weight: 600;
+}
+
+h1 {
+  max-width: 13ch;
+  font-size: clamp(3rem, 6vw, 5.4rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+}
+
+h2 {
+  font-size: clamp(1.35rem, 2vw, 1.7rem);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+}
+
+code,
+.eyebrow,
+.section-kicker,
+.search-label,
+.reason-pill,
+.freshness,
+.detail-meta span,
+.orbit-chip span,
+.result-category,
+.result-score {
+  font-family: 'IBM Plex Mono', Consolas, monospace;
+}
+
+::selection {
+  background: rgba(199, 91, 59, 0.2);
+}
+
+@media (max-width: 860px) {
+  :root {
+    font-size: 16px;
+  }
+}
