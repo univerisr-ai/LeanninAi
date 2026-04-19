@@ -1,100 +1,141 @@
 {
   "status": "ok",
-  "started_at": "2026-04-18T02:50:41+00:00",
+  "started_at": "2026-04-19T03:25:26+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 25
+    "wiki_changed": 19
   },
   "stats": {
-    "collected": 48,
-    "skipped_unchanged": 16,
-    "skipped_duplicate": 0,
-    "rejected_quality": 27,
-    "drafted": 5,
+    "collected": 91,
+    "skipped_unchanged": 24,
+    "skipped_duplicate": 1,
+    "rejected_quality": 56,
+    "drafted": 10,
     "errors": 0
   },
   "auto_publish": {
-    "published": 5,
+    "published": 10,
     "purged": 0
   },
-  "enhancement": {},
+  "enhancement": {
+    "candidates_found": 102,
+    "enhanced": 0,
+    "skipped_dry_run": 0,
+    "errors": 0,
+    "enhanced_slugs": []
+  },
   "review_link_repair": {
-    "changed_files": 4,
-    "link_replacements": 8
+    "changed_files": 6,
+    "link_replacements": 15
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
-    "broken_links_found": 78,
-    "bidirectional_links_added": 15,
+    "broken_links_found": 100,
+    "bidirectional_links_added": 29,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
       "Bot-Tespiti-ve-Honeypot.md -> [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]",
       "Bot-Tespiti-ve-Honeypot.md -> [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]",
+      "Bot-Tespiti-ve-Honeypot.md -> [[review/cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu]]",
+      "CORS-ve-Guvenlik-Headerlari.md -> [[review/cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu]]",
+      "CORS-ve-Guvenlik-Headerlari.md -> [[review/supabase-row-level-security-rls-uretim-ortami-desenleri]]",
       "Clean-Architecture.md -> [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]",
       "Clean-Architecture.md -> [[review/mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik]]",
       "Clean-Architecture.md -> [[review/spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim]]",
+      "Clean-Architecture.md -> [[review/mcp-sunuculari-ile-claude-icin-guvenlik-zek-si-saglama]]",
       "Erisilebilirlik-WCAG-ve-ARIA.md -> [[review/unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi]]",
       "Erisilebilirlik-WCAG-ve-ARIA.md -> [[review/statik-erisilebilirlik-tarayicilarinin-kacirdigi-6-yaygin-kontrol]]",
+      "Erisilebilirlik-WCAG-ve-ARIA.md -> [[review/html-in-canvas-interaktif-web-deneyimlerini-donusturebilecek-deneysel-api]]",
       "JWT-ve-Kimlik-Dogrulama.md -> [[review/ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]",
       "JWT-ve-Kimlik-Dogrulama.md -> [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]",
       "JWT-ve-Kimlik-Dogrulama.md -> [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]",
-      "JWT-ve-Kimlik-Dogrulama.md -> [[review/compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu]]",
-      "Modern-React-Desenleri.md -> [[review/boneyard-js-cli-driven-skeleton-ui-olusturma]]",
-      "Modern-React-Desenleri.md -> [[review/gunluk-kullandigim-typescript-ipuclari-ve-puf-noktalari]]",
-      "Modern-React-Desenleri.md -> [[review/unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi]]",
-      "Modern-React-Desenleri.md -> [[review/typescript-tip-cikarma-motoru-yazmak]]",
-      "Modern-React-Desenleri.md -> [[review/reaktif-durum-yonetiminde-cebirsel-veri-turleri]]"
+      "JWT-ve-Kimlik-Dogrulama.md -> [[review/compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu]]"
     ],
     "duplicate_pairs": []
   },
   "error_samples": [],
   "drafts_preview": [
     {
-      "slug": "mcp-sunuculari-ile-claude-icin-guvenlik-zek-si-saglama",
-      "title": "MCP Sunucular\u0131 ile Claude i\u00e7in G\u00fcvenlik Zek\u00e2s\u0131 Sa\u011flama",
+      "slug": "3d-portfolyo-tasarimi-react-three-fiber-ve-next-js-ile-interaktif-gunes-sistemi",
+      "title": "3D Portfolyo Tasar\u0131m\u0131: React Three Fiber ve Next.js ile \u0130nteraktif G\u00fcne\u015f Sistemi",
+      "category": "ui-ux",
+      "confidence": 95,
+      "novelty": 75
+    },
+    {
+      "slug": "smoothui-animasyonlu-react-bilesenleri-ve-hareket-tasarimi",
+      "title": "SmoothUI: Animasyonlu React Bile\u015fenleri ve Hareket Tasar\u0131m\u0131",
+      "category": "ui-ux",
+      "confidence": 95,
+      "novelty": 70
+    },
+    {
+      "slug": "coklu-web-sitesi-yonetimi-40-ozelligi-merkezi-veri-ve-otomasyonla-yonetmek",
+      "title": "\u00c7oklu Web Sitesi Y\u00f6netimi: 40+ \u00d6zelli\u011fi Merkezi Veri ve Otomasyonla Y\u00f6netmek",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "woocommerce-sabit-ceviri-glosarisi-ile-etiket-tutarliligi",
+      "title": "WooCommerce Sabit \u00c7eviri Glosarisi ile Etiket Tutarlili\u011fi",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "ai-ajanlari-icin-odeme-protokolu-x402-ve-yetki-katmani-l4",
+      "title": "AI Ajanlar\u0131 i\u00e7in \u00d6deme Protokol\u00fc (x402) ve Yetki Katman\u0131 (L4)",
       "category": "backend",
-      "confidence": 90,
+      "confidence": 95,
       "novelty": 75
     },
     {
-      "slug": "html-in-canvas-interaktif-web-deneyimlerini-donusturebilecek-deneysel-api",
-      "title": "HTML-in-Canvas: \u0130nteraktif Web Deneyimlerini D\u00f6n\u00fc\u015ft\u00fcrebilecek Deneysel API",
-      "category": "ui-ux",
-      "confidence": 90,
+      "slug": "benchmark-skorlarinin-guvenilirliginin-sorgulanmasi-ve-davranissal-telemetri-ile-dogrulama",
+      "title": "Benchmark Skorlar\u0131n\u0131n G\u00fcvenilirli\u011finin Sorgulanmas\u0131 ve Davran\u0131\u015fsal Telemetri ile Do\u011frulama",
+      "category": "backend",
+      "confidence": 95,
       "novelty": 75
     },
     {
-      "slug": "html-den-markdown-a-donusturerek-llm-maliyetlerini-azaltmak",
-      "title": "HTML'den Markdown'a D\u00f6n\u00fc\u015ft\u00fcrerek LLM Maliyetlerini Azaltmak",
+      "slug": "roastttp-http-durum-kodlarini-eglenceli-terminal-bildirimleriyle-goruntuleme",
+      "title": "Roastttp: HTTP Durum Kodlar\u0131n\u0131 E\u011flenceli Terminal Bildirimleriyle G\u00f6r\u00fcnt\u00fcleme",
       "category": "ui-ux",
       "confidence": 95,
       "novelty": 75
     },
     {
-      "slug": "cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu",
-      "title": "CVE-2026-34197: 13 Y\u0131ld\u0131r Gizli Kalan ActiveMQ RCE A\u00e7\u0131\u011f\u0131 ve Acil Patch Zorunlulu\u011fu",
-      "category": "security",
+      "slug": "tarayici-tabanli-gelistirici-araclari-dev-toolbox-mimarisi",
+      "title": "Taray\u0131c\u0131 Tabanl\u0131 Geli\u015ftirici Ara\u00e7lar\u0131: Dev-Toolbox Mimarisi",
+      "category": "ui-ux",
       "confidence": 95,
       "novelty": 75
     },
     {
-      "slug": "supabase-row-level-security-rls-uretim-ortami-desenleri",
-      "title": "Supabase Row Level Security (RLS) \u00dcretim Ortam\u0131 Desenleri",
-      "category": "security",
+      "slug": "ai-powered-blogging-platform-tam-otomatik-icerik-uretimi-ve-yayin-akisi",
+      "title": "AI-Powered Blogging Platform: Tam Otomatik \u0130\u00e7erik \u00dcretimi ve Yay\u0131n Ak\u0131\u015f\u0131",
+      "category": "ui-ux",
+      "confidence": 95,
+      "novelty": 72
+    },
+    {
+      "slug": "ai-destekli-erisilebilirlik-uyumlulugu-icin-saas-gelistirme-axle-ornegi",
+      "title": "AI Destekli Eri\u015filebilirlik Uyumlulu\u011fu i\u00e7in SaaS Geli\u015ftirme: Axle \u00d6rne\u011fi",
+      "category": "ui-ux",
       "confidence": 95,
       "novelty": 75
     }
   ],
   "weekly_digest": {
-    "generated": false,
-    "reason": "not_scheduled_day",
-    "run_day_of_week": 6,
-    "today_weekday": 5
+    "generated": true,
+    "path": "wiki/reports/weekly-2026-w16.md",
+    "included_runs": 8,
+    "lookback_days": 7
   }
 }

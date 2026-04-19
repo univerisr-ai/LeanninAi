@@ -34,3 +34,4 @@ Brute-force ve GPU saldırılarına karşı piyasadaki modern algoritma **Argon2
 - [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]
 - [[review/compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu]]
 - [[review/supabase-row-level-security-rls-uretim-ortami-desenleri]]
+- [[review/tarayici-tabanli-gelistirici-araclari-dev-toolbox-mimarisi]]

@@ -71,3 +71,4 @@ Service Worker, web sayfanızdan tamamen bağımsız, arka planda çalışan (ta
 - [[review/react-formlarinda-performans-optimizasyonu-schepta-ornegi]]
 - [[review/statik-erisilebilirlik-tarayicilarinin-kacirdigi-6-yaygin-kontrol]]
 - [[review/html-in-canvas-interaktif-web-deneyimlerini-donusturebilecek-deneysel-api]]
+- [[review/tarayici-tabanli-gelistirici-araclari-dev-toolbox-mimarisi]]

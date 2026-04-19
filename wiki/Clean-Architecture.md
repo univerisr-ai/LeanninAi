@@ -26,3 +26,5 @@ Yazılımda değişikliklerin birbirini etkilemesini en aza indiren en etkili ya
 - [[review/mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik]]
 - [[review/spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim]]
 - [[review/mcp-sunuculari-ile-claude-icin-guvenlik-zek-si-saglama]]
+- [[review/ai-ajanlari-icin-odeme-protokolu-x402-ve-yetki-katmani-l4]]
+- [[review/benchmark-skorlarinin-guvenilirliginin-sorgulanmasi-ve-davranissal-telemetri-ile-dogrulama]]

@@ -2,43 +2,43 @@
 
 Bu bolum en son uretilen draft bilgisinin hizli ozetidir.
 
-## MCP Sunucuları ile Claude için Güvenlik Zekâsı Sağlama
-→ [[review/mcp-sunuculari-ile-claude-icin-guvenlik-zek-si-saglama]]
+## 3D Portfolyo Tasarımı: React Three Fiber ve Next.js ile İnteraktif Güneş Sistemi
+→ [[review/3d-portfolyo-tasarimi-react-three-fiber-ve-next-js-ile-interaktif-gunes-sistemi]]
 
-Bu konsept, mukul975/cve-mcp-server projesi üzerinden bir Model Context Protocol (MCP) sunucusunun nasıl production-grade güvenlik zekâsı sağlayabileceğini açıklar. Özellikle Claude AI ile entegre çalışarak CVE, EPSS, CISA KEV, MITRE ATT&CK gibi 21 farklı API’den gelen verilerle tehdit istihbaratı sağlar.
-- FastMCP framework kullanılarak geliştirilmiş, yüksek performanslı bir güvenlik zekâsı sunucusudur.
-- 27 farklı güvenlik aracı ile Claude’a bağlamsal siber güvenlik bilgisi sağlar.
-- Desteklenen kaynaklar arasında Shodan, VirusTotal, NVD, OSV ve MITRE ATT&CK yer alır.
+Bu konsept, Next.js ve React Three Fiber kullanılarak geliştirilen interaktif bir 3D portfolyo örneğini inceler. Her gezegenin kullanıcı deneyiminde farklı bir bölüm temsil ettiği bu yapı, geleneksel portfolyolara yaratıcı bir alternatif sunar. Zustand ile durum yönetimi ve Tailwind CSS ile stil yönetimi gibi teknik detaylar ele alınır.
+- Portfolyoların kullanıcı etkileşimini artırmak için 3D öğelerle zenginleştirilmesi
+- Next.js App Router üzerinde çalışan React Three Fiber tabanlı 3D sahne oluşturma
+- Zustand kullanılarak gezegen bazlı durum yönetimi sağlanması
 
-## HTML-in-Canvas: İnteraktif Web Deneyimlerini Dönüştürebilecek Deneysel API
-→ [[review/html-in-canvas-interaktif-web-deneyimlerini-donusturebilecek-deneysel-api]]
+## SmoothUI: Animasyonlu React Bileşenleri ve Hareket Tasarımı
+→ [[review/smoothui-animasyonlu-react-bilesenleri-ve-hareket-tasarimi]]
 
-Bu konsept, henüz deneysel aşamada olan HTML-in-Canvas API'sini tanıtıyor. Bu yeni yaklaşım, HTML elementlerinin doğrudan <canvas> içerisine yerleştirilerek hem görsel performansın korunmasını hem de erişilebilirlik, form elemanları ve metin seçimi gibi native tarayıcı özelliklerinden vazgeçilmeden zengin interaktif deneyimler oluşturulmasını sağlıyor.
-- HTML-in-Canvas, WICG tarafından önerilen ve şu anda yalnızca Chrome Canary'de aktif edilebilen deneysel bir özelliktir.
-- Temel amaç, canvas üzerinde çizilen içeriklerde erişilebilirlik, form elemanları ve metin işlemleri gibi HTML'in sunduğu avantajlardan faydalanabilmektir.
-- Üç temel yapı taşından oluşur: `layoutsubtree` özelliği, `drawElementImage()` metodu ve `paint` olayı.
+SmoothUI, 75+ animasyonlu React bileşeni içeren açık kaynaklı bir kütüphanedir. shadcn/ui uyumludur ve her bir bileşen prefers-reduced-motion desteğine sahiptir. Aynı zamanda hareket tasarımının teorisini öğretmeyi amaçlayan öğretici içerikler de sunar.
+- 75+ hazır animasyonlu React bileşeni içerir
+- shadcn/ui ile uyumlu, parça parça kurulabilir (`npx shadcn@latest add`)
+- Tüm bileşenler erişilebilirlik açısından `prefers-reduced-motion` desteği sunar
 
-## HTML'den Markdown'a Dönüştürerek LLM Maliyetlerini Azaltmak
-→ [[review/html-den-markdown-a-donusturerek-llm-maliyetlerini-azaltmak]]
+## Çoklu Web Sitesi Yönetimi: 40+ Özelliği Merkezi Veri ve Otomasyonla Yönetmek
+→ [[review/coklu-web-sitesi-yonetimi-40-ozelligi-merkezi-veri-ve-otomasyonla-yonetmek]]
 
-Bu makalede, web içeriklerinin LLM'lere gönderilmeden önce HTML'den Markdown formatına dönüştürülmesinin, token tüketimini önemli ölçüde azalttığı ve maliyet tasarrufu sağladığı ele alınıyor. Özellikle veri kazıma, özetleme ve RAG sistemleri gibi işlemlerde bu yöntemin etkin bir optimizasyon olduğu gösteriliyor.
-- HTML içerikler, özellikle sınıf adları ve yapısal etiketlerle birlikte, LLM token tüketimini ciddi şekilde artırır.
-- Markdown formatı, aynı bilgiyi daha düşük token maliyetiyle sunar çünkü daha sade ve modele tanıdık bir yapıdadır.
-- Pratik bir örnek olarak, Wikipedia'nın HTML hali ~48.000 token iken Markdown hali sadece ~8.900 tokendir.
+Bu makalede, METIS Digital adlı dijital ajansın 43 farklı web sitesini nasıl verimli bir şekilde yönettiğine dair stratejiler açıklanıyor. Merkezi veri deposu olarak Supabase kullanımı, otomasyon altyapısı olarak n8n tercihi ve bu sistemlerin SEO, performans ve içerik yönetimine nasıl katkı sağladığı detaylandırılıyor.
+- 43 farklı web sitesinin tek bir ekip tarafından yönetilmesi için merkezi veri mimarisi şarttır.
+- Supabase, tüm sitelerin yapılandırması, içerik planlaması ve sağlık durumu gibi verileri tek bir noktada toplar.
+- n8n gibi workflow otomasyon araçlarıyla manuel işlemleri azaltarak ölçeklenebilirlik sağlanır.
 
-## CVE-2026-34197: 13 Yıldır Gizli Kalan ActiveMQ RCE Açığı ve Acil Patch Zorunluluğu
-→ [[review/cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu]]
+## WooCommerce Sabit Çeviri Glosarisi ile Etiket Tutarliliği
+→ [[review/woocommerce-sabit-ceviri-glosarisi-ile-etiket-tutarliligi]]
 
-CVE-2026-34197, Apache ActiveMQ'de 13 yıldır fark edilmeyen kritik bir RCE (Remote Code Execution) açığıdır. CISA bu açığı KEV kataloğuna ekleyerek tüm federal kurumların 30 Nisan 2026 tarihine kadar patch uygulamasını zorunlu kılmıştır. Bu konsept, teknik detaylar, risk analizi ve korunma stratejileri üzerine pratik bilgiler içerir.
-- Açık, ActiveMQ'nin Jolokia API'si üzerinden kimlik doğrulaması olmadan uzaktan kod çalıştırılmasına izin veriyor.
-- Varsayılan admin:admin kimlik bilgilerinin varlığı ve Jolokia'nın açık yapılandırması riski artırıyor.
-- Horizon3.ai tarafından keşfedilmiş ve CISA tarafından aktif sömürüldüğü teyit edilmiş.
+Bu makale, WooCommerce projelerinde ödeme ve vergi etiketlerinin farklı eklentiler arasında tutarsız çevrilmesine karşı sabit çeviri glosarisi kullanarak nasıl çözüm üretileceğini açıklar. Özellikle çoklu eklenti ortamlarında kullanıcı deneyimi ve yasal uyumluluğu artırmak için terminolojinin standardizasyonunu sağlar.
+- Farklı eklentilerden kaynaklanan çeviri tutarsızlıklarının neden olduğu UX ve合规 sorunları
+- Sabit çeviri glosarisinin yüksek öncelikli terimleri tek bir çeviride kilitleme yöntemi
+- Loco Translate gibi araçlarla entegre çalışan otomatik çeviri koruma stratejileri
 
-## Supabase Row Level Security (RLS) Üretim Ortamı Desenleri
-→ [[review/supabase-row-level-security-rls-uretim-ortami-desenleri]]
+## AI Ajanları için Ödeme Protokolü (x402) ve Yetki Katmanı (L4)
+→ [[review/ai-ajanlari-icin-odeme-protokolu-x402-ve-yetki-katmani-l4]]
 
-Supabase RLS (Row Level Security), PostgreSQL'in veri katmanında yerleşik erişim kontrolü sağlayan bir sistemdir. Bu konsept, üretim ortamında güvenli veri erişimi için uygulanabilir RLS desenlerini ve sık karşılaşılan hataları ele alır.
-- RLS etkinleştirildiğinde, politikalar olmadan tablolardan veri çekilmez.
-- Her kullanıcıya özel veri erişimi için dört temel politika (SELECT, INSERT, UPDATE, DELETE) tanımlanmalıdır.
-- `USING` koşulu mevcut satırlar üzerinde filtreleme yaparken, `WITH CHECK` yeni yazılan satırları doğrular.
+x402 protokolü, yapay zeka ajanlarının internet üzerinde standartlaştırılmış bir şekilde ödeme yapmasını sağlar. Ancak bu yeni altyapı, yetkilendirme ve harcama kontrolünü düzenleyecek L4 katmanının eksikliğini daha da belirgin hale getiriyor.
+- x402, AI ajanlarının kimlik doğrulama veya abonelik olmadan doğrudan ödeme yapmasına olanak tanır.
+- Protokolün temelinde HTTP 402 durumu ve zincir üstü (on-chain) işlemler yer alır.
+- L3 seviyesi (ödeme altyapısı) çözülürken, L4 seviyesi (yetkilendirme ve politika) henüz standartlaştırılmadı.
 

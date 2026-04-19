@@ -2,7 +2,7 @@
 
 Bu sayfa, bilgi tabanindaki tum konseptleri kategorilere gore siralar.
 
-Son guncelleme: 2026-04-18T03:07:07+00:00
+Son guncelleme: 2026-04-19T03:53:55+00:00
 
 * Islem gecmisi: [[log]]
 * Son bilgi ozeti: [[hot]]
@@ -34,6 +34,8 @@ Son guncelleme: 2026-04-18T03:07:07+00:00
 
 - [[Clean-Architecture|Clean Architecture (Katmanlı Mimari)]]
 - [[Veritabani-ve-Caching-Stratejileri|Veritabanı ve Caching Stratejileri]]
+- [[ai-ajanlari-icin-odeme-protokolu-x402-ve-yetki-katmani-l4|AI Ajanları için Ödeme Protokolü (x402) ve Yetki Katmanı (L4)]]
+- [[benchmark-skorlarinin-guvenilirliginin-sorgulanmasi-ve-davranissal-telemetri-ile-dogrulama|Benchmark Skorlarının Güvenilirliğinin Sorgulanması ve Davranışsal Telemetri ile Doğrulama]]
 - [[mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi|MCP Sunucuları: Geliştiriciler İçin Yeni Bir Backend Paradigması]]
 - [[mcp-sunuculari-ile-claude-icin-guvenlik-zek-si-saglama|MCP Sunucuları ile Claude için Güvenlik Zekâsı Sağlama]]
 - [[mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik|Mimari Dokümantasyonu: AI Destekli Kalite Kontrolünde Önemli Bir Varlık]]
@@ -53,15 +55,23 @@ Son guncelleme: 2026-04-18T03:07:07+00:00
 
 ## 🎨 UI/UX
 
+- [[3d-portfolyo-tasarimi-react-three-fiber-ve-next-js-ile-interaktif-gunes-sistemi|3D Portfolyo Tasarımı: React Three Fiber ve Next.js ile İnteraktif Güneş Sistemi]]
 - [[Renk-Teorisi-ve-Tipografi|Renk Teorisi ve Tipografi]]
 - [[Tasarim-Psikolojisi-Gestalt-Hick|Tasarım Psikolojisi: Gestalt ve Hick]]
+- [[ai-destekli-erisilebilirlik-uyumlulugu-icin-saas-gelistirme-axle-ornegi|AI Destekli Erişilebilirlik Uyumluluğu için SaaS Geliştirme: Axle Örneği]]
 - [[ai-ile-oyun-ve-uygulama-icin-telifsiz-muzik-uretimi|AI ile Oyun ve Uygulama İçin Telifsiz Müzik Üretimi]]
+- [[ai-powered-blogging-platform-tam-otomatik-icerik-uretimi-ve-yayin-akisi|AI-Powered Blogging Platform: Tam Otomatik İçerik Üretimi ve Yayın Akışı]]
 - [[angular-icin-gercekci-ui-bileseni-destegi|Angular İçin Gerçekçi UI Bileşeni Desteği]]
+- [[coklu-web-sitesi-yonetimi-40-ozelligi-merkezi-veri-ve-otomasyonla-yonetmek|Çoklu Web Sitesi Yönetimi: 40+ Özelliği Merkezi Veri ve Otomasyonla Yönetmek]]
 - [[html-den-markdown-a-donusturerek-llm-maliyetlerini-azaltmak|HTML'den Markdown'a Dönüştürerek LLM Maliyetlerini Azaltmak]]
 - [[html-in-canvas-interaktif-web-deneyimlerini-donusturebilecek-deneysel-api|HTML-in-Canvas: İnteraktif Web Deneyimlerini Dönüştürebilecek Deneysel API]]
+- [[roastttp-http-durum-kodlarini-eglenceli-terminal-bildirimleriyle-goruntuleme|Roastttp: HTTP Durum Kodlarını Eğlenceli Terminal Bildirimleriyle Görüntüleme]]
+- [[smoothui-animasyonlu-react-bilesenleri-ve-hareket-tasarimi|SmoothUI: Animasyonlu React Bileşenleri ve Hareket Tasarımı]]
 - [[tailwind-css-v4-yenilikleri-ve-gecis-rehberi|Tailwind CSS v4 Yenilikleri ve Geçiş Rehberi]]
+- [[tarayici-tabanli-gelistirici-araclari-dev-toolbox-mimarisi|Tarayıcı Tabanlı Geliştirici Araçları: Dev-Toolbox Mimarisi]]
 - [[tasarim-becerisi-olmadan-minimalist-ui-olusturmak-flickle-ornegi|Tasarım Becerisi Olmadan Minimalist UI Oluşturmak: Flickle Örneği]]
 - [[tek-json-dan-coklu-cikti-uretimi-design-token-pipeline|Tek JSON'dan Çoklu Çıktı Üretimi: Design Token Pipeline]]
+- [[woocommerce-sabit-ceviri-glosarisi-ile-etiket-tutarliligi|WooCommerce Sabit Çeviri Glosarisi ile Etiket Tutarliliği]]
 
 ## ♿ Erişilebilirlik
 

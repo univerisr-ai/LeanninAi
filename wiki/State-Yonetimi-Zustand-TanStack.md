@@ -28,3 +28,4 @@ Sadece tarayıcıda yaşayan (sekme kapanınca ölecek olan) geçici arayüz ver
 - [[review/react-projelerinde-biraktigim-aliskanliklar-ve-kod-kalitem-neden-daha-iyi-oldu]]
 - [[review/webmcp-devtools-tarayicida-ai-model-baglamini-inceleme-ve-hata-ayiklama]]
 - [[review/reaktif-durum-yonetiminde-cebirsel-veri-turleri]]
+- [[review/3d-portfolyo-tasarimi-react-three-fiber-ve-next-js-ile-interaktif-gunes-sistemi]]
