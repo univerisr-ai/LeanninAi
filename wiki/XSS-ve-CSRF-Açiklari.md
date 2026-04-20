@@ -32,3 +32,5 @@ Kullanıcının başka bir sitedeyken (evil.com) kendi haberi olmadan bankası.c
 - [[review/compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu]]
 - [[review/cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu]]
 - [[review/supabase-row-level-security-rls-uretim-ortami-desenleri]]
+- [[review/post-kuantum-kriptografi-hazirligi-meta-nin-hibrit-yaklasimi-ve-web-guvenligi-uzerine-etkileri]]
+- [[review/vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti]]

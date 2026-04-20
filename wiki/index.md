@@ -2,7 +2,7 @@
 
 Bu sayfa, bilgi tabanindaki tum konseptleri kategorilere gore siralar.
 
-Son guncelleme: 2026-04-19T03:53:55+00:00
+Son guncelleme: 2026-04-20T03:54:48+00:00
 
 * Islem gecmisi: [[log]]
 * Son bilgi ozeti: [[hot]]
@@ -19,6 +19,7 @@ Son guncelleme: 2026-04-19T03:53:55+00:00
 - [[gunluk-kullandigim-typescript-ipuclari-ve-puf-noktalari|Günlük Kullandığım TypeScript İpuçları ve Püf Noktaları]]
 - [[guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js|Güvenliği Öğrenmek için Zafiyetli Web Uygulaması Geliştirme (Go + Vue.js)]]
 - [[javascript-te-diziyi-duzlestirme-array-flatten|JavaScript'te Diziyi Düzleştirme (Array Flatten)]]
+- [[next-js-ile-github-pages-uzerinde-statik-portfoy-sitesi-barindirma|Next.js ile GitHub Pages Üzerinde Statik Portföy Sitesi Barındırma]]
 - [[rag-retrieval-augmented-generation-mimarisi-ai-uygulamalarinda-llm-kullanimi|RAG (Retrieval-Augmented Generation) Mimarisi: AI Uygulamalarında LLM Kullanımı]]
 - [[react-formlarinda-performans-optimizasyonu-schepta-ornegi|React Formlarında Performans Optimizasyonu: Schepta Örneği]]
 - [[reaktif-durum-yonetiminde-cebirsel-veri-turleri|Reaktif Durum Yönetiminde Cebirsel Veri Türleri]]
@@ -40,6 +41,8 @@ Son guncelleme: 2026-04-19T03:53:55+00:00
 - [[mcp-sunuculari-ile-claude-icin-guvenlik-zek-si-saglama|MCP Sunucuları ile Claude için Güvenlik Zekâsı Sağlama]]
 - [[mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik|Mimari Dokümantasyonu: AI Destekli Kalite Kontrolünde Önemli Bir Varlık]]
 - [[spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim|Spec-Driven AI Development: Gerçek Dünya Örneği ile Uygulamalı Yaklaşım]]
+- [[tanstack-query-v5-ile-olceklenebilir-sunucu-durumu-yonetimi|TanStack Query v5 ile Ölçeklenebilir Sunucu Durumu Yönetimi]]
+- [[tariff-refund-portali-yuksek-trafige-hazirlikli-ozel-bir-web-uygulamasi|Tariff-Refund Portalı: Yüksek Trafiğe Hazırlıklı Özel Bir Web Uygulaması]]
 
 ## 🛡️ Security
 
@@ -51,7 +54,9 @@ Son guncelleme: 2026-04-19T03:53:55+00:00
 - [[ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi|AI Tehdit Modelleme: STRIDE-AI ve MITRE-ATLAS ile Güvenlik Analizi]]
 - [[compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu|Compliance Mühendisliği: Açık Kaynaklı Bilgi Güvenliği ve AI Yönetimi Platformu]]
 - [[cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu|CVE-2026-34197: 13 Yıldır Gizli Kalan ActiveMQ RCE Açığı ve Acil Patch Zorunluluğu]]
+- [[post-kuantum-kriptografi-hazirligi-meta-nin-hibrit-yaklasimi-ve-web-guvenligi-uzerine-etkileri|Post-Kuantum Kriptografi Hazırlığı: Meta'nın Hibrit Yaklaşımı ve Web Güvenliği Üzerine Etkileri]]
 - [[supabase-row-level-security-rls-uretim-ortami-desenleri|Supabase Row Level Security (RLS) Üretim Ortamı Desenleri]]
+- [[vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti|Vercel Güvenlik İhlali: Üçüncü Taraf AI Entegrasyonundan Kaynaklı Sızıntı]]
 
 ## 🎨 UI/UX
 
@@ -65,12 +70,15 @@ Son guncelleme: 2026-04-19T03:53:55+00:00
 - [[coklu-web-sitesi-yonetimi-40-ozelligi-merkezi-veri-ve-otomasyonla-yonetmek|Çoklu Web Sitesi Yönetimi: 40+ Özelliği Merkezi Veri ve Otomasyonla Yönetmek]]
 - [[html-den-markdown-a-donusturerek-llm-maliyetlerini-azaltmak|HTML'den Markdown'a Dönüştürerek LLM Maliyetlerini Azaltmak]]
 - [[html-in-canvas-interaktif-web-deneyimlerini-donusturebilecek-deneysel-api|HTML-in-Canvas: İnteraktif Web Deneyimlerini Dönüştürebilecek Deneysel API]]
+- [[oyun-motoru-secimi-web-ve-mobil-uyumlu-gelistirme-stratejileri|Oyun Motoru Seçimi: Web ve Mobil Uyumlu Geliştirme Stratejileri]]
 - [[roastttp-http-durum-kodlarini-eglenceli-terminal-bildirimleriyle-goruntuleme|Roastttp: HTTP Durum Kodlarını Eğlenceli Terminal Bildirimleriyle Görüntüleme]]
 - [[smoothui-animasyonlu-react-bilesenleri-ve-hareket-tasarimi|SmoothUI: Animasyonlu React Bileşenleri ve Hareket Tasarımı]]
+- [[stadiumsync-canli-stadyum-deneyimini-donusturen-gercek-zamanli-web-uygulamasi|StadiumSync: Canlı Stadyum Deneyimini Dönüştüren Gerçek Zamanlı Web Uygulaması]]
 - [[tailwind-css-v4-yenilikleri-ve-gecis-rehberi|Tailwind CSS v4 Yenilikleri ve Geçiş Rehberi]]
 - [[tarayici-tabanli-gelistirici-araclari-dev-toolbox-mimarisi|Tarayıcı Tabanlı Geliştirici Araçları: Dev-Toolbox Mimarisi]]
 - [[tasarim-becerisi-olmadan-minimalist-ui-olusturmak-flickle-ornegi|Tasarım Becerisi Olmadan Minimalist UI Oluşturmak: Flickle Örneği]]
 - [[tek-json-dan-coklu-cikti-uretimi-design-token-pipeline|Tek JSON'dan Çoklu Çıktı Üretimi: Design Token Pipeline]]
+- [[web-audio-ile-hassas-zamanlama-settimeout-yerine-lookahead-scheduler-kullanimi|Web Audio ile Hassas Zamanlama: setTimeout Yerine Lookahead Scheduler Kullanımı]]
 - [[woocommerce-sabit-ceviri-glosarisi-ile-etiket-tutarliligi|WooCommerce Sabit Çeviri Glosarisi ile Etiket Tutarliliği]]
 
 ## ♿ Erişilebilirlik

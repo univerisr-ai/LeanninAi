@@ -32,3 +32,5 @@ Express.js ekosisteminde `express-rate-limit` veya Nginx gibi araçların arka p
 - [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]
 - [[review/cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu]]
 - [[review/tarayici-tabanli-gelistirici-araclari-dev-toolbox-mimarisi]]
+- [[review/tariff-refund-portali-yuksek-trafige-hazirlikli-ozel-bir-web-uygulamasi]]
+- [[review/vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti]]

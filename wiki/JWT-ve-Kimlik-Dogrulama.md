@@ -35,3 +35,6 @@ Brute-force ve GPU saldırılarına karşı piyasadaki modern algoritma **Argon2
 - [[review/compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu]]
 - [[review/supabase-row-level-security-rls-uretim-ortami-desenleri]]
 - [[review/tarayici-tabanli-gelistirici-araclari-dev-toolbox-mimarisi]]
+- [[review/post-kuantum-kriptografi-hazirligi-meta-nin-hibrit-yaklasimi-ve-web-guvenligi-uzerine-etkileri]]
+- [[review/tariff-refund-portali-yuksek-trafige-hazirlikli-ozel-bir-web-uygulamasi]]
+- [[review/vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti]]
