@@ -34,3 +34,4 @@ Express.js ekosisteminde `express-rate-limit` veya Nginx gibi araçların arka p
 - [[review/tarayici-tabanli-gelistirici-araclari-dev-toolbox-mimarisi]]
 - [[review/tariff-refund-portali-yuksek-trafige-hazirlikli-ozel-bir-web-uygulamasi]]
 - [[review/vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti]]
+- [[review/gelistirici-icin-guvenli-secret-yonetimi]]

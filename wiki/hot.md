@@ -2,43 +2,43 @@
 
 Bu bolum en son uretilen draft bilgisinin hizli ozetidir.
 
-## Web Audio ile Hassas Zamanlama: setTimeout Yerine Lookahead Scheduler Kullanımı
-→ [[review/web-audio-ile-hassas-zamanlama-settimeout-yerine-lookahead-scheduler-kullanimi]]
+## Turbo 8 Morphing ile Rails Frontend Geliştirme
+→ [[review/turbo-8-morphing-ile-rails-frontend-gelistirme]]
 
-Bu makalede, web tabanlı bir metronom uygulamasında doğru zamanlama için neden setTimeout veya setInterval kullanılmaması gerektiği açıklanıyor. Bunun yerine Web Audio API'nin yüksek hassasiyetli zamanlamasını kullanan 'lookahead scheduling' yöntemi detaylandırılıyor. Bu yaklaşım, ses sentezleme işlemlerinde ana iş parçacığındaki gecikmelerden bağımsız olarak kesin zamanlamayı garanti altına alır.
-- setTimeout/setInterval ana iş parçacığına bağlı olduğu için ses zamanlamasında sapmalara neden olur.
-- Web Audio API, donanım saatinden bağımsız ve örnek bazında ilerleyen bir zamanlayıcı sunar.
-- Lookahead scheduler, gelecekteki olayları önceden planlayarak ses senkronizasyonunu sağlar.
+Turbo 8'in yeni morfolojik güncelleme özelliği sayesinde, Rails uygulamalarında dinamik arayüz güncellemeleri artık daha kolay hale geldi. Bu teknik, geleneksel Turbo Stream yöntemlerine alternatif olarak, tam sayfa yenilemesi yapmadan yalnızca değişen HTML bölümlerini akıllıca güncelleyerek kullanıcı deneyimini artırıyor.
+- Turbo 8 ile birlikte gelen 'Page Morphing', DOM üzerinde sadece değişen kısımları güncelliyor.
+- Bu yöntem, scroll pozisyonunu koruyarak ve form içeriklerini silmeden akıcı geçişler sağlıyor.
+- Geliştiricilerin manuel olarak yazdığı birçok `.turbo_stream.erb` dosyasını ortadan kaldırabiliyor.
 
-## StadiumSync: Canlı Stadyum Deneyimini Dönüştüren Gerçek Zamanlı Web Uygulaması
-→ [[review/stadiumsync-canli-stadyum-deneyimini-donusturen-gercek-zamanli-web-uygulamasi]]
+## Prompt Mühendisliği: Takımlar İçin Prompt Kütüphanesi Oluşturma ve Yönetme
+→ [[review/prompt-muhendisligi-takimlar-icin-prompt-kutuphanesi-olusturma-ve-yonetme]]
 
-Stadyum etkinliklerinde gerçek zamanlı koordinasyon ve kullanıcı deneyimi sunan bir platform olan StadiumSync'in teknik yapısı ve tasarım yaklaşımı. React, Firebase ve glassmorphism tasarımın entegrasyonuyla büyük ölçekli etkinliklerde bilgi akışını optimize ediyor.
-- Gerçek zamanlı veri senkronizasyonu için Firebase Firestore `onSnapshot` kullanımı
-- Kod tabanlı giriş sistemi ile hesapsız, anında erişim imkanı
-- Glassmorphism ve koyu tema ile stadyum ortamına uygun mobil-first arayüz tasarımı
+Yazılım ekiplerinin yapay zeka prompt'larını etkili biçimde organize etme, sürüm kontrolüne alma ve işbirlikçi bir şekilde yönetme stratejilerini açıklar. Prompt dosya formatları, kategorizasyon yöntemleri ve sürüm kontrolü gibi konuları kapsar.
+- Prompt kütüphaneleri, tekrarlamayı azaltır, tutarlılığı artırır ve bilgi kaybını önler.
+- Prompt’lar model bazında değil, işlevsel kategorilere göre düzenlenmelidir (örn. /code-review/, /content/).
+- Her prompt standartlaştırılmış bir formatta (YAML + Markdown) saklanmalı ve sürüm bilgilerini içermelidir.
 
-## Next.js ile GitHub Pages Üzerinde Statik Portföy Sitesi Barındırma
-→ [[review/next-js-ile-github-pages-uzerinde-statik-portfoy-sitesi-barindirma]]
+## AI Destekli Kod İnceleme İş Akışları: Güvenlik ve Kalite Odaklı Prompt Mühendisliği
+→ [[review/ai-destekli-kod-inceleme-is-akislari-guvenlik-ve-kalite-odakli-prompt-muhendisligi]]
 
-Bu makalede, bir geliştiricinin Next.js kullanarak kişisel portföy sitesini nasıl oluşturduğunu ve GitHub Pages üzerinde statik dışa aktarım ile nasıl yayınladığını inceliyoruz. JSON tabanlı içerik yönetimi, alt dizin dağıtımları ve GitHub Actions entegrasyonu gibi pratik çözümler ele alınıyor.
-- Next.js projeleri `output: 'export'` ayarı ile tamamen statik hale getirilebilir.
-- GitHub Pages üzerinde barındırılan projelerde alt dizin yolları için `basePath` ve `assetPrefix` yapılandırmaları kritik öneme sahiptir.
-- İçeriklerin JSX dışında JSON dosyalarında tutulması bakım süreçlerini kolaylaştırır.
+Bu makale, GPT-4 ve Claude gibi büyük dil modellerini kullanarak otomatik kod inceleme iş akışları oluşturma yöntemlerini açıklar. Özellikle güvenlik zaafları, kod kalitesi ve stil tutarlılığı olmak üzere üç katmanlı bir inceleme mimarisi önerilir. Her katman için özel olarak hazırlanmış prompt tasarımları sunularak, AI destekli statik analiz süreçlerinin nasıl daha etkili hale getirileceği detaylandırılır.
+- Manuel kod incelemelerinin verimliliğini artırmak için AI kullanımı, %50 oranında gözden kaçan hataları yakalayabilir.
+- AI kod incelemelerinin etkinliği tamamen kullanılan prompt kalitesine bağlıdır.
+- Üç katmanlı inceleme mimarisi: Güvenlik, Kalite ve Stil kontrolü için ayrı prompt’lar önerilmiştir.
 
-## TanStack Query v5 ile Ölçeklenebilir Sunucu Durumu Yönetimi
-→ [[review/tanstack-query-v5-ile-olceklenebilir-sunucu-durumu-yonetimi]]
+## Eco-Web Auditor
+→ [[review/eco-web-auditor]]
 
-TanStack Query v5'in sunduğu yeni API ve desenler sayesinde sunucu durumu yönetimi daha ölçeklenebilir hale geliyor. Bu içerikte, sürümdeki kritik değişiklikler, sorgu anahtarı fabrikaları, iyimser güncelleme stratejileri ve Suspense entegrasyonu ele alınıyor.
-- Sunucu durumunu client durumu gibi işlemek uygunsuzdur; bu, veri tutarsızlıklarına ve yarış koşullarına neden olur.
-- v5 sürümünde `isLoading` yerine `isPending`, tekil seçenek objesi ve daha iyi TypeScript desteği geldi.
-- Sorgu anahtarlarını merkezileştirmek için key factory deseni öneriliyor; böylece önbellek geçersizleme işlemleri daha tutarlı oluyor.
+Eco-Web Auditor, web sitelerinin dijital sürdürülebilirliğini ölçmek için geliştirilmiş bir araçtır. 20 farklı ekolojik metriği değerlendirerek, geleneksel performans araçlarının göz ardı ettiği 'yeşil tasarım' kriterlerine odaklanır. Araç, kullanıcıya hem skor hem de uygulanabilir teknik öneriler sunarak web'in karbon ayak izini azaltmayı hedefler.
+- 20 farklı dijital sürdürülebilirlik metriğini analiz eder.
+- Lighthouse ve PageSpeed Insights gibi araçların eksik bıraktığı yönleri ele alır.
+- Zombie kod, yeşil hosting ve enerji verimli tasarım gibi kriterleri içerir.
 
-## Klinik Asistanlarda Bellek Tabanlı Tasarım
-→ [[review/klinik-asistanlarda-bellek-tabanli-tasarim]]
+## Auth Migrations: Oturum Stratejisi ile Kimlik Doğrulama Geçişi
+→ [[review/auth-migrations-oturum-stratejisi-ile-kimlik-dogrulama-gecisi]]
 
-Bu makalede, klinik asistan sistemlerinde etkili bilgi yönetimi için bellek tabanlı bir mimari yaklaşım ele alınmaktadır. Geleneksel durumsuz sistemlerin zaman içinde bilgi kaybetme sorununa odaklanarak, yapılandırılmış olay tabanlı veri saklama ve geri çağırma ile doktorların hasta özetlerine daha etkili erişmesi sağlanmaktadır.
-- Durumsuz sistemlerin uzun vadeli klinik akışlarda yetersiz kaldığı gözlemlenmiştir.
-- Ziyaret notları yerine yapılandırılmış olaylar (medikasyon, taahhüt, kişisel detay vb.) saklanarak kalıcı bellek oluşturulmuştur.
-- Hasta bazlı iş parçacıkları (thread) kullanılarak her hastanın kendi tarihçesi izole edilmiştir.
+Bu makale, kimlik doğrulama geçişlerinin genellikle sağlayıcı seçiminden ziyade oturum davranışlarıyla ilgili sorunlar nedeniyle başarısız olduğunu açıklar. Gerçek kullanıcı deneyimini etkileyen oturum yaşam döngüsünü planlamanın önemine değinir.
+- Kimlik doğrulama geçişlerinin başarısı, sağlayıcıdan çok oturum davranışına bağlıdır.
+- Kullanıcılar, giriş ekranındaki değişiklikleri değil, oturum sürekliliğini hisseder.
+- Oturum yaşam döngüsü: oluşturma, yenileme, düşürme, iptal etme ve sonlandırma süreçleri önceden tanımlanmalıdır.
 

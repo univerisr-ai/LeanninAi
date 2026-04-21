@@ -34,3 +34,6 @@ Kullanıcının başka bir sitedeyken (evil.com) kendi haberi olmadan bankası.c
 - [[review/supabase-row-level-security-rls-uretim-ortami-desenleri]]
 - [[review/post-kuantum-kriptografi-hazirligi-meta-nin-hibrit-yaklasimi-ve-web-guvenligi-uzerine-etkileri]]
 - [[review/vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti]]
+- [[review/ai-destekli-kod-inceleme-is-akislari-guvenlik-ve-kalite-odakli-prompt-muhendisligi]]
+- [[review/auth-migrations-oturum-stratejisi-ile-kimlik-dogrulama-gecisi]]
+- [[review/gelistirici-icin-guvenli-secret-yonetimi]]

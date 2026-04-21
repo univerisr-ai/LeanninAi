@@ -69,3 +69,4 @@ Frontend'in sunucu cevabını beklemeden, veritabanına yazılmış *varsayarak*
 - [[review/statik-erisilebilirlik-tarayicilarinin-kacirdigi-6-yaygin-kontrol]]
 - [[review/3d-portfolyo-tasarimi-react-three-fiber-ve-next-js-ile-interaktif-gunes-sistemi]]
 - [[review/next-js-ile-github-pages-uzerinde-statik-portfoy-sitesi-barindirma]]
+- [[review/turbo-8-morphing-ile-rails-frontend-gelistirme]]

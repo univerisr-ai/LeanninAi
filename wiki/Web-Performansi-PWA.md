@@ -75,3 +75,4 @@ Service Worker, web sayfanızdan tamamen bağımsız, arka planda çalışan (ta
 - [[review/next-js-ile-github-pages-uzerinde-statik-portfoy-sitesi-barindirma]]
 - [[review/stadiumsync-canli-stadyum-deneyimini-donusturen-gercek-zamanli-web-uygulamasi]]
 - [[review/web-audio-ile-hassas-zamanlama-settimeout-yerine-lookahead-scheduler-kullanimi]]
+- [[review/turbo-8-morphing-ile-rails-frontend-gelistirme]]

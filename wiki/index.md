@@ -2,7 +2,7 @@
 
 Bu sayfa, bilgi tabanindaki tum konseptleri kategorilere gore siralar.
 
-Son guncelleme: 2026-04-20T03:54:48+00:00
+Son guncelleme: 2026-04-21T03:41:18+00:00
 
 * Islem gecmisi: [[log]]
 * Son bilgi ozeti: [[hot]]
@@ -25,6 +25,7 @@ Son guncelleme: 2026-04-20T03:54:48+00:00
 - [[reaktif-durum-yonetiminde-cebirsel-veri-turleri|Reaktif Durum Yönetiminde Cebirsel Veri Türleri]]
 - [[remotion-ve-ai-api-leri-ile-programatik-video-pipeline-i|Remotion ve AI API'leri ile Programatik Video Pipeline'ı]]
 - [[statik-erisilebilirlik-tarayicilarinin-kacirdigi-6-yaygin-kontrol|Statik Erişilebilirlik Tarayıcılarının Kaçırdığı 6 Yaygın Kontrol]]
+- [[turbo-8-morphing-ile-rails-frontend-gelistirme|Turbo 8 Morphing ile Rails Frontend Geliştirme]]
 - [[typescript-hata-gruplama-ve-ai-baglam-optimizasyonu-contextzip|TypeScript Hata Gruplama ve AI Bağlam Optimizasyonu (ContextZip)]]
 - [[typescript-tip-cikarma-motoru-yazmak|TypeScript Tip Çıkarma Motoru Yazmak]]
 - [[unicode-para-birimi-sembolleri-ve-u-20c3-uae-dirham-web-de-ozel-karakter-renderi|Unicode Para Birimi Sembolleri ve U+20C3 UAE Dirham: Web'de Özel Karakter Renderı]]
@@ -51,9 +52,12 @@ Son guncelleme: 2026-04-20T03:54:48+00:00
 - [[JWT-ve-Kimlik-Dogrulama|JWT ve Kimlik Doğrulama]]
 - [[Rate-Limiting-Token-Bucket|Rate Limiting ve Token Bucket Algoritması]]
 - [[XSS-ve-CSRF-Açiklari|XSS ve CSRF Açıkları]]
+- [[ai-destekli-kod-inceleme-is-akislari-guvenlik-ve-kalite-odakli-prompt-muhendisligi|AI Destekli Kod İnceleme İş Akışları: Güvenlik ve Kalite Odaklı Prompt Mühendisliği]]
 - [[ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi|AI Tehdit Modelleme: STRIDE-AI ve MITRE-ATLAS ile Güvenlik Analizi]]
+- [[auth-migrations-oturum-stratejisi-ile-kimlik-dogrulama-gecisi|Auth Migrations: Oturum Stratejisi ile Kimlik Doğrulama Geçişi]]
 - [[compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu|Compliance Mühendisliği: Açık Kaynaklı Bilgi Güvenliği ve AI Yönetimi Platformu]]
 - [[cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu|CVE-2026-34197: 13 Yıldır Gizli Kalan ActiveMQ RCE Açığı ve Acil Patch Zorunluluğu]]
+- [[gelistirici-icin-guvenli-secret-yonetimi|Geliştirici İçin Güvenli Secret Yönetimi]]
 - [[post-kuantum-kriptografi-hazirligi-meta-nin-hibrit-yaklasimi-ve-web-guvenligi-uzerine-etkileri|Post-Kuantum Kriptografi Hazırlığı: Meta'nın Hibrit Yaklaşımı ve Web Güvenliği Üzerine Etkileri]]
 - [[supabase-row-level-security-rls-uretim-ortami-desenleri|Supabase Row Level Security (RLS) Üretim Ortamı Desenleri]]
 - [[vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti|Vercel Güvenlik İhlali: Üçüncü Taraf AI Entegrasyonundan Kaynaklı Sızıntı]]
@@ -68,9 +72,11 @@ Son guncelleme: 2026-04-20T03:54:48+00:00
 - [[ai-powered-blogging-platform-tam-otomatik-icerik-uretimi-ve-yayin-akisi|AI-Powered Blogging Platform: Tam Otomatik İçerik Üretimi ve Yayın Akışı]]
 - [[angular-icin-gercekci-ui-bileseni-destegi|Angular İçin Gerçekçi UI Bileşeni Desteği]]
 - [[coklu-web-sitesi-yonetimi-40-ozelligi-merkezi-veri-ve-otomasyonla-yonetmek|Çoklu Web Sitesi Yönetimi: 40+ Özelliği Merkezi Veri ve Otomasyonla Yönetmek]]
+- [[eco-web-auditor|Eco-Web Auditor]]
 - [[html-den-markdown-a-donusturerek-llm-maliyetlerini-azaltmak|HTML'den Markdown'a Dönüştürerek LLM Maliyetlerini Azaltmak]]
 - [[html-in-canvas-interaktif-web-deneyimlerini-donusturebilecek-deneysel-api|HTML-in-Canvas: İnteraktif Web Deneyimlerini Dönüştürebilecek Deneysel API]]
 - [[oyun-motoru-secimi-web-ve-mobil-uyumlu-gelistirme-stratejileri|Oyun Motoru Seçimi: Web ve Mobil Uyumlu Geliştirme Stratejileri]]
+- [[prompt-muhendisligi-takimlar-icin-prompt-kutuphanesi-olusturma-ve-yonetme|Prompt Mühendisliği: Takımlar İçin Prompt Kütüphanesi Oluşturma ve Yönetme]]
 - [[roastttp-http-durum-kodlarini-eglenceli-terminal-bildirimleriyle-goruntuleme|Roastttp: HTTP Durum Kodlarını Eğlenceli Terminal Bildirimleriyle Görüntüleme]]
 - [[smoothui-animasyonlu-react-bilesenleri-ve-hareket-tasarimi|SmoothUI: Animasyonlu React Bileşenleri ve Hareket Tasarımı]]
 - [[stadiumsync-canli-stadyum-deneyimini-donusturen-gercek-zamanli-web-uygulamasi|StadiumSync: Canlı Stadyum Deneyimini Dönüştüren Gerçek Zamanlı Web Uygulaması]]

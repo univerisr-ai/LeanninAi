@@ -43,3 +43,5 @@ Bu sistem okunabilir ritim yaratır. Değerler CSS `clamp()` ile responsive (ekr
 - [[review/oyun-motoru-secimi-web-ve-mobil-uyumlu-gelistirme-stratejileri]]
 - [[review/stadiumsync-canli-stadyum-deneyimini-donusturen-gercek-zamanli-web-uygulamasi]]
 - [[review/web-audio-ile-hassas-zamanlama-settimeout-yerine-lookahead-scheduler-kullanimi]]
+- [[review/eco-web-auditor]]
+- [[review/prompt-muhendisligi-takimlar-icin-prompt-kutuphanesi-olusturma-ve-yonetme]]
