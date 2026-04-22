@@ -2,7 +2,7 @@
 
 Bu sayfa, bilgi tabanindaki tum konseptleri kategorilere gore siralar.
 
-Son guncelleme: 2026-04-21T03:41:18+00:00
+Son guncelleme: 2026-04-22T03:36:21+00:00
 
 * Islem gecmisi: [[log]]
 * Son bilgi ozeti: [[hot]]
@@ -15,6 +15,7 @@ Son guncelleme: 2026-04-21T03:41:18+00:00
 - [[ai-kaynakli-tukenmislik-ve-yazilimci-kaygisi|AI Kaynaklı Tükenmişlik ve Yazılımcı Kaygısı]]
 - [[ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme|AI SaaS Başlangıç Kiti Mimarisi: Tekrarlanan Kurulum Süreçlerini Otomatikleştirme]]
 - [[boneyard-js-cli-driven-skeleton-ui-olusturma|boneyard-js: CLI-Driven Skeleton UI Oluşturma]]
+- [[client-side-seo-arac-bazli-web-uygulamalarinda-arama-motoru-optimizasyonu|Client-Side SEO: Araç Bazlı Web Uygulamalarında Arama Motoru Optimizasyonu]]
 - [[erisilebilirlik-test-otomasyonu-playwright-ve-axe-core|Erişilebilirlik Test Otomasyonu: Playwright ve Axe Core]]
 - [[gunluk-kullandigim-typescript-ipuclari-ve-puf-noktalari|Günlük Kullandığım TypeScript İpuçları ve Püf Noktaları]]
 - [[guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js|Güvenliği Öğrenmek için Zafiyetli Web Uygulaması Geliştirme (Go + Vue.js)]]
@@ -55,6 +56,7 @@ Son guncelleme: 2026-04-21T03:41:18+00:00
 - [[ai-destekli-kod-inceleme-is-akislari-guvenlik-ve-kalite-odakli-prompt-muhendisligi|AI Destekli Kod İnceleme İş Akışları: Güvenlik ve Kalite Odaklı Prompt Mühendisliği]]
 - [[ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi|AI Tehdit Modelleme: STRIDE-AI ve MITRE-ATLAS ile Güvenlik Analizi]]
 - [[auth-migrations-oturum-stratejisi-ile-kimlik-dogrulama-gecisi|Auth Migrations: Oturum Stratejisi ile Kimlik Doğrulama Geçişi]]
+- [[auth-secret-yonetimi-vercel-breach-sonrasi-yeni-stratejiler|Auth Secret Yönetimi: Vercel Breach Sonrası Yeni Stratejiler]]
 - [[compliance-muhendisligi-acik-kaynakli-bilgi-guvenligi-ve-ai-yonetimi-platformu|Compliance Mühendisliği: Açık Kaynaklı Bilgi Güvenliği ve AI Yönetimi Platformu]]
 - [[cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu|CVE-2026-34197: 13 Yıldır Gizli Kalan ActiveMQ RCE Açığı ve Acil Patch Zorunluluğu]]
 - [[gelistirici-icin-guvenli-secret-yonetimi|Geliştirici İçin Güvenli Secret Yönetimi]]
@@ -64,6 +66,7 @@ Son guncelleme: 2026-04-21T03:41:18+00:00
 
 ## 🎨 UI/UX
 
+- [[2026-da-modern-web-tasarimi-grid-ve-container-query-ile-performansli-layout|2026'da Modern Web Tasarımı: Grid ve Container Query ile Performanslı Layout]]
 - [[3d-portfolyo-tasarimi-react-three-fiber-ve-next-js-ile-interaktif-gunes-sistemi|3D Portfolyo Tasarımı: React Three Fiber ve Next.js ile İnteraktif Güneş Sistemi]]
 - [[Renk-Teorisi-ve-Tipografi|Renk Teorisi ve Tipografi]]
 - [[Tasarim-Psikolojisi-Gestalt-Hick|Tasarım Psikolojisi: Gestalt ve Hick]]
@@ -80,6 +83,7 @@ Son guncelleme: 2026-04-21T03:41:18+00:00
 - [[roastttp-http-durum-kodlarini-eglenceli-terminal-bildirimleriyle-goruntuleme|Roastttp: HTTP Durum Kodlarını Eğlenceli Terminal Bildirimleriyle Görüntüleme]]
 - [[smoothui-animasyonlu-react-bilesenleri-ve-hareket-tasarimi|SmoothUI: Animasyonlu React Bileşenleri ve Hareket Tasarımı]]
 - [[stadiumsync-canli-stadyum-deneyimini-donusturen-gercek-zamanli-web-uygulamasi|StadiumSync: Canlı Stadyum Deneyimini Dönüştüren Gerçek Zamanlı Web Uygulaması]]
+- [[svg-path-d-ozelligi-ve-gorsel-duzenleme-araci|SVG Path d Özelliği ve Görsel Düzenleme Aracı]]
 - [[tailwind-css-v4-yenilikleri-ve-gecis-rehberi|Tailwind CSS v4 Yenilikleri ve Geçiş Rehberi]]
 - [[tarayici-tabanli-gelistirici-araclari-dev-toolbox-mimarisi|Tarayıcı Tabanlı Geliştirici Araçları: Dev-Toolbox Mimarisi]]
 - [[tasarim-becerisi-olmadan-minimalist-ui-olusturmak-flickle-ornegi|Tasarım Becerisi Olmadan Minimalist UI Oluşturmak: Flickle Örneği]]

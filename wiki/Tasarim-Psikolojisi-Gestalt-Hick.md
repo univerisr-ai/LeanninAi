@@ -44,3 +44,5 @@ Kullanıcılar tekil elemanları değil, deseni (pattern) algılarlar:
 - [[review/web-audio-ile-hassas-zamanlama-settimeout-yerine-lookahead-scheduler-kullanimi]]
 - [[review/eco-web-auditor]]
 - [[review/prompt-muhendisligi-takimlar-icin-prompt-kutuphanesi-olusturma-ve-yonetme]]
+- [[review/2026-da-modern-web-tasarimi-grid-ve-container-query-ile-performansli-layout]]
+- [[review/svg-path-d-ozelligi-ve-gorsel-duzenleme-araci]]

@@ -36,3 +36,4 @@ Express uygulamalarında Helmet.js ile otomatik eklenen veya elle yazılması zo
 - [[review/ai-destekli-kod-inceleme-is-akislari-guvenlik-ve-kalite-odakli-prompt-muhendisligi]]
 - [[review/auth-migrations-oturum-stratejisi-ile-kimlik-dogrulama-gecisi]]
 - [[review/gelistirici-icin-guvenli-secret-yonetimi]]
+- [[review/auth-secret-yonetimi-vercel-breach-sonrasi-yeni-stratejiler]]

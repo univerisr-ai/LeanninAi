@@ -33,3 +33,4 @@ Asla `*:focus { outline: none; }` yazıp odak göstergesini tamamen silmeyin! En
 - [[review/ai-destekli-erisilebilirlik-uyumlulugu-icin-saas-gelistirme-axle-ornegi]]
 - [[review/smoothui-animasyonlu-react-bilesenleri-ve-hareket-tasarimi]]
 - [[review/woocommerce-sabit-ceviri-glosarisi-ile-etiket-tutarliligi]]
+- [[review/client-side-seo-arac-bazli-web-uygulamalarinda-arama-motoru-optimizasyonu]]

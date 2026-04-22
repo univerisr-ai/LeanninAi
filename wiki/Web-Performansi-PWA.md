@@ -76,3 +76,5 @@ Service Worker, web sayfanızdan tamamen bağımsız, arka planda çalışan (ta
 - [[review/stadiumsync-canli-stadyum-deneyimini-donusturen-gercek-zamanli-web-uygulamasi]]
 - [[review/web-audio-ile-hassas-zamanlama-settimeout-yerine-lookahead-scheduler-kullanimi]]
 - [[review/turbo-8-morphing-ile-rails-frontend-gelistirme]]
+- [[review/2026-da-modern-web-tasarimi-grid-ve-container-query-ile-performansli-layout]]
+- [[review/client-side-seo-arac-bazli-web-uygulamalarinda-arama-motoru-optimizasyonu]]

@@ -1,32 +1,32 @@
 {
   "status": "ok",
-  "started_at": "2026-04-21T03:19:31+00:00",
+  "started_at": "2026-04-22T03:17:58+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 23
+    "wiki_changed": 17
   },
   "stats": {
-    "collected": 92,
-    "skipped_unchanged": 38,
+    "collected": 74,
+    "skipped_unchanged": 29,
     "skipped_duplicate": 0,
-    "rejected_quality": 48,
-    "drafted": 6,
+    "rejected_quality": 41,
+    "drafted": 4,
     "errors": 0
   },
   "auto_publish": {
-    "published": 6,
+    "published": 4,
     "purged": 0
   },
   "enhancement": {},
   "review_link_repair": {
-    "changed_files": 3,
-    "link_replacements": 7
+    "changed_files": 4,
+    "link_replacements": 6
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
-    "broken_links_found": 160,
-    "bidirectional_links_added": 16,
+    "broken_links_found": 179,
+    "bidirectional_links_added": 11,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
@@ -44,57 +44,43 @@
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/supabase-row-level-security-rls-uretim-ortami-desenleri]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/post-kuantum-kriptografi-hazirligi-meta-nin-hibrit-yaklasimi-ve-web-guvenligi-uzerine-etkileri]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti]]",
+      "CORS-ve-Guvenlik-Headerlari.md -> [[review/ai-destekli-kod-inceleme-is-akislari-guvenlik-ve-kalite-odakli-prompt-muhendisligi]]",
+      "CORS-ve-Guvenlik-Headerlari.md -> [[review/auth-migrations-oturum-stratejisi-ile-kimlik-dogrulama-gecisi]]",
+      "CORS-ve-Guvenlik-Headerlari.md -> [[review/gelistirici-icin-guvenli-secret-yonetimi]]",
       "Clean-Architecture.md -> [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]",
       "Clean-Architecture.md -> [[review/mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik]]",
-      "Clean-Architecture.md -> [[review/spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim]]",
-      "Clean-Architecture.md -> [[review/mcp-sunuculari-ile-claude-icin-guvenlik-zek-si-saglama]]",
-      "Clean-Architecture.md -> [[review/ai-ajanlari-icin-odeme-protokolu-x402-ve-yetki-katmani-l4]]",
-      "Clean-Architecture.md -> [[review/benchmark-skorlarinin-guvenilirliginin-sorgulanmasi-ve-davranissal-telemetri-ile-dogrulama]]"
+      "Clean-Architecture.md -> [[review/spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim]]"
     ],
     "duplicate_pairs": []
   },
   "error_samples": [],
   "drafts_preview": [
     {
-      "slug": "turbo-8-morphing-ile-rails-frontend-gelistirme",
-      "title": "Turbo 8 Morphing ile Rails Frontend Geli\u015ftirme",
-      "category": "frontend",
-      "confidence": 90,
-      "novelty": 75
-    },
-    {
-      "slug": "prompt-muhendisligi-takimlar-icin-prompt-kutuphanesi-olusturma-ve-yonetme",
-      "title": "Prompt M\u00fchendisli\u011fi: Tak\u0131mlar \u0130\u00e7in Prompt K\u00fct\u00fcphanesi Olu\u015fturma ve Y\u00f6netme",
+      "slug": "2026-da-modern-web-tasarimi-grid-ve-container-query-ile-performansli-layout",
+      "title": "2026'da Modern Web Tasar\u0131m\u0131: Grid ve Container Query ile Performansl\u0131 Layout",
       "category": "ui-ux",
-      "confidence": 95,
-      "novelty": 75
-    },
-    {
-      "slug": "ai-destekli-kod-inceleme-is-akislari-guvenlik-ve-kalite-odakli-prompt-muhendisligi",
-      "title": "AI Destekli Kod \u0130nceleme \u0130\u015f Ak\u0131\u015flar\u0131: G\u00fcvenlik ve Kalite Odakl\u0131 Prompt M\u00fchendisli\u011fi",
-      "category": "security",
       "confidence": 95,
       "novelty": 72
     },
     {
-      "slug": "eco-web-auditor",
-      "title": "Eco-Web Auditor",
+      "slug": "svg-path-d-ozelligi-ve-gorsel-duzenleme-araci",
+      "title": "SVG Path d \u00d6zelli\u011fi ve G\u00f6rsel D\u00fczenleme Arac\u0131",
       "category": "ui-ux",
       "confidence": 95,
       "novelty": 75
     },
     {
-      "slug": "auth-migrations-oturum-stratejisi-ile-kimlik-dogrulama-gecisi",
-      "title": "Auth Migrations: Oturum Stratejisi ile Kimlik Do\u011frulama Ge\u00e7i\u015fi",
+      "slug": "auth-secret-yonetimi-vercel-breach-sonrasi-yeni-stratejiler",
+      "title": "Auth Secret Y\u00f6netimi: Vercel Breach Sonras\u0131 Yeni Stratejiler",
       "category": "security",
       "confidence": 95,
       "novelty": 75
     },
     {
-      "slug": "gelistirici-icin-guvenli-secret-yonetimi",
-      "title": "Geli\u015ftirici \u0130\u00e7in G\u00fcvenli Secret Y\u00f6netimi",
-      "category": "security",
-      "confidence": 95,
+      "slug": "client-side-seo-arac-bazli-web-uygulamalarinda-arama-motoru-optimizasyonu",
+      "title": "Client-Side SEO: Ara\u00e7 Bazl\u0131 Web Uygulamalar\u0131nda Arama Motoru Optimizasyonu",
+      "category": "frontend",
+      "confidence": 90,
       "novelty": 75
     }
   ],
@@ -102,6 +88,6 @@
     "generated": false,
     "reason": "not_scheduled_day",
     "run_day_of_week": 6,
-    "today_weekday": 1
+    "today_weekday": 2
   }
 }
