@@ -71,3 +71,4 @@ Frontend'in sunucu cevabını beklemeden, veritabanına yazılmış *varsayarak*
 - [[review/next-js-ile-github-pages-uzerinde-statik-portfoy-sitesi-barindirma]]
 - [[review/turbo-8-morphing-ile-rails-frontend-gelistirme]]
 - [[review/client-side-seo-arac-bazli-web-uygulamalarinda-arama-motoru-optimizasyonu]]
+- [[review/otomatiklestirilmis-haber-sitesi-pipeline-i-the-world-now-projesinden-ogrenilenler]]

@@ -34,3 +34,4 @@ Asla `*:focus { outline: none; }` yazıp odak göstergesini tamamen silmeyin! En
 - [[review/smoothui-animasyonlu-react-bilesenleri-ve-hareket-tasarimi]]
 - [[review/woocommerce-sabit-ceviri-glosarisi-ile-etiket-tutarliligi]]
 - [[review/client-side-seo-arac-bazli-web-uygulamalarinda-arama-motoru-optimizasyonu]]
+- [[review/ai-destekli-wcag-uyumlu-alt-metin-yazimi]]

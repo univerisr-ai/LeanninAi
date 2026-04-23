@@ -1,35 +1,36 @@
 {
   "status": "ok",
-  "started_at": "2026-04-22T03:17:58+00:00",
+  "started_at": "2026-04-23T03:21:28+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 17
+    "wiki_changed": 15
   },
   "stats": {
-    "collected": 74,
-    "skipped_unchanged": 29,
+    "collected": 52,
+    "skipped_unchanged": 36,
     "skipped_duplicate": 0,
-    "rejected_quality": 41,
-    "drafted": 4,
+    "rejected_quality": 14,
+    "drafted": 2,
     "errors": 0
   },
   "auto_publish": {
-    "published": 4,
+    "published": 2,
     "purged": 0
   },
   "enhancement": {},
   "review_link_repair": {
-    "changed_files": 4,
-    "link_replacements": 6
+    "changed_files": 2,
+    "link_replacements": 2
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
-    "broken_links_found": 179,
-    "bidirectional_links_added": 11,
+    "broken_links_found": 193,
+    "bidirectional_links_added": 6,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
+      "2026-da-modern-web-tasarimi-grid-ve-container-query-ile-performansli-layout.md -> [[Responsive Design ve Media Queries]]",
       "Bot-Tespiti-ve-Honeypot.md -> [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]",
       "Bot-Tespiti-ve-Honeypot.md -> [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]",
       "Bot-Tespiti-ve-Honeypot.md -> [[review/cve-2026-34197-13-yildir-gizli-kalan-activemq-rce-acigi-ve-acil-patch-zorunlulugu]]",
@@ -47,47 +48,32 @@
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/ai-destekli-kod-inceleme-is-akislari-guvenlik-ve-kalite-odakli-prompt-muhendisligi]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/auth-migrations-oturum-stratejisi-ile-kimlik-dogrulama-gecisi]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/gelistirici-icin-guvenli-secret-yonetimi]]",
-      "Clean-Architecture.md -> [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]",
-      "Clean-Architecture.md -> [[review/mimari-dokumantasyonu-ai-destekli-kalite-kontrolunde-onemli-bir-varlik]]",
-      "Clean-Architecture.md -> [[review/spec-driven-ai-development-gercek-dunya-ornegi-ile-uygulamali-yaklasim]]"
+      "CORS-ve-Guvenlik-Headerlari.md -> [[review/auth-secret-yonetimi-vercel-breach-sonrasi-yeni-stratejiler]]",
+      "Clean-Architecture.md -> [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]"
     ],
     "duplicate_pairs": []
   },
   "error_samples": [],
   "drafts_preview": [
     {
-      "slug": "2026-da-modern-web-tasarimi-grid-ve-container-query-ile-performansli-layout",
-      "title": "2026'da Modern Web Tasar\u0131m\u0131: Grid ve Container Query ile Performansl\u0131 Layout",
+      "slug": "otomatiklestirilmis-haber-sitesi-pipeline-i-the-world-now-projesinden-ogrenilenler",
+      "title": "Otomatikle\u015ftirilmi\u015f Haber Sitesi Pipeline'\u0131: The World Now Projesinden \u00d6\u011frenilenler",
       "category": "ui-ux",
-      "confidence": 95,
+      "confidence": 90,
       "novelty": 72
     },
     {
-      "slug": "svg-path-d-ozelligi-ve-gorsel-duzenleme-araci",
-      "title": "SVG Path d \u00d6zelli\u011fi ve G\u00f6rsel D\u00fczenleme Arac\u0131",
+      "slug": "ai-destekli-wcag-uyumlu-alt-metin-yazimi",
+      "title": "AI Destekli WCAG Uyumlu Alt Metin Yaz\u0131m\u0131",
       "category": "ui-ux",
       "confidence": 95,
-      "novelty": 75
-    },
-    {
-      "slug": "auth-secret-yonetimi-vercel-breach-sonrasi-yeni-stratejiler",
-      "title": "Auth Secret Y\u00f6netimi: Vercel Breach Sonras\u0131 Yeni Stratejiler",
-      "category": "security",
-      "confidence": 95,
-      "novelty": 75
-    },
-    {
-      "slug": "client-side-seo-arac-bazli-web-uygulamalarinda-arama-motoru-optimizasyonu",
-      "title": "Client-Side SEO: Ara\u00e7 Bazl\u0131 Web Uygulamalar\u0131nda Arama Motoru Optimizasyonu",
-      "category": "frontend",
-      "confidence": 90,
-      "novelty": 75
+      "novelty": 72
     }
   ],
   "weekly_digest": {
     "generated": false,
     "reason": "not_scheduled_day",
     "run_day_of_week": 6,
-    "today_weekday": 2
+    "today_weekday": 3
   }
 }

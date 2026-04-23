@@ -46,3 +46,5 @@ Kullanıcılar tekil elemanları değil, deseni (pattern) algılarlar:
 - [[review/prompt-muhendisligi-takimlar-icin-prompt-kutuphanesi-olusturma-ve-yonetme]]
 - [[review/2026-da-modern-web-tasarimi-grid-ve-container-query-ile-performansli-layout]]
 - [[review/svg-path-d-ozelligi-ve-gorsel-duzenleme-araci]]
+- [[review/ai-destekli-wcag-uyumlu-alt-metin-yazimi]]
+- [[review/otomatiklestirilmis-haber-sitesi-pipeline-i-the-world-now-projesinden-ogrenilenler]]

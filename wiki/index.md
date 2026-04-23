@@ -2,7 +2,7 @@
 
 Bu sayfa, bilgi tabanindaki tum konseptleri kategorilere gore siralar.
 
-Son guncelleme: 2026-04-22T03:36:21+00:00
+Son guncelleme: 2026-04-23T03:29:29+00:00
 
 * Islem gecmisi: [[log]]
 * Son bilgi ozeti: [[hot]]
@@ -71,6 +71,7 @@ Son guncelleme: 2026-04-22T03:36:21+00:00
 - [[Renk-Teorisi-ve-Tipografi|Renk Teorisi ve Tipografi]]
 - [[Tasarim-Psikolojisi-Gestalt-Hick|Tasarım Psikolojisi: Gestalt ve Hick]]
 - [[ai-destekli-erisilebilirlik-uyumlulugu-icin-saas-gelistirme-axle-ornegi|AI Destekli Erişilebilirlik Uyumluluğu için SaaS Geliştirme: Axle Örneği]]
+- [[ai-destekli-wcag-uyumlu-alt-metin-yazimi|AI Destekli WCAG Uyumlu Alt Metin Yazımı]]
 - [[ai-ile-oyun-ve-uygulama-icin-telifsiz-muzik-uretimi|AI ile Oyun ve Uygulama İçin Telifsiz Müzik Üretimi]]
 - [[ai-powered-blogging-platform-tam-otomatik-icerik-uretimi-ve-yayin-akisi|AI-Powered Blogging Platform: Tam Otomatik İçerik Üretimi ve Yayın Akışı]]
 - [[angular-icin-gercekci-ui-bileseni-destegi|Angular İçin Gerçekçi UI Bileşeni Desteği]]
@@ -78,6 +79,7 @@ Son guncelleme: 2026-04-22T03:36:21+00:00
 - [[eco-web-auditor|Eco-Web Auditor]]
 - [[html-den-markdown-a-donusturerek-llm-maliyetlerini-azaltmak|HTML'den Markdown'a Dönüştürerek LLM Maliyetlerini Azaltmak]]
 - [[html-in-canvas-interaktif-web-deneyimlerini-donusturebilecek-deneysel-api|HTML-in-Canvas: İnteraktif Web Deneyimlerini Dönüştürebilecek Deneysel API]]
+- [[otomatiklestirilmis-haber-sitesi-pipeline-i-the-world-now-projesinden-ogrenilenler|Otomatikleştirilmiş Haber Sitesi Pipeline'ı: The World Now Projesinden Öğrenilenler]]
 - [[oyun-motoru-secimi-web-ve-mobil-uyumlu-gelistirme-stratejileri|Oyun Motoru Seçimi: Web ve Mobil Uyumlu Geliştirme Stratejileri]]
 - [[prompt-muhendisligi-takimlar-icin-prompt-kutuphanesi-olusturma-ve-yonetme|Prompt Mühendisliği: Takımlar İçin Prompt Kütüphanesi Oluşturma ve Yönetme]]
 - [[roastttp-http-durum-kodlarini-eglenceli-terminal-bildirimleriyle-goruntuleme|Roastttp: HTTP Durum Kodlarını Eğlenceli Terminal Bildirimleriyle Görüntüleme]]
