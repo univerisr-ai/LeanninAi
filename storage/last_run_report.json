@@ -1,32 +1,32 @@
 {
   "status": "ok",
-  "started_at": "2026-04-23T03:21:28+00:00",
+  "started_at": "2026-04-24T03:23:32+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 15
+    "wiki_changed": 9
   },
   "stats": {
-    "collected": 52,
-    "skipped_unchanged": 36,
+    "collected": 94,
+    "skipped_unchanged": 27,
     "skipped_duplicate": 0,
-    "rejected_quality": 14,
-    "drafted": 2,
+    "rejected_quality": 67,
+    "drafted": 0,
     "errors": 0
   },
   "auto_publish": {
-    "published": 2,
+    "published": 0,
     "purged": 0
   },
   "enhancement": {},
   "review_link_repair": {
-    "changed_files": 2,
-    "link_replacements": 2
+    "changed_files": 0,
+    "link_replacements": 0
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
-    "broken_links_found": 193,
-    "bidirectional_links_added": 6,
+    "broken_links_found": 201,
+    "bidirectional_links_added": 0,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
@@ -54,26 +54,11 @@
     "duplicate_pairs": []
   },
   "error_samples": [],
-  "drafts_preview": [
-    {
-      "slug": "otomatiklestirilmis-haber-sitesi-pipeline-i-the-world-now-projesinden-ogrenilenler",
-      "title": "Otomatikle\u015ftirilmi\u015f Haber Sitesi Pipeline'\u0131: The World Now Projesinden \u00d6\u011frenilenler",
-      "category": "ui-ux",
-      "confidence": 90,
-      "novelty": 72
-    },
-    {
-      "slug": "ai-destekli-wcag-uyumlu-alt-metin-yazimi",
-      "title": "AI Destekli WCAG Uyumlu Alt Metin Yaz\u0131m\u0131",
-      "category": "ui-ux",
-      "confidence": 95,
-      "novelty": 72
-    }
-  ],
+  "drafts_preview": [],
   "weekly_digest": {
     "generated": false,
     "reason": "not_scheduled_day",
     "run_day_of_week": 6,
-    "today_weekday": 3
+    "today_weekday": 4
   }
 }
