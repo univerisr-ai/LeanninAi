@@ -49,3 +49,8 @@ Bu sistem okunabilir ritim yaratır. Değerler CSS `clamp()` ile responsive (ekr
 - [[review/svg-path-d-ozelligi-ve-gorsel-duzenleme-araci]]
 - [[review/ai-destekli-wcag-uyumlu-alt-metin-yazimi]]
 - [[review/otomatiklestirilmis-haber-sitesi-pipeline-i-the-world-now-projesinden-ogrenilenler]]
+- [[review/astro-6-ve-cloudflare-workers-ile-cok-dilli-statik-site-gelistirme]]
+- [[review/css-counters-ile-otomatik-liste-numaralandirma]]
+- [[review/gitui-terminal-tabanli-github-pr-yonetimi]]
+- [[review/minimal-bagimliliklarla-beyaz-tahta-uygulamasi-gelistirme]]
+- [[review/shadow-dom-ile-tooltip-renderlama-iframe-alternatifi]]

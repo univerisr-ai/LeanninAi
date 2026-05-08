@@ -78,3 +78,8 @@ Service Worker, web sayfanızdan tamamen bağımsız, arka planda çalışan (ta
 - [[review/turbo-8-morphing-ile-rails-frontend-gelistirme]]
 - [[review/2026-da-modern-web-tasarimi-grid-ve-container-query-ile-performansli-layout]]
 - [[review/client-side-seo-arac-bazli-web-uygulamalarinda-arama-motoru-optimizasyonu]]
+- [[review/astro-6-ve-cloudflare-workers-ile-cok-dilli-statik-site-gelistirme]]
+- [[review/bilesen-tabanli-email-sablonlari-ve-composable-email-mimarisi]]
+- [[review/lovable-supabase-cloudflare-ile-hiz-odakli-urun-gelistirme]]
+- [[review/minimal-bagimliliklarla-beyaz-tahta-uygulamasi-gelistirme]]
+- [[review/react-formlarinda-gecikmeli-dogrulama-ve-otomatik-taslak-kaydetme]]

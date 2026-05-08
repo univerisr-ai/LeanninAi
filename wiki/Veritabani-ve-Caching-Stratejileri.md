@@ -32,3 +32,5 @@ E-posta gönderme, video işleme, PDF oluşturma gibi HTTP isteğini kilitleyece
 - [[review/benchmark-skorlarinin-guvenilirliginin-sorgulanmasi-ve-davranissal-telemetri-ile-dogrulama]]
 - [[review/tanstack-query-v5-ile-olceklenebilir-sunucu-durumu-yonetimi]]
 - [[review/tariff-refund-portali-yuksek-trafige-hazirlikli-ozel-bir-web-uygulamasi]]
+- [[review/bilesen-tabanli-email-sablonlari-ve-composable-email-mimarisi]]
+- [[review/lovable-supabase-cloudflare-ile-hiz-odakli-urun-gelistirme]]

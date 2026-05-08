@@ -30,3 +30,4 @@ Sadece tarayıcıda yaşayan (sekme kapanınca ölecek olan) geçici arayüz ver
 - [[review/reaktif-durum-yonetiminde-cebirsel-veri-turleri]]
 - [[review/3d-portfolyo-tasarimi-react-three-fiber-ve-next-js-ile-interaktif-gunes-sistemi]]
 - [[review/tanstack-query-v5-ile-olceklenebilir-sunucu-durumu-yonetimi]]
+- [[review/minimal-bagimliliklarla-beyaz-tahta-uygulamasi-gelistirme]]

@@ -1,32 +1,32 @@
 {
   "status": "ok",
-  "started_at": "2026-05-07T03:37:52+00:00",
+  "started_at": "2026-05-08T03:32:19+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
     "wiki_changed": 0
   },
   "stats": {
-    "collected": 99,
-    "skipped_unchanged": 39,
-    "skipped_duplicate": 0,
-    "rejected_quality": 60,
-    "drafted": 0,
+    "collected": 105,
+    "skipped_unchanged": 42,
+    "skipped_duplicate": 2,
+    "rejected_quality": 53,
+    "drafted": 8,
     "errors": 0
   },
   "auto_publish": {
-    "published": 0,
+    "published": 8,
     "purged": 0
   },
   "enhancement": {},
   "review_link_repair": {
-    "changed_files": 0,
-    "link_replacements": 0
+    "changed_files": 8,
+    "link_replacements": 15
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
-    "broken_links_found": 201,
-    "bidirectional_links_added": 0,
+    "broken_links_found": 204,
+    "bidirectional_links_added": 25,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
@@ -54,11 +54,68 @@
     "duplicate_pairs": []
   },
   "error_samples": [],
-  "drafts_preview": [],
+  "drafts_preview": [
+    {
+      "slug": "css-counters-ile-otomatik-liste-numaralandirma",
+      "title": "CSS Counters ile Otomatik Liste Numaraland\u0131rma",
+      "category": "ui-ux",
+      "confidence": 95,
+      "novelty": 70
+    },
+    {
+      "slug": "bilesen-tabanli-email-sablonlari-ve-composable-email-mimarisi",
+      "title": "Bile\u015fen Tabanl\u0131 Email \u015eablonlar\u0131 ve Composable Email Mimarisi",
+      "category": "backend",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "shadow-dom-ile-tooltip-renderlama-iframe-alternatifi",
+      "title": "Shadow DOM ile Tooltip Renderlama: Iframe Alternatifi",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "minimal-bagimliliklarla-beyaz-tahta-uygulamasi-gelistirme",
+      "title": "Minimal Ba\u011f\u0131ml\u0131l\u0131klarla Beyaz Tahta Uygulamas\u0131 Geli\u015ftirme",
+      "category": "ui-ux",
+      "confidence": 95,
+      "novelty": 75
+    },
+    {
+      "slug": "react-formlarinda-gecikmeli-dogrulama-ve-otomatik-taslak-kaydetme",
+      "title": "React Formlar\u0131nda Gecikmeli Do\u011frulama ve Otomatik Taslak Kaydetme",
+      "category": "frontend",
+      "confidence": 95,
+      "novelty": 70
+    },
+    {
+      "slug": "gitui-terminal-tabanli-github-pr-yonetimi",
+      "title": "gitui: Terminal Tabanl\u0131 GitHub PR Y\u00f6netimi",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "lovable-supabase-cloudflare-ile-hiz-odakli-urun-gelistirme",
+      "title": "Lovable + Supabase + Cloudflare ile H\u0131z Odakl\u0131 \u00dcr\u00fcn Geli\u015ftirme",
+      "category": "backend",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "astro-6-ve-cloudflare-workers-ile-cok-dilli-statik-site-gelistirme",
+      "title": "Astro 6 ve Cloudflare Workers ile \u00c7ok Dilli Statik Site Geli\u015ftirme",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    }
+  ],
   "weekly_digest": {
     "generated": false,
     "reason": "not_scheduled_day",
     "run_day_of_week": 6,
-    "today_weekday": 3
+    "today_weekday": 4
   }
 }

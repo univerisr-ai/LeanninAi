@@ -72,3 +72,5 @@ Frontend'in sunucu cevabını beklemeden, veritabanına yazılmış *varsayarak*
 - [[review/turbo-8-morphing-ile-rails-frontend-gelistirme]]
 - [[review/client-side-seo-arac-bazli-web-uygulamalarinda-arama-motoru-optimizasyonu]]
 - [[review/otomatiklestirilmis-haber-sitesi-pipeline-i-the-world-now-projesinden-ogrenilenler]]
+- [[review/bilesen-tabanli-email-sablonlari-ve-composable-email-mimarisi]]
+- [[review/react-formlarinda-gecikmeli-dogrulama-ve-otomatik-taslak-kaydetme]]

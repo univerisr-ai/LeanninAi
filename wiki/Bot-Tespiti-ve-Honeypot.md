@@ -27,3 +27,4 @@ Puppeteer, Playwright gibi otomasyon botları genellikle tespit edilebilir imzal
 - [[review/tarayici-tabanli-gelistirici-araclari-dev-toolbox-mimarisi]]
 - [[review/tariff-refund-portali-yuksek-trafige-hazirlikli-ozel-bir-web-uygulamasi]]
 - [[review/vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti]]
+- [[review/astro-6-ve-cloudflare-workers-ile-cok-dilli-statik-site-gelistirme]]
