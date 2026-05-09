@@ -74,3 +74,6 @@ Frontend'in sunucu cevabını beklemeden, veritabanına yazılmış *varsayarak*
 - [[review/otomatiklestirilmis-haber-sitesi-pipeline-i-the-world-now-projesinden-ogrenilenler]]
 - [[review/bilesen-tabanli-email-sablonlari-ve-composable-email-mimarisi]]
 - [[review/react-formlarinda-gecikmeli-dogrulama-ve-otomatik-taslak-kaydetme]]
+- [[review/next-js-ile-claude-api-tool-use-entegrasyonu]]
+- [[review/react-ile-sekme-bildirimleri-dikkat-cekici-sekme-tasarimi]]
+- [[review/react-ta-guarded-ui-state-ile-is-akisi-temelli-arayuz-kontrolu]]

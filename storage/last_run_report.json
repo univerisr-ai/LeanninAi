@@ -1,32 +1,32 @@
 {
   "status": "ok",
-  "started_at": "2026-05-08T03:32:19+00:00",
+  "started_at": "2026-05-09T03:32:16+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 0
+    "wiki_changed": 20
   },
   "stats": {
-    "collected": 105,
-    "skipped_unchanged": 42,
-    "skipped_duplicate": 2,
-    "rejected_quality": 53,
-    "drafted": 8,
+    "collected": 95,
+    "skipped_unchanged": 30,
+    "skipped_duplicate": 0,
+    "rejected_quality": 56,
+    "drafted": 9,
     "errors": 0
   },
   "auto_publish": {
-    "published": 8,
+    "published": 9,
     "purged": 0
   },
   "enhancement": {},
   "review_link_repair": {
-    "changed_files": 8,
-    "link_replacements": 15
+    "changed_files": 4,
+    "link_replacements": 10
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
-    "broken_links_found": 204,
-    "bidirectional_links_added": 25,
+    "broken_links_found": 242,
+    "bidirectional_links_added": 26,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
@@ -37,6 +37,7 @@
       "Bot-Tespiti-ve-Honeypot.md -> [[review/tarayici-tabanli-gelistirici-araclari-dev-toolbox-mimarisi]]",
       "Bot-Tespiti-ve-Honeypot.md -> [[review/tariff-refund-portali-yuksek-trafige-hazirlikli-ozel-bir-web-uygulamasi]]",
       "Bot-Tespiti-ve-Honeypot.md -> [[review/vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti]]",
+      "Bot-Tespiti-ve-Honeypot.md -> [[review/astro-6-ve-cloudflare-workers-ile-cok-dilli-statik-site-gelistirme]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]",
@@ -48,74 +49,80 @@
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/ai-destekli-kod-inceleme-is-akislari-guvenlik-ve-kalite-odakli-prompt-muhendisligi]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/auth-migrations-oturum-stratejisi-ile-kimlik-dogrulama-gecisi]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/gelistirici-icin-guvenli-secret-yonetimi]]",
-      "CORS-ve-Guvenlik-Headerlari.md -> [[review/auth-secret-yonetimi-vercel-breach-sonrasi-yeni-stratejiler]]",
-      "Clean-Architecture.md -> [[review/mcp-sunuculari-gelistiriciler-icin-yeni-bir-backend-paradigmasi]]"
+      "CORS-ve-Guvenlik-Headerlari.md -> [[review/auth-secret-yonetimi-vercel-breach-sonrasi-yeni-stratejiler]]"
     ],
     "duplicate_pairs": []
   },
   "error_samples": [],
   "drafts_preview": [
     {
-      "slug": "css-counters-ile-otomatik-liste-numaralandirma",
-      "title": "CSS Counters ile Otomatik Liste Numaraland\u0131rma",
-      "category": "ui-ux",
-      "confidence": 95,
-      "novelty": 70
-    },
-    {
-      "slug": "bilesen-tabanli-email-sablonlari-ve-composable-email-mimarisi",
-      "title": "Bile\u015fen Tabanl\u0131 Email \u015eablonlar\u0131 ve Composable Email Mimarisi",
-      "category": "backend",
-      "confidence": 90,
-      "novelty": 75
-    },
-    {
-      "slug": "shadow-dom-ile-tooltip-renderlama-iframe-alternatifi",
-      "title": "Shadow DOM ile Tooltip Renderlama: Iframe Alternatifi",
+      "slug": "react-ta-guarded-ui-state-ile-is-akisi-temelli-arayuz-kontrolu",
+      "title": "React'ta Guarded UI State ile \u0130\u015f Ak\u0131\u015f\u0131 Temelli Aray\u00fcz Kontrol\u00fc",
       "category": "ui-ux",
       "confidence": 90,
       "novelty": 75
     },
     {
-      "slug": "minimal-bagimliliklarla-beyaz-tahta-uygulamasi-gelistirme",
-      "title": "Minimal Ba\u011f\u0131ml\u0131l\u0131klarla Beyaz Tahta Uygulamas\u0131 Geli\u015ftirme",
+      "slug": "react-ile-sekme-bildirimleri-dikkat-cekici-sekme-tasarimi",
+      "title": "React ile Sekme Bildirimleri: Dikkat \u00c7ekici Sekme Tasar\u0131m\u0131",
       "category": "ui-ux",
-      "confidence": 95,
+      "confidence": 90,
       "novelty": 75
     },
     {
-      "slug": "react-formlarinda-gecikmeli-dogrulama-ve-otomatik-taslak-kaydetme",
-      "title": "React Formlar\u0131nda Gecikmeli Do\u011frulama ve Otomatik Taslak Kaydetme",
+      "slug": "coklu-rol-yonetimi-ile-guvenli-admin-paneli-react-ve-express-uzerine-katmanli-yetkilendirme",
+      "title": "\u00c7oklu Rol Y\u00f6netimi ile G\u00fcvenli Admin Paneli: React ve Express \u00dczerine Katmanl\u0131 Yetkilendirme",
+      "category": "security",
+      "confidence": 95,
+      "novelty": 72
+    },
+    {
+      "slug": "tesseract-8d-128-deneysel-typescript-sifreleme-algoritmasi",
+      "title": "Tesseract-8D/128: Deneysel TypeScript \u015eifreleme Algoritmas\u0131",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "ai-agent-varliklarini-secmeli-olarak-yonetmek-agent-harness",
+      "title": "AI Agent Varl\u0131klar\u0131n\u0131 Se\u00e7meli Olarak Y\u00f6netmek: agent-harness",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "tarayici-tabanli-dosya-isleme-pdf-ve-gorsel-araclari-icin-yerel-client-side-mimari",
+      "title": "Taray\u0131c\u0131 Tabanl\u0131 Dosya \u0130\u015fleme: PDF ve G\u00f6rsel Ara\u00e7lar\u0131 i\u00e7in Yerel (Client-Side) Mimari",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "yarrow-ai-destekli-i-ching-fal-uygulamasi-mimarisi",
+      "title": "Yarrow: AI Destekli I Ching Fal Uygulamas\u0131 Mimarisi",
+      "category": "ui-ux",
+      "confidence": 95,
+      "novelty": 72
+    },
+    {
+      "slug": "next-js-ile-claude-api-tool-use-entegrasyonu",
+      "title": "Next.js ile Claude API Tool Use Entegrasyonu",
       "category": "frontend",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "kopru-alti-cizgilerini-kaldirmak-gormezden-gelinmis-erisilebilirlik-hatasi",
+      "title": "K\u00f6pr\u00fc Alt\u0131 \u00c7izgilerini Kald\u0131rmak: G\u00f6rmezden Gelinmi\u015f Eri\u015filebilirlik Hatas\u0131",
+      "category": "ui-ux",
       "confidence": 95,
       "novelty": 70
-    },
-    {
-      "slug": "gitui-terminal-tabanli-github-pr-yonetimi",
-      "title": "gitui: Terminal Tabanl\u0131 GitHub PR Y\u00f6netimi",
-      "category": "ui-ux",
-      "confidence": 90,
-      "novelty": 75
-    },
-    {
-      "slug": "lovable-supabase-cloudflare-ile-hiz-odakli-urun-gelistirme",
-      "title": "Lovable + Supabase + Cloudflare ile H\u0131z Odakl\u0131 \u00dcr\u00fcn Geli\u015ftirme",
-      "category": "backend",
-      "confidence": 90,
-      "novelty": 75
-    },
-    {
-      "slug": "astro-6-ve-cloudflare-workers-ile-cok-dilli-statik-site-gelistirme",
-      "title": "Astro 6 ve Cloudflare Workers ile \u00c7ok Dilli Statik Site Geli\u015ftirme",
-      "category": "ui-ux",
-      "confidence": 90,
-      "novelty": 75
     }
   ],
   "weekly_digest": {
     "generated": false,
     "reason": "not_scheduled_day",
     "run_day_of_week": 6,
-    "today_weekday": 4
+    "today_weekday": 5
   }
 }

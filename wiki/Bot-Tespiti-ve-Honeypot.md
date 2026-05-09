@@ -28,3 +28,4 @@ Puppeteer, Playwright gibi otomasyon botları genellikle tespit edilebilir imzal
 - [[review/tariff-refund-portali-yuksek-trafige-hazirlikli-ozel-bir-web-uygulamasi]]
 - [[review/vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti]]
 - [[review/astro-6-ve-cloudflare-workers-ile-cok-dilli-statik-site-gelistirme]]
+- [[review/coklu-rol-yonetimi-ile-guvenli-admin-paneli-react-ve-express-uzerine-katmanli-yetkilendirme]]

@@ -83,3 +83,4 @@ Service Worker, web sayfanızdan tamamen bağımsız, arka planda çalışan (ta
 - [[review/lovable-supabase-cloudflare-ile-hiz-odakli-urun-gelistirme]]
 - [[review/minimal-bagimliliklarla-beyaz-tahta-uygulamasi-gelistirme]]
 - [[review/react-formlarinda-gecikmeli-dogrulama-ve-otomatik-taslak-kaydetme]]
+- [[review/next-js-ile-claude-api-tool-use-entegrasyonu]]

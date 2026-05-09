@@ -37,3 +37,6 @@ Asla `*:focus { outline: none; }` yazıp odak göstergesini tamamen silmeyin! En
 - [[review/ai-destekli-wcag-uyumlu-alt-metin-yazimi]]
 - [[review/gitui-terminal-tabanli-github-pr-yonetimi]]
 - [[review/shadow-dom-ile-tooltip-renderlama-iframe-alternatifi]]
+- [[review/kopru-alti-cizgilerini-kaldirmak-gormezden-gelinmis-erisilebilirlik-hatasi]]
+- [[review/react-ile-sekme-bildirimleri-dikkat-cekici-sekme-tasarimi]]
+- [[review/react-ta-guarded-ui-state-ile-is-akisi-temelli-arayuz-kontrolu]]
