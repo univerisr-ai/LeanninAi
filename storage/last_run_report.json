@@ -1,32 +1,38 @@
 {
   "status": "ok",
-  "started_at": "2026-05-09T03:32:16+00:00",
+  "started_at": "2026-05-10T03:46:56+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 20
+    "wiki_changed": 22
   },
   "stats": {
-    "collected": 95,
-    "skipped_unchanged": 30,
+    "collected": 102,
+    "skipped_unchanged": 41,
     "skipped_duplicate": 0,
-    "rejected_quality": 56,
-    "drafted": 9,
+    "rejected_quality": 60,
+    "drafted": 1,
     "errors": 0
   },
   "auto_publish": {
-    "published": 9,
+    "published": 1,
     "purged": 0
   },
-  "enhancement": {},
+  "enhancement": {
+    "candidates_found": 106,
+    "enhanced": 0,
+    "skipped_dry_run": 0,
+    "errors": 0,
+    "enhanced_slugs": []
+  },
   "review_link_repair": {
-    "changed_files": 4,
-    "link_replacements": 10
+    "changed_files": 1,
+    "link_replacements": 1
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
-    "broken_links_found": 242,
-    "bidirectional_links_added": 26,
+    "broken_links_found": 269,
+    "bidirectional_links_added": 2,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
@@ -38,6 +44,7 @@
       "Bot-Tespiti-ve-Honeypot.md -> [[review/tariff-refund-portali-yuksek-trafige-hazirlikli-ozel-bir-web-uygulamasi]]",
       "Bot-Tespiti-ve-Honeypot.md -> [[review/vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti]]",
       "Bot-Tespiti-ve-Honeypot.md -> [[review/astro-6-ve-cloudflare-workers-ile-cok-dilli-statik-site-gelistirme]]",
+      "Bot-Tespiti-ve-Honeypot.md -> [[review/coklu-rol-yonetimi-ile-guvenli-admin-paneli-react-ve-express-uzerine-katmanli-yetkilendirme]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/ai-saas-baslangic-kiti-mimarisi-tekrarlanan-kurulum-sureclerini-otomatiklestirme]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/guvenligi-ogrenmek-icin-zafiyetli-web-uygulamasi-gelistirme-go-vue-js]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/ai-tehdit-modelleme-stride-ai-ve-mitre-atlas-ile-guvenlik-analizi]]",
@@ -48,81 +55,24 @@
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/vercel-guvenlik-ihlali-ucuncu-taraf-ai-entegrasyonundan-kaynakli-sizinti]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/ai-destekli-kod-inceleme-is-akislari-guvenlik-ve-kalite-odakli-prompt-muhendisligi]]",
       "CORS-ve-Guvenlik-Headerlari.md -> [[review/auth-migrations-oturum-stratejisi-ile-kimlik-dogrulama-gecisi]]",
-      "CORS-ve-Guvenlik-Headerlari.md -> [[review/gelistirici-icin-guvenli-secret-yonetimi]]",
-      "CORS-ve-Guvenlik-Headerlari.md -> [[review/auth-secret-yonetimi-vercel-breach-sonrasi-yeni-stratejiler]]"
+      "CORS-ve-Guvenlik-Headerlari.md -> [[review/gelistirici-icin-guvenli-secret-yonetimi]]"
     ],
     "duplicate_pairs": []
   },
   "error_samples": [],
   "drafts_preview": [
     {
-      "slug": "react-ta-guarded-ui-state-ile-is-akisi-temelli-arayuz-kontrolu",
-      "title": "React'ta Guarded UI State ile \u0130\u015f Ak\u0131\u015f\u0131 Temelli Aray\u00fcz Kontrol\u00fc",
+      "slug": "apple-pencil-ile-tarayicida-basinc-hassasiyeti-yakalama-pointerevent-ve-getcoalescedevents-kullanimi",
+      "title": "Apple Pencil ile Taray\u0131c\u0131da Bas\u0131n\u00e7 Hassasiyeti Yakalama: PointerEvent ve getCoalescedEvents() Kullan\u0131m\u0131",
       "category": "ui-ux",
       "confidence": 90,
       "novelty": 75
-    },
-    {
-      "slug": "react-ile-sekme-bildirimleri-dikkat-cekici-sekme-tasarimi",
-      "title": "React ile Sekme Bildirimleri: Dikkat \u00c7ekici Sekme Tasar\u0131m\u0131",
-      "category": "ui-ux",
-      "confidence": 90,
-      "novelty": 75
-    },
-    {
-      "slug": "coklu-rol-yonetimi-ile-guvenli-admin-paneli-react-ve-express-uzerine-katmanli-yetkilendirme",
-      "title": "\u00c7oklu Rol Y\u00f6netimi ile G\u00fcvenli Admin Paneli: React ve Express \u00dczerine Katmanl\u0131 Yetkilendirme",
-      "category": "security",
-      "confidence": 95,
-      "novelty": 72
-    },
-    {
-      "slug": "tesseract-8d-128-deneysel-typescript-sifreleme-algoritmasi",
-      "title": "Tesseract-8D/128: Deneysel TypeScript \u015eifreleme Algoritmas\u0131",
-      "category": "ui-ux",
-      "confidence": 90,
-      "novelty": 75
-    },
-    {
-      "slug": "ai-agent-varliklarini-secmeli-olarak-yonetmek-agent-harness",
-      "title": "AI Agent Varl\u0131klar\u0131n\u0131 Se\u00e7meli Olarak Y\u00f6netmek: agent-harness",
-      "category": "ui-ux",
-      "confidence": 90,
-      "novelty": 75
-    },
-    {
-      "slug": "tarayici-tabanli-dosya-isleme-pdf-ve-gorsel-araclari-icin-yerel-client-side-mimari",
-      "title": "Taray\u0131c\u0131 Tabanl\u0131 Dosya \u0130\u015fleme: PDF ve G\u00f6rsel Ara\u00e7lar\u0131 i\u00e7in Yerel (Client-Side) Mimari",
-      "category": "ui-ux",
-      "confidence": 90,
-      "novelty": 75
-    },
-    {
-      "slug": "yarrow-ai-destekli-i-ching-fal-uygulamasi-mimarisi",
-      "title": "Yarrow: AI Destekli I Ching Fal Uygulamas\u0131 Mimarisi",
-      "category": "ui-ux",
-      "confidence": 95,
-      "novelty": 72
-    },
-    {
-      "slug": "next-js-ile-claude-api-tool-use-entegrasyonu",
-      "title": "Next.js ile Claude API Tool Use Entegrasyonu",
-      "category": "frontend",
-      "confidence": 90,
-      "novelty": 75
-    },
-    {
-      "slug": "kopru-alti-cizgilerini-kaldirmak-gormezden-gelinmis-erisilebilirlik-hatasi",
-      "title": "K\u00f6pr\u00fc Alt\u0131 \u00c7izgilerini Kald\u0131rmak: G\u00f6rmezden Gelinmi\u015f Eri\u015filebilirlik Hatas\u0131",
-      "category": "ui-ux",
-      "confidence": 95,
-      "novelty": 70
     }
   ],
   "weekly_digest": {
-    "generated": false,
-    "reason": "not_scheduled_day",
-    "run_day_of_week": 6,
-    "today_weekday": 5
+    "generated": true,
+    "path": "wiki/reports/weekly-2026-w19.md",
+    "included_runs": 7,
+    "lookback_days": 7
   }
 }

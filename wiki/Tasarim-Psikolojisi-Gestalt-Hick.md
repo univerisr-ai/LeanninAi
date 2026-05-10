@@ -60,3 +60,4 @@ Kullanıcılar tekil elemanları değil, deseni (pattern) algılarlar:
 - [[review/tarayici-tabanli-dosya-isleme-pdf-ve-gorsel-araclari-icin-yerel-client-side-mimari]]
 - [[review/tesseract-8d-128-deneysel-typescript-sifreleme-algoritmasi]]
 - [[review/yarrow-ai-destekli-i-ching-fal-uygulamasi-mimarisi]]
+- [[review/apple-pencil-ile-tarayicida-basinc-hassasiyeti-yakalama-pointerevent-ve-getcoalescedevents-kullanimi]]
