@@ -1,38 +1,32 @@
 {
   "status": "ok",
-  "started_at": "2026-05-10T03:46:56+00:00",
+  "started_at": "2026-05-11T03:58:23+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
-    "wiki_changed": 22
+    "wiki_changed": 8
   },
   "stats": {
-    "collected": 102,
-    "skipped_unchanged": 41,
+    "collected": 105,
+    "skipped_unchanged": 36,
     "skipped_duplicate": 0,
-    "rejected_quality": 60,
-    "drafted": 1,
+    "rejected_quality": 65,
+    "drafted": 4,
     "errors": 0
   },
   "auto_publish": {
-    "published": 1,
+    "published": 4,
     "purged": 0
   },
-  "enhancement": {
-    "candidates_found": 106,
-    "enhanced": 0,
-    "skipped_dry_run": 0,
-    "errors": 0,
-    "enhanced_slugs": []
-  },
+  "enhancement": {},
   "review_link_repair": {
-    "changed_files": 1,
-    "link_replacements": 1
+    "changed_files": 4,
+    "link_replacements": 4
   },
   "vault_hygiene": {
     "off_topic_deleted": 0,
-    "broken_links_found": 269,
-    "bidirectional_links_added": 2,
+    "broken_links_found": 274,
+    "bidirectional_links_added": 10,
     "near_duplicates_found": 0,
     "deleted_files": [],
     "broken_link_details": [
@@ -62,17 +56,38 @@
   "error_samples": [],
   "drafts_preview": [
     {
-      "slug": "apple-pencil-ile-tarayicida-basinc-hassasiyeti-yakalama-pointerevent-ve-getcoalescedevents-kullanimi",
-      "title": "Apple Pencil ile Taray\u0131c\u0131da Bas\u0131n\u00e7 Hassasiyeti Yakalama: PointerEvent ve getCoalescedEvents() Kullan\u0131m\u0131",
+      "slug": "signal-scheduler-senkronizasyon-batch-oncelik-ve-lazy-execution",
+      "title": "Signal Scheduler: Senkronizasyon, Batch, \u00d6ncelik ve Lazy Execution",
       "category": "ui-ux",
       "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "seo-odakli-icerik-guncelleme-ve-trafik-artisi-convertify-ornegi",
+      "title": "SEO Odakl\u0131 \u0130\u00e7erik G\u00fcncelleme ve Trafik Art\u0131\u015f\u0131: Convertify \u00d6rne\u011fi",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "donanim-attestasyonu-ile-kullanici-dislama-sorununa-pratik-cozum",
+      "title": "Donan\u0131m Attestasyonu ile Kullan\u0131c\u0131 D\u0131\u015flama Sorununa Pratik \u00c7\u00f6z\u00fcm",
+      "category": "ui-ux",
+      "confidence": 90,
+      "novelty": 75
+    },
+    {
+      "slug": "ozellik-bazli-temiz-mimari-fbca-olceklenebilirlik-ve-bagimlilik-graf-teorisi-analizi",
+      "title": "\u00d6zellik Bazl\u0131 Temiz Mimari (FBCA): \u00d6l\u00e7eklenebilirlik ve Ba\u011f\u0131ml\u0131l\u0131k Graf Teorisi Analizi",
+      "category": "backend",
+      "confidence": 95,
       "novelty": 75
     }
   ],
   "weekly_digest": {
-    "generated": true,
-    "path": "wiki/reports/weekly-2026-w19.md",
-    "included_runs": 7,
-    "lookback_days": 7
+    "generated": false,
+    "reason": "not_scheduled_day",
+    "run_day_of_week": 6,
+    "today_weekday": 0
   }
 }

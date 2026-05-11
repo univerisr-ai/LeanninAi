@@ -34,3 +34,4 @@ E-posta gönderme, video işleme, PDF oluşturma gibi HTTP isteğini kilitleyece
 - [[review/tariff-refund-portali-yuksek-trafige-hazirlikli-ozel-bir-web-uygulamasi]]
 - [[review/bilesen-tabanli-email-sablonlari-ve-composable-email-mimarisi]]
 - [[review/lovable-supabase-cloudflare-ile-hiz-odakli-urun-gelistirme]]
+- [[review/ozellik-bazli-temiz-mimari-fbca-olceklenebilirlik-ve-bagimlilik-graf-teorisi-analizi]]

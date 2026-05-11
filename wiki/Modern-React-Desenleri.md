@@ -77,3 +77,4 @@ Frontend'in sunucu cevabını beklemeden, veritabanına yazılmış *varsayarak*
 - [[review/next-js-ile-claude-api-tool-use-entegrasyonu]]
 - [[review/react-ile-sekme-bildirimleri-dikkat-cekici-sekme-tasarimi]]
 - [[review/react-ta-guarded-ui-state-ile-is-akisi-temelli-arayuz-kontrolu]]
+- [[review/signal-scheduler-senkronizasyon-batch-oncelik-ve-lazy-execution]]

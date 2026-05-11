@@ -40,3 +40,4 @@ Asla `*:focus { outline: none; }` yazıp odak göstergesini tamamen silmeyin! En
 - [[review/kopru-alti-cizgilerini-kaldirmak-gormezden-gelinmis-erisilebilirlik-hatasi]]
 - [[review/react-ile-sekme-bildirimleri-dikkat-cekici-sekme-tasarimi]]
 - [[review/react-ta-guarded-ui-state-ile-is-akisi-temelli-arayuz-kontrolu]]
+- [[review/donanim-attestasyonu-ile-kullanici-dislama-sorununa-pratik-cozum]]

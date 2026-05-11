@@ -32,3 +32,4 @@ Yazılımda değişikliklerin birbirini etkilemesini en aza indiren en etkili ya
 - [[review/tariff-refund-portali-yuksek-trafige-hazirlikli-ozel-bir-web-uygulamasi]]
 - [[review/bilesen-tabanli-email-sablonlari-ve-composable-email-mimarisi]]
 - [[review/lovable-supabase-cloudflare-ile-hiz-odakli-urun-gelistirme]]
+- [[review/ozellik-bazli-temiz-mimari-fbca-olceklenebilirlik-ve-bagimlilik-graf-teorisi-analizi]]
