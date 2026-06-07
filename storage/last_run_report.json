@@ -1,16 +1,16 @@
 {
   "status": "ok",
-  "started_at": "2026-06-05T04:12:48+00:00",
+  "started_at": "2026-06-07T04:22:09+00:00",
   "dry_run": false,
   "snapshot_delta": {
     "raw_changed": 0,
     "wiki_changed": 0
   },
   "stats": {
-    "collected": 106,
-    "skipped_unchanged": 38,
+    "collected": 110,
+    "skipped_unchanged": 37,
     "skipped_duplicate": 0,
-    "rejected_quality": 68,
+    "rejected_quality": 73,
     "drafted": 0,
     "errors": 0
   },
@@ -18,7 +18,13 @@
     "published": 0,
     "purged": 0
   },
-  "enhancement": {},
+  "enhancement": {
+    "candidates_found": 108,
+    "enhanced": 0,
+    "skipped_dry_run": 0,
+    "errors": 0,
+    "enhanced_slugs": []
+  },
   "review_link_repair": {
     "changed_files": 0,
     "link_replacements": 0
@@ -56,9 +62,9 @@
   "error_samples": [],
   "drafts_preview": [],
   "weekly_digest": {
-    "generated": false,
-    "reason": "not_scheduled_day",
-    "run_day_of_week": 6,
-    "today_weekday": 4
+    "generated": true,
+    "path": "wiki/reports/weekly-2026-w23.md",
+    "included_runs": 6,
+    "lookback_days": 7
   }
 }
