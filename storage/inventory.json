@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-06T04:29:20+00:00",
+  "updated_at": "2026-07-07T04:14:37+00:00",
   "repo_snapshot": {
     "raw": {
       "raw/anti-bot-guvenligi-ve-rate-limit.md": {
@@ -14889,7 +14889,7 @@
     },
     "https://smashingmagazine.com/2026/05/four-levels-customer-understanding/": {
       "content_hash": "472f8c4cf500bf82c3735879d7e71d3118059889cadc4763ba68c4b6151669a6",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/the-state-of-css-centering-in-2026/": {
@@ -15964,7 +15964,7 @@
     },
     "https://smashingmagazine.com/2026/05/prototype-users-fix-protopie/": {
       "content_hash": "0098a56300d13f6ce961104b3a17e6d6a2206c02f3468ae704f2cfeb3f9b6c02",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/technical-writing-in-the-ai-age/": {
@@ -16634,7 +16634,7 @@
     },
     "https://smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/": {
       "content_hash": "68556bf076d3be5fe4e425bc3501f948ee9a382291dbfe25b976490818750c02",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation": {
@@ -17609,7 +17609,7 @@
     },
     "https://smashingmagazine.com/2026/05/desktop-wallpaper-calendars-june-2026/": {
       "content_hash": "718484e3d20f03597f279857410d8f9e5813fb2a9911c165cf63d1bc970a1d51",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://github.com/butterbase-ai/butterbase": {
@@ -18559,7 +18559,7 @@
     },
     "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/": {
       "content_hash": "5393a83626b61378d51e3c25ff7e3ce208b0fd66517a919000b1467c1f443d9f",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/almanac/properties/o/offset-path/": {
@@ -20304,7 +20304,7 @@
     },
     "https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/": {
       "content_hash": "5c42ed098c943effe61b2ff514d602039d802f84fc1bd739c6efe3c821ac1434",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/": {
@@ -20784,12 +20784,12 @@
     },
     "https://smashingmagazine.com/2026/06/impact-humanoid-robots-humanity/": {
       "content_hash": "c82f2e756e165e6db67dac7166560ceca4175bb5c1ae5ce58cabe2431bf80565",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/why-isnt-my-3d-view-transition-working/": {
       "content_hash": "51e40863ab0e752e06c51152c9b3f4c1b69bf0eb1ff50c348e0b83e1c6608980",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/navigation-in-your-navigation-labels/": {
@@ -21704,7 +21704,7 @@
     },
     "https://css-tricks.com/whats-important-13/": {
       "content_hash": "e56477b7cd3ffc37f3ad008cda2533814e27ae6ac5b16420dd64ea0ffce076f9",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/cathylai/tailwind-css4-why-those-inline-styles-are-actually-more-scalable-a-senior-css-developers-guide-hdj": {
@@ -22014,7 +22014,7 @@
     },
     "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/": {
       "content_hash": "9893c06ca9aed6183a05eaa307aebeeb98bea436e25d86b2fb06226f51ea4f38",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/sleepyfalcon247/your-frontend-changes-every-sprint-your-tests-should-know-what-matters-o6g": {
@@ -22314,12 +22314,12 @@
     },
     "https://css-tricks.com/the-siren-song-of-arianotify/": {
       "content_hash": "5b3bf678725a71c8dfac075479f3dc3f05133c530d6fffb17b8728d9760faa91",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/prop-for-that/": {
       "content_hash": "50f40d0e3dcd59761d94200b11331f2240cb460cee940837a542c1c04ef863bf",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://www.eff.org/deeplinks/2026/06/free-and-open-web-under-attack-ietf": {
@@ -22834,7 +22834,7 @@
     },
     "https://css-tricks.com/css-scroll-triggered-animations-first-look/": {
       "content_hash": "66bad004c161f03d5e44dfdb030700dbbd902397bf4544ebe2a5a1a470a839af",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/kkr0423/reactjs-usestate-antipatterns-58i9": {
@@ -23664,7 +23664,7 @@
     },
     "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/": {
       "content_hash": "5096c49da471a30325f13cb8f8b2c2bf4cbabe400420eb2f7d2429890c7fe783",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/pavananguluri/how-to-stop-ai-agents-from-writing-legacy-angular-code-the-angular-22-guardrail-3cm2": {
@@ -24599,22 +24599,22 @@
     },
     "https://css-tricks.com/almanac/functions/t/translatez/": {
       "content_hash": "50015a5e926e277b6cc71b454d6e65e358c48c7e686c3915742e8cf3bad730b8",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/almanac/functions/t/translatey/": {
       "content_hash": "1ee4bd9699c49529c012baf69b815e7801db85bd1c24fae538bcc28dfa164b97",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/almanac/functions/t/translatex/": {
       "content_hash": "eadbef35edc833f5a79f6c59df28549e35f6f030764af07f2e3b57d34b6f74f3",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/almanac/functions/t/translate/": {
       "content_hash": "a48373351b4b7d101304fc3e6451cee73dcde3841bf173ef679de439a39e41d4",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/chijioke_uzodinma_d6ae6ef/how-we-migrated-bloom-after-from-vanilla-js-to-nextjs-typescript-ggl": {
@@ -24939,8 +24939,8 @@
     },
     "https://github.com/uphiago/recon-skills": {
       "content_hash": "edff841ff30f17e9d8d670dcbe203b64888390c45e0a02964bd2eb02129cd5e3",
-      "last_seen_at": "2026-07-06T04:01:03+00:00",
-      "last_status": "rejected_quality"
+      "last_seen_at": "2026-07-07T03:51:38+00:00",
+      "last_status": "skipped_unchanged"
     },
     "https://github.com/tianchong-zerotemp/dianxing": {
       "content_hash": "19fddb40f3f6fe8b1fd7dd20da7204b95e6100f8cbb612e1750083090437fde3",
@@ -26184,22 +26184,22 @@
     },
     "https://smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/": {
       "content_hash": "493af927ad9b3686f7a57149c698fa6130eb8ef01cd345b30ea7fe4e9a8dfb0e",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://smashingmagazine.com/2026/06/desktop-wallpaper-calendars-july-2026/": {
       "content_hash": "97668307f2a0c2f4593e18ed07eef7f011cd3a30d5c88c0c70c09cb496c8bc9e",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/whats-important-14/": {
       "content_hash": "3379a13d2b964528527066570a111164e86557a0b02effce76013f2b937cd183",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://css-tricks.com/css-states-and-javascript-events/": {
       "content_hash": "e7188df311c11d28b8b3051eff72e23da2d43b92b29f1d7363b4d0ca1c400aad",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://blog.archive.org/2026/04/23/gone-but-not-forgotten-recovering-the-dead-web/": {
@@ -26229,8 +26229,8 @@
     },
     "https://dev.to/ace_rei/mobile-first-for-60-year-olds-what-we-learned-building-for-senior-gamers-1o0": {
       "content_hash": "97a1b4729636a5f3ef07ec33ebe0305146efeb44481e1aafa11e3f9d2b76b357",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
-      "last_status": "rejected_quality"
+      "last_seen_at": "2026-07-07T04:14:13+00:00",
+      "last_status": "skipped_unchanged"
     },
     "https://dev.to/surajrkhonde/from-scratch-to-a-million-users-an-uncle-teaches-react-architecture-4887": {
       "content_hash": "cb74cf628037dff191546e7f82b995e20cb256a7d6c867cea37702606804defd",
@@ -26634,7 +26634,7 @@
     },
     "https://smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/": {
       "content_hash": "3fccbf5df6feda26a78044785fa3f53b87b5a065a34de28e3830181163f73ece",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://github.com/alex-w-developer/GetBlocked": {
@@ -26889,7 +26889,7 @@
     },
     "https://smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/": {
       "content_hash": "db1972a8adcb972c8aea2645413593c56b98d3d11f26170a93ef6cc55d6bceae",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://www.404media.co/apple-hide-my-email-vulnerability-reveals-peoples-real-email-addresses/": {
@@ -26904,7 +26904,7 @@
     },
     "https://github.com/elder-plinius/T3MP3ST": {
       "content_hash": "f0b4b8bf274d56b9e15b5a0040a099b930bee07301ca73f94370aaeac86c2b5f",
-      "last_seen_at": "2026-07-06T04:00:38+00:00",
+      "last_seen_at": "2026-07-07T03:51:38+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/earthbound_misfit/position-fixed-is-a-paint-trick-not-an-event-boundary-3cgp": {
@@ -26974,7 +26974,7 @@
     },
     "https://dev.to/silviutech/react-prueba-emails-sin-romper-estados-accesibles-48a9": {
       "content_hash": "2e9843c13f0371947b2bcf2a17c58ef155f8cbeb0a36ddc27495de3f867cbc5c",
-      "last_seen_at": "2026-07-06T04:27:40+00:00",
+      "last_seen_at": "2026-07-07T04:13:48+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/usama_dev/i-almost-gave-up-but-one-console-log-changed-everything-2l23": {
@@ -27174,53 +27174,53 @@
     },
     "https://dev.to/okeke_chukwudubem_5f3bf49/day-12-i-took-a-week-off-from-coding-to-audit-15-android-apps-for-accessibility-whatsapp-and-3kom": {
       "content_hash": "f0ea843697a69d5fc9d30753b5db202ce91674a0609a5284dee0185baedde39b",
-      "last_seen_at": "2026-07-06T04:27:40+00:00",
+      "last_seen_at": "2026-07-07T04:13:48+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/arun_kt_bb670b3a571f5efd8/apple-locked-hearing-assistance-inside-airpods-so-i-built-an-open-source-version-for-any-earbuds-2lkh": {
       "content_hash": "1ea60830b2851976e9187b0ea5ddec1a1d47dc01c7524a589dec09759be4a22c",
-      "last_seen_at": "2026-07-06T04:27:40+00:00",
+      "last_seen_at": "2026-07-07T04:13:48+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/dev48v/the-dropdown-menu-that-everyone-builds-wrong-52pb": {
       "content_hash": "7ff0c7d7cd86e72d0742fb0f80c9412bcf4be80da594fe84ded4c1890aceb925",
-      "last_seen_at": "2026-07-06T04:27:40+00:00",
+      "last_seen_at": "2026-07-07T04:13:48+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/gazzel16/voice-revive-3hia": {
       "content_hash": "58feaa5c232a539895eb809d36acfae3bd13ca2a528fe2ecb3a923bab4a2b32a",
-      "last_seen_at": "2026-07-06T04:27:40+00:00",
+      "last_seen_at": "2026-07-07T04:13:48+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/piotr_wisniewski/eaa-w-polskim-e-commerce-dlaczego-div-soup-to-teraz-ryzyko-biznesowe-i-jak-semantyka-html-ratuje-4o4l": {
       "content_hash": "369e6b2b83ffa04b6092d7d3f67316eb1957f0248fd1ff7a2751de890d787dd4",
-      "last_seen_at": "2026-07-06T04:27:40+00:00",
+      "last_seen_at": "2026-07-07T04:13:48+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/piotr_wisniewski/eaa-w-polskim-e-commerce-dlaczego-div-soup-to-teraz-ryzyko-biznesowe-i-jak-semantyka-html-ratuje-2gnl": {
       "content_hash": "369e6b2b83ffa04b6092d7d3f67316eb1957f0248fd1ff7a2751de890d787dd4",
-      "last_seen_at": "2026-07-06T04:27:40+00:00",
+      "last_seen_at": "2026-07-07T04:13:48+00:00",
       "last_status": "skipped_unchanged"
     },
     "https://dev.to/projectnomad/the-15-minute-accessibility-pass-that-catches-what-your-clients-lawyer-would-flag-first-hnd": {
-      "content_hash": "3d643448810e55b140f0eccb0f7e0832dfac390d19e2044224a964f62899d7e8",
-      "last_seen_at": "2026-07-06T04:27:40+00:00",
-      "last_status": "skipped_unchanged"
+      "content_hash": "0b2abd1db7a32b2dc333204df1fec23fae353060e1485e911cfc54d9b4b7a62f",
+      "last_seen_at": "2026-07-07T04:14:13+00:00",
+      "last_status": "rejected_quality"
     },
     "https://dev.to/dev48v/building-an-accessible-autocomplete-from-scratch-no-library-1gem": {
       "content_hash": "b0b9369e4ac9cb91bcca6b7a66c3958915c88e53039bfb41e06ced1a9a65b79d",
-      "last_seen_at": "2026-07-06T04:28:05+00:00",
-      "last_status": "rejected_quality"
+      "last_seen_at": "2026-07-07T04:14:13+00:00",
+      "last_status": "skipped_unchanged"
     },
     "https://dev.to/wiscer/chatgpt-manual-screen-reader-audit-1d1f": {
       "content_hash": "ee3819f6a0986a6f3944b4b4dc6dd04a9c18519362c683bb5aa63f9ab1b1a6e5",
-      "last_seen_at": "2026-07-06T04:28:30+00:00",
-      "last_status": "rejected_quality"
+      "last_seen_at": "2026-07-07T04:14:13+00:00",
+      "last_status": "skipped_unchanged"
     },
     "https://dev.to/sahland/lighthouse-gives-your-flutter-app-a-perfect-accessibility-score-its-lying-51f2": {
-      "content_hash": "0431933c8b1bf6333063755d0dfb8f99f706ccdac69468393109ddd3d2d5690f",
-      "last_seen_at": "2026-07-06T04:28:54+00:00",
-      "last_status": "skipped_unchanged"
+      "content_hash": "ee238ddec9ea9318bf8b496d46540b6d15fe8837dace6b6b218621f75faba463",
+      "last_seen_at": "2026-07-07T04:14:37+00:00",
+      "last_status": "rejected_quality"
     },
     "https://www.abc.net.au/news/2026-07-05/lily-jay-foundation-posts-ai-generated-misleading-videos/106866422": {
       "content_hash": "bf0b9771b206a58fd4d242d113c4b1c50497ce8a0b0bc1bb956c54181b1cd756",
@@ -27239,13 +27239,13 @@
     },
     "https://dev.to/pvgomes/copilot-browser-tools-make-the-frontend-reviewable-293p": {
       "content_hash": "0b65946958a2751d0ce56a564729d4c6744a4ffa69ba17a159b7e2da444b17e0",
-      "last_seen_at": "2026-07-06T04:01:28+00:00",
-      "last_status": "rejected_quality"
+      "last_seen_at": "2026-07-07T03:54:55+00:00",
+      "last_status": "skipped_unchanged"
     },
     "https://dev.to/straccia17/from-angularjs-to-fine-grained-reactivity-part-2-the-js-proxy-runtime-2m60": {
       "content_hash": "73ee8941b2986d59505ebf1b248a08173c69869ccadf6e4944333665ebe822fd",
-      "last_seen_at": "2026-07-06T04:01:53+00:00",
-      "last_status": "rejected_quality"
+      "last_seen_at": "2026-07-07T03:56:08+00:00",
+      "last_status": "skipped_unchanged"
     },
     "https://dev.to/1436941541/the-share-button-is-the-product-engineering-a-viral-loop-in-vanilla-js-48n0": {
       "content_hash": "35aee49cf6bd1170ab4e490c8071e495ec603b7293ef6a474b36656f27b973ab",
@@ -27374,8 +27374,8 @@
     },
     "https://dev.to/mattstratton/i-contain-multitudes-and-also-three-git-repos-33pf": {
       "content_hash": "58876d11e620588df1442c869ad952c91ed0a729878cd797056f9173215720a1",
-      "last_seen_at": "2026-07-06T04:12:42+00:00",
-      "last_status": "rejected_quality"
+      "last_seen_at": "2026-07-07T03:56:08+00:00",
+      "last_status": "skipped_unchanged"
     },
     "https://dev.to/raj_d0814e615822b2781f996/phantom-cls-in-lighthouse-how-to-hunt-down-and-fix-invisible-layout-shifts-5b68": {
       "content_hash": "5d4e8a5264a32df6948a35cbc2d5ecd18e3045b110b0b5c8441fb3c1eeac3ee7",
@@ -27560,6 +27560,276 @@
     "https://sneakerweb.org/": {
       "content_hash": "d5323eb085dba199726575182718ae0b026510a1662b873e2537584039435ee5",
       "last_seen_at": "2026-07-06T04:29:19+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://github.com/can1357/pon": {
+      "content_hash": "f0f747db4282ac3b2f242e78096aa266daf1d928a2c63781d91dffb3713f4e36",
+      "last_seen_at": "2026-07-07T03:52:02+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/ahmed_mahmoud360/upgrading-to-nextjs-16-field-notes-from-two-production-apps-mj7": {
+      "content_hash": "97bb82a7d56f60a04a60b345f907f03ed99681b2ec5979c63e7df6abf5cfd411",
+      "last_seen_at": "2026-07-07T03:52:27+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/vigneshwaran_v/math-functions-in-js-2gcc": {
+      "content_hash": "2068f727c3bb0866345aff260cf271763f3d74cd7b7cebf96221f77b740ad6b3",
+      "last_seen_at": "2026-07-07T03:52:51+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/ntty/seo-for-developers-beyond-meta-tags-ni6": {
+      "content_hash": "7942ac7d5db23ca88976d8470d29db09f196dfcb3f2e9e1e4c54bc8e39af9646",
+      "last_seen_at": "2026-07-07T03:53:16+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/timevolt/building-scalable-nodejs-apis-with-express-navigating-the-matrix-of-backend-growth-1ghc": {
+      "content_hash": "2307163ce4cdf1e8b6b70c29df56753e55670c133f9fecfe54c97d99862b19be",
+      "last_seen_at": "2026-07-07T03:53:41+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/iprajapatiparesh/stop-prop-drilling-architecting-react-context-mjg": {
+      "content_hash": "fc83eac6d91a7a4c38cfedb7073637bb57eea065e59d6f2ef7223dd09046f4e5",
+      "last_seen_at": "2026-07-07T03:54:05+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/aymaneldawy/understanding-the-different-types-of-xss-attacks-39ih": {
+      "content_hash": "6783e3b20e2586359e3ba48522f081bbefe3d34a9efed377ab5bb421bb6edee8",
+      "last_seen_at": "2026-07-07T03:54:30+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/myjapanesenametranslator/how-i-built-a-browser-based-japanese-name-translator-with-vanilla-js-no-backend-8bk": {
+      "content_hash": "08ce4e81e1204ccdde0b5d7a4a01785640e20a469b71a34c3668d16f241aca35",
+      "last_seen_at": "2026-07-07T03:54:55+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/reactchallenges/new-react-challenge-tier-list-3n4g": {
+      "content_hash": "c93c967f23a9be407222ff34cb009d79d82d45d745893a233886f831e4b2a08e",
+      "last_seen_at": "2026-07-07T03:55:19+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/iamuu/svg-vs-png-vs-webp-pick-the-wrong-format-and-your-users-pay-300i": {
+      "content_hash": "0a4e1aee189fe4be23aa40bcf793309100c9469218a323478299b79b6f6ea0c4",
+      "last_seen_at": "2026-07-07T03:55:44+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/softflux_solution/javascript-in-2026-why-london-became-the-worlds-unexpected-js-hub-9o": {
+      "content_hash": "a51428c5b4f63214ee6e29cee1d6de1d9998ad3b17c04b59f657a085a00f24bd",
+      "last_seen_at": "2026-07-07T03:56:08+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/surajrkhonde/the-13th-floor-how-your-computer-really-works-4e33": {
+      "content_hash": "4ce4e9e2e41c5b53a1d5edb60535fd294e8361e837a0890bcf7757f48f606f20",
+      "last_seen_at": "2026-07-07T03:56:33+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/manolito99/my-rate-limiter-was-doing-exactly-what-i-told-it-to-do-that-was-the-problem-463b": {
+      "content_hash": "7b3548e5bccdf6694bf17597d5bd56283bf38f0c8fce1acc029b1ba7094c59da",
+      "last_seen_at": "2026-07-07T03:56:57+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/farcrak/how-i-built-1800-honest-calculator-pages-with-nextjs-sqlite-4pop": {
+      "content_hash": "c5eb3f901ca3e235fae3f1faae3f3c26b0db2f0ee268f0a39a462c2b79f26a89",
+      "last_seen_at": "2026-07-07T03:57:22+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/circuit/card-testing-bots-will-find-your-checkout-the-day-you-launch-heres-the-pre-charge-filter-that-596c": {
+      "content_hash": "90b37c55e11d9b9a1414b86af479d5a509dc1aca61b265915f23130d004d25e3",
+      "last_seen_at": "2026-07-07T03:57:47+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/zhiwen_chen_611cf2f6f14a0/validate-before-you-build-the-mvp-lessons-i-learned-the-hard-way-10i4": {
+      "content_hash": "b0b28761b10fdf973e4f48b718de1c64577958f85f60deaff16585efaa7a6ef2",
+      "last_seen_at": "2026-07-07T03:58:11+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/ethanwalker89m/swipe-cleaner-a-technical-deep-dive-into-on-device-photo-privacy-dld": {
+      "content_hash": "d4244a3058ac8708ff55ba16c6f1ddd21b1012fe70f76d2c4f4fa35d65ec7f3b",
+      "last_seen_at": "2026-07-07T03:58:36+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/rytisbalys/meta-pixel-not-firing-the-6-real-causes-in-the-order-to-check-them-4d0f": {
+      "content_hash": "ccc0bc85da0e6f7d6fc241c68593f02ca202acc4fbfbc76d242e72ad04326905",
+      "last_seen_at": "2026-07-07T03:59:00+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/magithar/10-common-unity-networking-issues-and-how-to-fix-them-55hg": {
+      "content_hash": "ed6cc47736322651f96decc839d3e563a49b3a076e63192658abbf424f35a151",
+      "last_seen_at": "2026-07-07T03:59:25+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/r9v/await-doesnt-mean-meanwhile-the-bug-every-javascript-engineer-writes-in-python-2k14": {
+      "content_hash": "6404d796cbda9c2eb6c11d8562389e55bbafd6f8a85c678e7ecec6e02922cfe4",
+      "last_seen_at": "2026-07-07T03:59:49+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/pratham7711/how-i-made-a-scroll-scrubbed-video-portfolio-fast-nextjs-15-gsap-canvas-1mj6": {
+      "content_hash": "67f14332f47f4637019d4b8a9e8a17fb40a2a1f6950a190bdcc834a15d125d76",
+      "last_seen_at": "2026-07-07T04:00:14+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/nasrulhazim/dev-log-2026-07-06-4e46": {
+      "content_hash": "1e3d8b93d673d0015374dec9c42b809dac41ed6aa535492edee3214a4879185c",
+      "last_seen_at": "2026-07-07T04:00:40+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/vibeagentmaking/text-safe-is-not-tool-safe-the-safety-layer-alignment-skips-5h09": {
+      "content_hash": "30e40b80dfb36838e5362018d15e202884ac5c774cf156e343dc90c3a5047b2f",
+      "last_seen_at": "2026-07-07T04:01:05+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/vibeagentmaking/inside-the-uninsured-middle-an-operators-view-of-ai-agent-operational-risk-1a3c": {
+      "content_hash": "718a0065a7bb727b9bf6e2a06e4f5a6e682bc5bb4be7aaca138afcd30aea3c8a",
+      "last_seen_at": "2026-07-07T04:01:29+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/rolanfreeman6png/how-to-hide-strings-in-c-binaries-with-consteval-1bkh": {
+      "content_hash": "a232b1b48883a06b45788f06d01c1b4f3a182870eff27b5070bf4de23d841356",
+      "last_seen_at": "2026-07-07T04:01:54+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/authagonal/an-identity-provider-told-us-who-you-were-and-we-believed-it-1b9": {
+      "content_hash": "b14581f0c4b1c2d555f81716bf383d60a65818bcabb76402bc7b23471aa00345",
+      "last_seen_at": "2026-07-07T04:02:19+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/syncsoftai/88-of-teams-had-an-agent-security-incident-last-year-red-teaming-is-a-data-problem-not-a-tooling-37de": {
+      "content_hash": "3ba06be889dab9a8b1ba4b3bd3245e52ccf94a8a6aaebb340d6b8f49c98f3075",
+      "last_seen_at": "2026-07-07T04:02:43+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/dipesthapa/i-shipped-an-unauthenticated-rce-in-my-own-port-scanner-heres-the-whole-chain-and-how-i-killed-35kl": {
+      "content_hash": "d623bc1e83a0e10968fdee7ad56cc6903997a13b6c34cd59e1aaef36d1955f82",
+      "last_seen_at": "2026-07-07T04:03:08+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/sarahpan/ai-doesnt-recommend-the-best-product-it-recommends-the-best-explained-product-3gbi": {
+      "content_hash": "27561581805ee29aca2e256e8d9464429c38145e8edf3b3583fa5d9a3b572532",
+      "last_seen_at": "2026-07-07T04:03:32+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/vladislavshter/sovereign-2a25": {
+      "content_hash": "0c2cb17ca96f03daa97b0ae77d46d2a037aba3d323b77782799ff41dacc5d1f1",
+      "last_seen_at": "2026-07-07T04:03:57+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/pavelespitia/oracle-manipulation-how-a-392k-silo-finance-loss-happened-in-2026-2051": {
+      "content_hash": "46dce855536acd554604a2708bb583aaf7d9ecd849162351f5ca2d79b915e169",
+      "last_seen_at": "2026-07-07T04:04:21+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/grumpysage/why-every-ciso-needs-an-aibom-in-2026-and-what-most-vendors-miss-4h1k": {
+      "content_hash": "2b7758e27acd71f7a1146a08deca446b08466189d9d7f9c421bce733ef585df2",
+      "last_seen_at": "2026-07-07T04:04:46+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/pavelgj/human-in-the-loop-ai-why-ask-the-llm-to-confirm-isnt-enough-oij": {
+      "content_hash": "5f5c6a06dc9c1c02f798b3ca99d0b6a6043dfb1cd9219fc9d97065996616ee09",
+      "last_seen_at": "2026-07-07T04:05:11+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/ryantsuji/observability-design-for-the-ai-era-application-infrastructure-ci-llm-each-in-its-own-56eg": {
+      "content_hash": "e56061725e27b802e3212794ccc9720ba03f36292e33fe63400e7866142aa04d",
+      "last_seen_at": "2026-07-07T04:05:35+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/btravers/the-result-pattern-has-a-hole-and-its-where-your-bugs-hide-59c3": {
+      "content_hash": "7cddd9e30bf935433220d4d54fa0b9a9c254e9f8d10cbcd72cdd701d4d45ce48",
+      "last_seen_at": "2026-07-07T04:06:00+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/thiago_zanluca_25d94a7637/i-needed-to-read-an-old-xls-file-in-node-and-it-was-harder-than-it-should-be-2bg7": {
+      "content_hash": "a1f418cf9047ade846915f2b8f278db696fcd69109aca2c53d3111bb84bb9141",
+      "last_seen_at": "2026-07-07T04:06:25+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/middlewaremind/genkit-agents-why-the-whole-is-greater-than-the-sum-of-its-parts-3p1m": {
+      "content_hash": "0eae07ab26319d4ae7880e4c24a6227a6c59c096847d9afac3cd32643d42c9fc",
+      "last_seen_at": "2026-07-07T04:06:49+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/alexander-nenashev/hard-object-references-stable-object-references-for-mutable-application-state-6el": {
+      "content_hash": "4c86b46dc0e01f58ffbd370f0fe78cff818be86ddc6ff10967ee512e16cdcd71",
+      "last_seen_at": "2026-07-07T04:07:14+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/satoyoshidev/a-20-year-old-hci-paper-resurrected-as-a-chrome-extension-27c7": {
+      "content_hash": "6e619402618dfac704604168bde72365eb7b015a3b5943e4b1b873ce7dc00f1d",
+      "last_seen_at": "2026-07-07T04:07:38+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/svarbhanu/a-library-named-eclipse-should-compute-eclipses-grahan-10-3h9b": {
+      "content_hash": "67df5b300f86358fda307ec0fd792b90d833b1c7b774462b0b8925727708cf70",
+      "last_seen_at": "2026-07-07T04:08:03+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/peacemelodi/nestjs-fits-perfectly-into-modern-accounting-and-invoicing-software-here-is-why-133e": {
+      "content_hash": "3181c6cf81b0042a61a42ea964f0b2200f04efea908132a3ae9853ca809c230e",
+      "last_seen_at": "2026-07-07T04:08:28+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/khuepm/the-server-that-robs-itself-how-we-shut-down-ssrf-in-lumibase-2kla": {
+      "content_hash": "7ec3d5d2ec9e56bc1d76c35146f04879fe499d063d6eda6b14d8785b913b7264",
+      "last_seen_at": "2026-07-07T04:08:52+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/backend_null/i-built-a-bilingual-profit-tracker-for-my-fathers-cyber-cafe-heres-the-stack-and-a-few-49kk": {
+      "content_hash": "b651ac8f14595eba1b5f162cb55005d8bae700ddb3565e2d55292caf65f6857f",
+      "last_seen_at": "2026-07-07T04:09:17+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/abdelaaziz_ouakala/resource-api-mastery-how-resource-changes-the-architecture-of-data-fetching-in-modern-angular-lck": {
+      "content_hash": "647200d08d419371e50bc2dfe299007364227bf3247fe2c95d5b2ccbd24467b4",
+      "last_seen_at": "2026-07-07T04:09:42+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/aviasoletechnologies/why-json-schema-isnt-enough-for-production-ai-4bfc": {
+      "content_hash": "e57ce2b7af99f56c30a10af91ed23b4cef02b0282578744ef750ee41670a2174",
+      "last_seen_at": "2026-07-07T04:10:07+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/emrecodes/cutting-vercel-fluid-cpu-with-nextjs-server-side-caching-20mc": {
+      "content_hash": "ab64475c0c16618de42ba5142019ac5b08ebcd5e6ab695c84367547a46d22565",
+      "last_seen_at": "2026-07-07T04:10:31+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/pageonaut/we-built-126-browser-tools-with-zero-uploads-here-is-what-broke-along-the-way-23m6": {
+      "content_hash": "31c0d902e8ba94426414789e227cd19ebb2e0ffe7947e1f11a9b94b3a053b971",
+      "last_seen_at": "2026-07-07T04:10:56+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/nuttzzz_/i-built-a-fitness-saas-in-nextjs-here-are-the-3-problems-that-ate-all-my-time-2p6m": {
+      "content_hash": "9b50510c475d08f78b7418fad477b48b19e4f37b3739c0a7c2cdc324940e4662",
+      "last_seen_at": "2026-07-07T04:11:20+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/thatonevikash/create-next-mui-v020-is-here-now-with-plugin-support-4l70": {
+      "content_hash": "66a94c725a2f22f3e2ac1ba4fe1ff009e2e340edb38c3da8968af75c0c6cd009",
+      "last_seen_at": "2026-07-07T04:11:45+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/anuveyatsu/i-rebuilt-a-texas-citys-open-data-portal-in-30-minutes-with-claude-code-3cde": {
+      "content_hash": "4594a9f06d2619cd8411c0d0e5d1f987fcf9d9f9595bea5b5c8624d8bdeb1bb4",
+      "last_seen_at": "2026-07-07T04:12:10+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/aon_infotech_3a1b6ff525fc/nextjs-middleware-for-auth-and-route-protection-the-complete-pattern-3km7": {
+      "content_hash": "9f48d932d62ff2543f564280bfdb838646c8958aad70c7679dfd78902c522789",
+      "last_seen_at": "2026-07-07T04:12:35+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/rankloop/im-building-a-19-rank-tracker-in-public-the-stack-and-why-daily-is-harder-than-it-sounds-43fc": {
+      "content_hash": "d0e36096cfb2d20099d8b3e9726223c89b14a0654bcf6fbaed3e56f1ad4191ac",
+      "last_seen_at": "2026-07-07T04:12:59+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/sreedevrajendran/building-floww-the-ai-native-financial-engine-a-vibe-coding-journey-1cn9": {
+      "content_hash": "896cc3977f7877f89485ddabec10fdbbd64afa64077f79e7ac8d2303f2b87ccc",
+      "last_seen_at": "2026-07-07T04:13:24+00:00",
+      "last_status": "rejected_quality"
+    },
+    "https://dev.to/nayankyada/how-i-set-up-sanity-ai-assist-for-editors-in-a-nextjs-project-289b": {
+      "content_hash": "2fb38088a12adeae5623e0cf591ee22099d6652696c797309d8f004859ce4887",
+      "last_seen_at": "2026-07-07T04:13:48+00:00",
       "last_status": "rejected_quality"
     }
   },
